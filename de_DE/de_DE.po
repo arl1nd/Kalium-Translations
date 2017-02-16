@@ -1,0 +1,495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kalium\n"
+"POT-Creation-Date: 2016-10-05 16:42+0200\n"
+"PO-Revision-Date: 2016-10-06 15:37+0200\n"
+"Language-Team: Laborator <info@laborator.co>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-2: inc/lib/laborator/laborator-demo-content-"
+"importer\n"
+"X-Poedit-SearchPathExcluded-3: inc/lib/smof\n"
+"X-Poedit-SearchPathExcluded-4: inc/lib/BFI_Thumb.php\n"
+"X-Poedit-SearchPathExcluded-5: style.css\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce\n"
+
+#: 404.php:22
+msgid "Not found!"
+msgstr "Nicht gefunden!"
+
+#: 404.php:23
+#, php-format
+msgid ""
+"We’re sorry, the page you have looked for does not exist in our database! "
+"<br /> Perhaps you would like to go to our <a href=\"%s\">home page</a>?"
+msgstr ""
+"Es tut uns leid, wir konnten die Seite nicht finden! <br /> Vielleicht "
+"möchten Sie zurück zu unserer <a href=\"%s\">Startseite?</a>"
+
+#: archive.php:65
+msgid "Loading posts..."
+msgstr "Weitere laden…"
+
+#: archive.php:122 inc/laborator_woocommerce.php:269
+#: tpls/portfolio-listing.php:96 tpls/search-results.php:55
+msgid "Previous"
+msgstr "Vorherige"
+
+#: archive.php:125 inc/laborator_woocommerce.php:271
+#: tpls/portfolio-listing.php:99 tpls/search-results.php:58
+msgid "Next"
+msgstr "Nächster"
+
+#: coming-soon-mode.php:83
+msgid "Days"
+msgstr "Tage"
+
+#: coming-soon-mode.php:83
+msgid "Day"
+msgstr "Tag"
+
+#: coming-soon-mode.php:87
+msgid "Hours"
+msgstr "Stunden"
+
+#: coming-soon-mode.php:87
+msgid "Hour"
+msgstr "Stunde"
+
+#: coming-soon-mode.php:91
+msgid "Minutes"
+msgstr "Minuten"
+
+#: coming-soon-mode.php:91
+msgid "Minute"
+msgstr "Minute"
+
+#: coming-soon-mode.php:95
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: coming-soon-mode.php:95
+msgid "Second"
+msgstr "Sekunde"
+
+#: comments.php:26
+#, php-format
+msgid "1 Comment"
+msgid_plural "%d Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%d Kommentare"
+
+#: comments.php:27
+msgid "Join the discussion and tell us your opinion."
+msgstr "An diskussionen teilnehmen."
+
+#: comments.php:27
+msgid "Be the first to comment on this article."
+msgstr "Sei der Erste der diesen artikel kommentiert."
+
+#: comments.php:38
+#, php-format
+msgid "%s Previous"
+msgstr "%s Vorheriges"
+
+#: comments.php:39
+#, php-format
+msgid "Next %s"
+msgstr "Nächster %s"
+
+#: comments.php:65
+msgid "Leave a reply"
+msgstr "Schreibe einen kommentar"
+
+#: comments.php:65
+msgid "Share your thoughts"
+msgstr "Teilen deine gedanken"
+
+#: comments.php:66
+#, php-format
+msgid "Reply to %s"
+msgstr "Antworte an %s"
+
+#: comments.php:71 comments.php:77
+msgid "Comment"
+msgstr "Kommentar"
+
+#: inc/laborator_filters.php:133 inc/laborator_functions.php:133
+msgid "Email"
+msgstr "Emailadres"
+
+#: inc/laborator_filters.php:422
+msgid "reply"
+msgstr "antworten"
+
+#: inc/laborator_filters.php:435
+#, php-format
+msgid "%s at %s"
+msgstr "%s bei %s"
+
+#: inc/laborator_filters.php:439
+#, php-format
+msgid "In reply to: %s"
+msgstr "Als Antwort auf: %s"
+
+#: inc/laborator_functions.php:132
+#, php-format
+msgid "Check out what I just spotted: %s"
+msgstr "Schauen sie was ich gerade entdeckt habe: %s"
+
+#: inc/laborator_functions.php:139
+msgid "Print"
+msgstr "Drucken"
+
+#: inc/laborator_functions.php:513 inc/laborator_portfolio.php:807
+msgid "Show More"
+msgstr "Mehr anzeigen"
+
+#: inc/laborator_functions.php:514
+msgid "No more posts to show"
+msgstr "Keine weiteren beiträge vorhanden"
+
+#: inc/laborator_portfolio.php:492
+msgid "Your browser does not support HTML5 video."
+msgstr "Dein browser unterstützt keine HTML5-Videos."
+
+#: inc/laborator_portfolio.php:808
+msgid "No more portfolio items to show"
+msgstr "Keine weiteren portfolio artikel zu zeigen"
+
+#: inc/laborator_portfolio.php:1762
+#, php-format
+msgctxt "current portfolio subcategory"
+msgid "%s:"
+msgstr "%s:"
+
+#: inc/laborator_woocommerce.php:592
+#, php-format
+msgid "%s out of 5"
+msgstr "%s von 5"
+
+#: inc/laborator_woocommerce.php:667
+msgid "Share this item:"
+msgstr "Dieses produkt teilen:"
+
+#: inc/laborator_woocommerce.php:890
+msgid "Cart"
+msgstr "Warenkorb"
+
+#: inc/laborator_woocommerce.php:972
+msgid "Logout"
+msgstr "Abmelden"
+
+#: inc/laborator_woocommerce.php:993
+msgid "My Orders"
+msgstr "Meine Bestellungen"
+
+#: inc/laborator_woocommerce.php:994
+msgid "Your recent orders are displayed in the table below."
+msgstr ""
+"Ihre bisherigen Bestellungen werden in der folgenden Tabelle dargestellt."
+
+#: inc/laborator_woocommerce.php:1006
+msgid "My Downloads"
+msgstr "Meine Downloads"
+
+#: inc/laborator_woocommerce.php:1007
+msgid "Your digital downloads are displayed in the table below."
+msgstr "Ihre digitale Downloads sind in der Tabelle unten dargestellt."
+
+#: inc/laborator_woocommerce.php:1035
+msgid "Login"
+msgstr "Anmeldung"
+
+#: inc/laborator_woocommerce.php:1036
+msgid "&laquo; Go back"
+msgstr "&laquo; Zurück"
+
+#: inc/laborator_woocommerce.php:1037
+msgid "Payment Method"
+msgstr "Zahlungsart"
+
+#: inc/laborator_woocommerce.php:1038
+msgid "Added to cart"
+msgstr "In den Warenkorb"
+
+#: inc/laborator_woocommerce.php:1039
+msgid "Out of stock"
+msgstr "Nicht vorrätig"
+
+#: inc/laborator_woocommerce.php:1040
+msgid "Featured"
+msgstr "Hervorgehoben"
+
+#: inc/laborator_woocommerce.php:1041
+#: inc/lib/vc/lab_products_carousel/init.php:162
+msgid "Loading products..."
+msgstr "Lade produkte..."
+
+#: inc/laborator_woocommerce.php:1042
+msgid "No more products to show"
+msgstr "Nicht mehr produkte zu zeigen"
+
+#: inc/laborator_woocommerce.php:1043
+msgid "Edit information for this address type"
+msgstr "Adresse bearbeiten"
+
+#: inc/laborator_woocommerce.php:1044
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: inc/laborator_woocommerce.php:1045
+msgid "Lost Password"
+msgstr "Passwort vergessen"
+
+#: inc/laborator_woocommerce.php:1046
+msgid "Login or Register"
+msgstr "Einloggen oder Anmelden"
+
+#: inc/laborator_woocommerce.php:1047
+msgid "Manage your account and see your orders"
+msgstr "Verwalten Sie ihr Konto und bestellungen"
+
+#: inc/laborator_woocommerce.php:1048
+msgctxt "submit button"
+msgid "Go"
+msgstr "Los"
+
+#: inc/laborator_woocommerce.php:1049
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: inc/laborator_woocommerce.php:1050
+msgid "Edit your account details or change your password"
+msgstr "Ändern der persönlichen einstellungen oder ihres kennwortes"
+
+#: inc/laborator_woocommerce.php:1051
+msgid "Password Change"
+msgstr "Passwortänderung"
+
+#: inc/laborator_woocommerce.php:1052
+msgid "(leave blank to leave unchanged)"
+msgstr "(leer lassen für keine änderung)"
+
+#: inc/laborator_woocommerce.php:1053
+msgid "Current Password"
+msgstr "Aktuelles Passwort"
+
+#: inc/laborator_woocommerce.php:1054
+msgid "New Password"
+msgstr "Neues Passwort"
+
+#: inc/lib/vc/custom-font-icons.php:38
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/lib/vc/lab_contact_form/init.php:139
+#, php-format
+msgctxt "contact form subject"
+msgid "[%s] New Contact Form message has been received."
+msgstr "[%s] Neues kontaktformular nachricht wurde empfangen."
+
+#: inc/lib/vc/lab_contact_form/init.php:147
+msgctxt "contact form"
+msgid "You have received new contact form message."
+msgstr "Sie haben eine neue kontaktformular nachricht erhalten:"
+
+#: inc/lib/vc/lab_contact_form/init.php:149
+msgctxt "contact form"
+msgid "----- Message Details -----"
+msgstr "----- Nachrichten Details -----"
+
+#: inc/lib/vc/lab_contact_form/init.php:163
+#, php-format
+msgctxt "contact form"
+msgid "This message has been sent from IP: %s"
+msgstr "Diese nachricht wurde von %s IP gesendet"
+
+#: inc/lib/vc/lab_contact_form/init.php:165
+#, php-format
+msgctxt "contact form"
+msgid "Site URL: %s"
+msgstr "Seite URL: %s"
+
+#: searchform.php:12 searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: searchform.php:13 tpls/menu-mobile.php:35
+msgid "Search site..."
+msgstr "Seite durchsuchen..."
+
+#: searchform.php:15 tpls/menu-mobile.php:41
+msgid "Go"
+msgstr "Los"
+
+#: tpls/blog-query.php:121
+msgid "Category"
+msgstr "Kategorie"
+
+#: tpls/blog-query.php:131
+msgid "Tag"
+msgstr "Schlagwörter"
+
+#: tpls/header-main.php:362
+msgid "Search"
+msgstr "Suchen"
+
+#: tpls/portfolio-listing-title.php:63
+msgid "All"
+msgstr "Alle"
+
+#: tpls/portfolio-single-5.php:76
+msgid "Click here to show project info"
+msgstr "Klicken Sie hier für projektinformationen"
+
+#: tpls/portfolio-single-6.php:32
+msgid "Open in Lightbox"
+msgstr "In Lightbox öffnen"
+
+#: tpls/portfolio-single-like-share.php:50
+msgid "Share"
+msgstr "Teilen"
+
+#: tpls/portfolio-single-prevnext.php:61
+msgid "Previous project"
+msgstr "Vorheriges projekt"
+
+#: tpls/portfolio-single-prevnext.php:62
+msgid "Next project"
+msgstr "Nächstes Projekt"
+
+#: tpls/portfolio-single-prevnext.php:124
+msgid "Go to portfolio archive"
+msgstr "Zum portfolio archiv"
+
+#: tpls/post-single-prevnext.php:29
+msgid "Newer Post"
+msgstr "Neuerer Beitrag"
+
+#: tpls/post-single-prevnext.php:41
+msgid "Older Post"
+msgstr "Älterere beiträge"
+
+#: tpls/post-single-share.php:20
+msgid "Share:"
+msgstr "Teilen:"
+
+#: tpls/post-single.php:72
+msgid "Previous page"
+msgstr "Vorherige seite"
+
+#: tpls/post-single.php:73
+msgid "Next page"
+msgstr "Nächste seite"
+
+#: tpls/search-results.php:25
+msgid "Click to change your search"
+msgstr "Um ihre suche zu ändern"
+
+#: tpls/search-results.php:26
+#, php-format
+msgid "%d results for “%s”"
+msgstr "%d ergebniss(e) für „%s“"
+
+#: tpls/search-results.php:27
+msgid "There is nothing found that matches your search criteria."
+msgstr "Ihre suche ergab keine treffer."
+
+#: tpls/search-results.php:27
+#, php-format
+msgid "We have found one match with the word you searched."
+msgid_plural "We have found %d results with the word you searched."
+msgstr[0] "Die suche ergab einen treffer"
+msgstr[1] "Die suche ergab %d treffer"
+
+#: tpls/search-results.php:42
+msgid "Continue &#65515;"
+msgstr "Weiterlesen &#65515;"
+
+#: tpls/wc-mini-cart.php:15
+msgid "Loading cart contents..."
+msgstr "Laden warenkorb anwendbar..."
+
+#: tpls/wc-mini-cart.php:27
+#, php-format
+msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
+msgstr "Ihr Warenkorb ist leer! <a href=\"%s\">Go shopping &raquo;</a>"
+
+#: tpls/wc-mini-cart.php:64
+#, php-format
+msgid "Quantity: %s &times; <strong>%s</strong>"
+msgstr "Menge: %s &times; <strong>%s</strong>"
+
+#: tpls/wc-mini-cart.php:86
+msgid "View Cart"
+msgstr "Warenkorb ansehen"
+
+#: tpls/wc-mini-cart.php:90
+msgid "Checkout"
+msgstr "Kasse"
+
+#: tpls/wc-mini-cart.php:96
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: vc_templates/lab_blog_posts.php:219
+msgid "Loading blog posts..."
+msgstr "Laden Blog-Beiträge..."
+
+#: vc_templates/lab_contact_form.php:40
+msgid "Please fill \"%\" field."
+msgstr "Füllen Sie bitte \"%\" feld."
+
+#: vc_templates/lab_message.php:63
+msgid "Close"
+msgstr "Schließen"
+
+#. Theme Name of the plugin/theme
+msgid "Kalium"
+msgstr "Kalium"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.laborator.co/view-theme/kalium"
+msgstr "http://www.laborator.co/view-theme/kalium"
+
+#. Description of the plugin/theme
+msgid ""
+"Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
+"goods online or just feeling creative, Kalium is absolutely what you have "
+"been waiting for. Start creating that amazing website that you have been "
+"dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
+"laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
+"\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
+"\">Facebook</a>."
+msgstr ""
+"Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
+"goods online or just feeling creative, Kalium is absolutely what you have "
+"been waiting for. Start creating that amazing website that you have been "
+"dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
+"laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
+"\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
+"\">Facebook</a>."
+
+#. Author of the plugin/theme
+msgid "Laborator"
+msgstr "Laborator"
+
+#. Author URI of the plugin/theme
+msgid "http://laborator.co/"
+msgstr "http://laborator.co/"
