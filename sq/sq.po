@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2016-10-06 12:55+0200\n"
-"PO-Revision-Date: 2016-10-06 13:41+0200\n"
+"POT-Creation-Date: 2017-06-27 15:39+0200\n"
+"PO-Revision-Date: 2017-06-28 11:17+0200\n"
+"Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
+"Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
-"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
-"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: \n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: sq\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -27,435 +27,479 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-5: style.css\n"
 "X-Poedit-SearchPathExcluded-6: woocommerce\n"
 
-#: 404.php:22
+#: 404.php:25
 msgid "Not found!"
 msgstr "Nuk u gjet!"
 
-#: 404.php:23
+#: 404.php:26
 #, php-format
 msgid ""
 "We’re sorry, the page you have looked for does not exist in our database! "
 "<br /> Perhaps you would like to go to our <a href=\"%s\">home page</a>?"
 msgstr ""
-"Na vjen keq, faqja që keni kërkuar nuk ekziston në bazën tonë të të "
-"dhënave! <br /> Ndoshta ju dëshironi të shkoni te <a href=\"%s\">kreu</a>?"
+"Na vjen keq, faqja që keni kërkuar nuk ekziston në bazën tonë të të dhënave! "
+"<br /> Ndoshta ju dëshironi të shkoni te <a href=\"%s\">kreu</a>?"
 
-#: archive.php:65
-msgid "Loading posts..."
-msgstr "Duke ngarkuar postimet..."
-
-#: archive.php:122 inc/laborator_woocommerce.php:269
-#: tpls/portfolio-listing.php:96 tpls/search-results.php:55
-msgid "Previous"
-msgstr "Prapa"
-
-#: archive.php:125 inc/laborator_woocommerce.php:271
-#: tpls/portfolio-listing.php:99 tpls/search-results.php:58
-msgid "Next"
-msgstr "Tjetra"
-
-#: coming-soon-mode.php:83
+#: coming-soon-mode.php:91
 msgid "Days"
 msgstr "Ditët"
 
-#: coming-soon-mode.php:83
+#: coming-soon-mode.php:91
 msgid "Day"
 msgstr "Ditë"
 
-#: coming-soon-mode.php:87
+#: coming-soon-mode.php:95
 msgid "Hours"
 msgstr "Orë"
 
-#: coming-soon-mode.php:87
+#: coming-soon-mode.php:95
 msgid "Hour"
 msgstr "Orë"
 
-#: coming-soon-mode.php:91
+#: coming-soon-mode.php:99
 msgid "Minutes"
 msgstr "Minuta"
 
-#: coming-soon-mode.php:91
+#: coming-soon-mode.php:99
 msgid "Minute"
 msgstr "Minutë"
 
-#: coming-soon-mode.php:95
+#: coming-soon-mode.php:103
 msgid "Seconds"
 msgstr "Sekonda"
 
-#: coming-soon-mode.php:95
+#: coming-soon-mode.php:103
 msgid "Second"
 msgstr "Sekondë"
 
-#: comments.php:26
+#: comments.php:22
 #, php-format
 msgid "1 Comment"
 msgid_plural "%d Comments"
 msgstr[0] "1 Koment"
 msgstr[1] "%d Komente"
 
-#: comments.php:27
+#: comments.php:23
 msgid "Join the discussion and tell us your opinion."
 msgstr "Bashkohuni me diskutimin dhe na tregoni mendimin tuaj."
 
-#: comments.php:27
+#: comments.php:23
 msgid "Be the first to comment on this article."
 msgstr "Bëhu i pari që komenton në këtë artikull."
 
-#: comments.php:38
+#: comments.php:44
 #, php-format
 msgid "%s Previous"
 msgstr "%s Prapa"
 
-#: comments.php:39
+#: comments.php:45
 #, php-format
 msgid "Next %s"
 msgstr "Tjetra %s"
 
-#: comments.php:65
+#: comments.php:78
 msgid "Leave a reply"
 msgstr "Lini një përgjigje"
 
-#: comments.php:65
+#: comments.php:78
 msgid "Share your thoughts"
 msgstr "Ndani mendimet tuaja"
 
-#: comments.php:66
+#: comments.php:79
 #, php-format
 msgid "Reply to %s"
 msgstr "Përgjigju %s"
 
-#: comments.php:71 comments.php:77
+#: comments.php:84
 msgid "Comment"
 msgstr "Koment"
 
-#: inc/laborator_filters.php:133 inc/laborator_functions.php:133
-msgid "Email"
-msgstr "Email"
+#: inc/functions/template/blog-template-functions.php:52
+msgid "Category"
+msgstr "Kategoria"
 
-#: inc/laborator_filters.php:422
-msgid "reply"
-msgstr "përgjigju"
+#: inc/functions/template/blog-template-functions.php:58
+msgid "Tag"
+msgstr "Etiketë"
 
-#: inc/laborator_filters.php:435
+#: inc/functions/template/blog-template-functions.php:63
+msgid "Author"
+msgstr "Autor"
+
+#: inc/functions/template/blog-template-functions.php:68
+msgid "Year"
+msgstr "Viti"
+
+#: inc/functions/template/blog-template-functions.php:73
+#: inc/functions/template/blog-template-functions.php:78
+msgid "Month"
+msgstr "Muaji"
+
+#: inc/functions/template/blog-template-functions.php:169
+msgid "There are no posts to show"
+msgstr "Nuk ka postime per te shfaqur"
+
+#: inc/functions/template/blog-template-functions.php:220
+msgid "Show more"
+msgstr "Shfaq më shume"
+
+#: inc/functions/template/blog-template-functions.php:221
+msgid "All posts are shown"
+msgstr "Te gjitha postimet janë shfaqur"
+
+#: inc/functions/template/blog-template-functions.php:519
+msgid "Previous page"
+msgstr "Faqja e mëparshme"
+
+#: inc/functions/template/blog-template-functions.php:520
+msgid "Next page"
+msgstr "Faqja tjetër"
+
+#: inc/functions/template/blog-template-functions.php:611
+msgid "Loading posts..."
+msgstr "Duke ngarkuar postimet..."
+
+#: inc/functions/template/blog-template-functions.php:736
+msgid "Share:"
+msgstr "Shpërndaje:"
+
+#: inc/functions/template/blog-template-functions.php:1059
+msgid "Older Post"
+msgstr "Më të vjetra"
+
+#: inc/functions/template/blog-template-functions.php:1066
+msgid "Newer Post"
+msgstr "Më të reja"
+
+#: inc/functions/template/blog-template-functions.php:1110
 #, php-format
+msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s në %s"
 
-#: inc/laborator_filters.php:439
+#: inc/functions/template/blog-template-functions.php:1145
+msgid "reply"
+msgstr "përgjigju"
+
+#: inc/functions/template/blog-template-functions.php:1166
 #, php-format
 msgid "In reply to: %s"
 msgstr "Në përgjigje të: %s"
 
-#: inc/laborator_functions.php:132
+#: inc/laborator_filters.php:136 inc/laborator_functions.php:132
+msgid "Email"
+msgstr "Email"
+
+#: inc/laborator_functions.php:131
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Shih se çka vura re: %s"
 
-#: inc/laborator_functions.php:139
+#: inc/laborator_functions.php:138
 msgid "Print"
 msgstr "Shtyp"
 
-#: inc/laborator_functions.php:513 inc/laborator_portfolio.php:807
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:849
 msgid "Show More"
 msgstr "Shfaq më shumë"
 
-#: inc/laborator_functions.php:514
+#: inc/laborator_functions.php:520
 msgid "No more posts to show"
 msgstr "Ska më poste për të shfaqur"
 
-#: inc/laborator_portfolio.php:492
+#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+msgid "Search site..."
+msgstr "Kërko faqen..."
+
+#: inc/laborator_portfolio.php:531
 msgid "Your browser does not support HTML5 video."
 msgstr "Shfletuesi juaj nuk i mbështet videot e formatit HTML5."
 
-#: inc/laborator_portfolio.php:808
+#: inc/laborator_portfolio.php:850
 msgid "No more portfolio items to show"
 msgstr "Nuk ka artikuj nga portfolio për të shfaqur"
 
-#: inc/laborator_portfolio.php:1762
+#: inc/laborator_portfolio.php:1813
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:592
+#: inc/laborator_woocommerce.php:259 templates/global/pagination-normal.php:21
+#: tpls/portfolio-listing.php:99 tpls/search-results.php:76
+#: tpls/search-results.php:90
+msgid "Previous"
+msgstr "Prapa"
+
+#: inc/laborator_woocommerce.php:261 templates/global/pagination-normal.php:22
+#: tpls/portfolio-listing.php:102 tpls/search-results.php:79
+#: tpls/search-results.php:91
+msgid "Next"
+msgstr "Tjetra"
+
+#: inc/laborator_woocommerce.php:569
 #, php-format
 msgid "%s out of 5"
 msgstr "%s nga 5"
 
-#: inc/laborator_woocommerce.php:667
+#: inc/laborator_woocommerce.php:640
 msgid "Share this item:"
 msgstr "Shpërndaje këtë artikull:"
 
-#: inc/laborator_woocommerce.php:890
+#: inc/laborator_woocommerce.php:864
 msgid "Cart"
 msgstr "Shporta"
 
-#: inc/laborator_woocommerce.php:972
+#: inc/laborator_woocommerce.php:946
 msgid "Logout"
 msgstr "Dilni"
 
-#: inc/laborator_woocommerce.php:993
+#: inc/laborator_woocommerce.php:967
 msgid "My Orders"
 msgstr "Porositë e mija"
 
-#: inc/laborator_woocommerce.php:994
+#: inc/laborator_woocommerce.php:968
 msgid "Your recent orders are displayed in the table below."
 msgstr "Porositë tuaja do të shfaqen në tabelën e mëposhtme."
 
-#: inc/laborator_woocommerce.php:1006
+#: inc/laborator_woocommerce.php:980
 msgid "My Downloads"
 msgstr "Shkarkimet e mia"
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:981
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Shkarkimet tuaja digjitale do të shfaqen në tabelën e mëposhtme."
 
-#: inc/laborator_woocommerce.php:1035
+#: inc/laborator_woocommerce.php:1009 inc/laborator_woocommerce.php:1560
 msgid "Login"
 msgstr "Hyni"
 
-#: inc/laborator_woocommerce.php:1036
+#: inc/laborator_woocommerce.php:1010
 msgid "&laquo; Go back"
 msgstr "&laquo; Go prapa"
 
-#: inc/laborator_woocommerce.php:1037
-msgid "Payment Method"
-msgstr "Mënyra e pagesës"
+#: inc/laborator_woocommerce.php:1011 inc/laborator_woocommerce.php:1671
+msgid "Payment method"
+msgstr "Metoda e pagesës"
 
-#: inc/laborator_woocommerce.php:1038
+#: inc/laborator_woocommerce.php:1012
 msgid "Added to cart"
 msgstr "U shtua në shportë"
 
-#: inc/laborator_woocommerce.php:1039
+#: inc/laborator_woocommerce.php:1013
 msgid "Out of stock"
 msgstr "Jashtë stokut"
 
-#: inc/laborator_woocommerce.php:1040
+#: inc/laborator_woocommerce.php:1014
 msgid "Featured"
 msgstr "E zgjedhur"
 
-#: inc/laborator_woocommerce.php:1041
-#: inc/lib/vc/lab_products_carousel/init.php:162
+#: inc/laborator_woocommerce.php:1015
+#: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
 msgstr "Duke ngarkuar produktet..."
 
-#: inc/laborator_woocommerce.php:1042
+#: inc/laborator_woocommerce.php:1016
 msgid "No more products to show"
 msgstr "Ska më produkte për të shfaqur"
 
-#: inc/laborator_woocommerce.php:1043
+#: inc/laborator_woocommerce.php:1017
 msgid "Edit information for this address type"
 msgstr "Ndrysho informatën për kët tip të adresës"
 
-#: inc/laborator_woocommerce.php:1044
-msgid "Reset Password"
-msgstr "Rivendos fjalëkalimin"
+#: inc/laborator_woocommerce.php:1018
+msgid "Reset password"
+msgstr "Resetoni Fjalëkalimin"
 
-#: inc/laborator_woocommerce.php:1045
-msgid "Lost Password"
-msgstr "Harruat Fjalëkalimin"
+#: inc/laborator_woocommerce.php:1019
+msgid "Lost password"
+msgstr "Humbi Fjalëkalimi"
 
-#: inc/laborator_woocommerce.php:1046
-msgid "Login or Register"
-msgstr "Hyni ose Regjistrohu"
+#: inc/laborator_woocommerce.php:1020
+msgid "Login or register"
+msgstr "Hyr ose regjistrohuni"
 
-#: inc/laborator_woocommerce.php:1047
+#: inc/laborator_woocommerce.php:1021
 msgid "Manage your account and see your orders"
 msgstr "Përkujdesu për llogarinë dhe shiko porositë"
 
-#: inc/laborator_woocommerce.php:1048
-msgctxt "submit button"
+#: inc/laborator_woocommerce.php:1022 searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
 msgstr "Shko"
 
-#: inc/laborator_woocommerce.php:1049
-msgid "My Account"
-msgstr "Llogaria ime"
+#: inc/laborator_woocommerce.php:1023
+msgid "My account"
+msgstr "Llogaria juaj"
 
-#: inc/laborator_woocommerce.php:1050
+#: inc/laborator_woocommerce.php:1024
 msgid "Edit your account details or change your password"
 msgstr "Ndrysho detajet e llogarisë ose ndrysho fjalëkalimin"
 
-#: inc/laborator_woocommerce.php:1051
-msgid "Password Change"
-msgstr "Ndryshim Fjalëkalimi"
+#: inc/laborator_woocommerce.php:1025
+msgid "Password change"
+msgstr "Ndryshim fjalëkalimi"
 
-#: inc/laborator_woocommerce.php:1052
+#: inc/laborator_woocommerce.php:1026
 msgid "(leave blank to leave unchanged)"
 msgstr "(leje bosh pë ta lënë të pandryshuar)"
 
-#: inc/laborator_woocommerce.php:1053
-msgid "Current Password"
-msgstr "Fjalëkalimi i tanishëm"
+#: inc/laborator_woocommerce.php:1027
+msgid "Current password"
+msgstr "Fjalëkalimi momental"
 
-#: inc/laborator_woocommerce.php:1054
-msgid "New Password"
-msgstr "Fjalkalimi i ri"
+#: inc/laborator_woocommerce.php:1028
+msgid "New password"
+msgstr "Fjalëkalimi i ri"
 
-#: inc/lib/vc/custom-font-icons.php:38
+#: inc/laborator_woocommerce.php:1029
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Vlerësuar %s nga 5"
+
+#: inc/laborator_woocommerce.php:1504
+msgid "View full size"
+msgstr "Shiko madhësinë e plotë"
+
+#: inc/laborator_woocommerce.php:1558
+msgid "Login or Register"
+msgstr "Hyni ose Regjistrohu"
+
+#: inc/lib/post-link-plus.php:310
+msgid "Previous Post"
+msgstr "Postimi i Mëparshëm"
+
+#: inc/lib/post-link-plus.php:310
+msgid "Next Post"
+msgstr "Postimi Pasues"
+
+#: inc/lib/vc/custom-font-icons.php:32
 msgid "Icon"
 msgstr "Ikona"
 
-#: inc/lib/vc/lab_contact_form/init.php:139
+#: inc/lib/vc/lab_contact_form/init.php:151
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
-msgstr "[%s] Një mesazh i ri u pranua nga forma e kontaktit. "
+msgstr "[%s] Një mesazh i ri u pranua nga forma e kontaktit."
 
-#: inc/lib/vc/lab_contact_form/init.php:147
+#: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Keni marrë një mesazh të ri nga forma e kontaktit."
 
-#: inc/lib/vc/lab_contact_form/init.php:149
+#: inc/lib/vc/lab_contact_form/init.php:161
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Detajet e mesazhit -----"
 
-#: inc/lib/vc/lab_contact_form/init.php:163
+#: inc/lib/vc/lab_contact_form/init.php:175
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Ky mesazh u dërgua nga këto IP: %s"
 
-#: inc/lib/vc/lab_contact_form/init.php:165
+#: inc/lib/vc/lab_contact_form/init.php:177
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
 msgstr "URL e faqes: %s"
 
-#: searchform.php:12 searchform.php:13
+#: searchform.php:15 searchform.php:16
 msgctxt "label"
 msgid "Search for:"
 msgstr "Kërko për:"
 
-#: searchform.php:13 tpls/menu-mobile.php:35
-msgid "Search site..."
-msgstr "Kërko faqen..."
-
-#: searchform.php:15 tpls/menu-mobile.php:41
-msgid "Go"
-msgstr "Shko"
-
-#: tpls/blog-query.php:121
-msgid "Category"
-msgstr "Kategoria"
-
-#: tpls/blog-query.php:131
-msgid "Tag"
-msgstr "Etiketë"
-
-#: tpls/header-main.php:362
+#: tpls/header-main.php:323
 msgid "Search"
 msgstr "Kërko"
 
-#: tpls/portfolio-listing-title.php:63
+#: tpls/portfolio-listing-title.php:66
 msgid "All"
 msgstr "Të gjitha"
 
-#: tpls/portfolio-single-5.php:76
+#: tpls/portfolio-single-5.php:79
 msgid "Click here to show project info"
 msgstr "Kliko për të shfaqur infot e projektit"
 
-#: tpls/portfolio-single-6.php:32
+#: tpls/portfolio-single-6.php:35
 msgid "Open in Lightbox"
 msgstr "Hape në Lightbox"
 
-#: tpls/portfolio-single-like-share.php:50
+#: tpls/portfolio-single-like-share.php:53
 msgid "Share"
 msgstr "Shpërndaje"
 
-#: tpls/portfolio-single-prevnext.php:61
+#: tpls/portfolio-single-prevnext.php:64
 msgid "Previous project"
 msgstr "Projekti i mëparshëm"
 
-#: tpls/portfolio-single-prevnext.php:62
+#: tpls/portfolio-single-prevnext.php:65
 msgid "Next project"
 msgstr "Projekti tjetër"
 
-#: tpls/portfolio-single-prevnext.php:124
+#: tpls/portfolio-single-prevnext.php:127
 msgid "Go to portfolio archive"
-msgstr "Shko te arkivi i portfolios."
+msgstr "Shko te arkivi i portfolios"
 
-#: tpls/post-single-prevnext.php:29
-msgid "Newer Post"
-msgstr "Më të reja"
-
-#: tpls/post-single-prevnext.php:41
-msgid "Older Post"
-msgstr "Më të vjetra"
-
-#: tpls/post-single-share.php:20
-msgid "Share:"
-msgstr "Shpërndaje:"
-
-#: tpls/post-single.php:72
-msgid "Previous page"
-msgstr "Faqja e mëparshme"
-
-#: tpls/post-single.php:73
-msgid "Next page"
-msgstr "Faqja tjetër"
-
-#: tpls/search-results.php:25
+#: tpls/search-results.php:21
 msgid "Click to change your search"
 msgstr "Kliko për të ndryshuar kërkimin tuaj"
 
-#: tpls/search-results.php:26
+#: tpls/search-results.php:27
 #, php-format
 msgid "%d results for “%s”"
 msgstr "%d rezultate për “%s”"
 
-#: tpls/search-results.php:27
-msgid "There is nothing found that matches your search criteria."
-msgstr "Nuk u gjetën rezultate për kriteret e përzgjedhura të kërkimit."
-
-#: tpls/search-results.php:27
+#: tpls/search-results.php:30
 #, php-format
 msgid "We have found one match with the word you searched."
 msgid_plural "We have found %d results with the word you searched."
 msgstr[0] "Kemi një rezultat me fjalën që kërkuat."
 msgstr[1] "Kemi %d rezultate me fjalën që kërkuat."
 
-#: tpls/search-results.php:42
+#: tpls/search-results.php:32
+msgid "There is nothing found that matches your search criteria."
+msgstr "Nuk u gjetën rezultate për kriteret e përzgjedhura të kërkimit."
+
+#: tpls/search-results.php:65
 msgid "Continue &#65515;"
 msgstr "Vazhdo &#65515;"
 
-#: tpls/wc-mini-cart.php:15
+#: tpls/wc-mini-cart.php:18
 msgid "Loading cart contents..."
 msgstr "Duke ngarkuar përmbajtjen e shportës..."
 
-#: tpls/wc-mini-cart.php:27
+#: tpls/wc-mini-cart.php:30
 #, php-format
 msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr "Shporta juaj është e zbrazët! <a href=\"%s\">Bëj pazar &raquo;</a>"
 
-#: tpls/wc-mini-cart.php:64
+#: tpls/wc-mini-cart.php:67
 #, php-format
 msgid "Quantity: %s &times; <strong>%s</strong>"
 msgstr "Sasia %s &times; <strong>%s</strong>"
 
-#: tpls/wc-mini-cart.php:86
+#: tpls/wc-mini-cart.php:89
 msgid "View Cart"
 msgstr "Shiko Shportën"
 
-#: tpls/wc-mini-cart.php:90
+#: tpls/wc-mini-cart.php:93
 msgid "Checkout"
 msgstr "Arka"
 
-#: tpls/wc-mini-cart.php:96
+#: tpls/wc-mini-cart.php:99
 msgid "Subtotal"
 msgstr "Nëntotali"
 
-#: vc_templates/lab_blog_posts.php:219
+#: vc_templates/lab_blog_posts.php:223
 msgid "Loading blog posts..."
 msgstr "Shfaq postimet e blogut..."
 
-#: vc_templates/lab_contact_form.php:40
+#: vc_templates/lab_contact_form.php:30
 msgid "Please fill \"%\" field."
 msgstr "Ju lutem plotësoni fushën \"%\"."
 
-#: vc_templates/lab_message.php:63
+#: vc_templates/lab_message.php:57
 msgid "Close"
 msgstr "Mbyll"
 
@@ -464,30 +508,72 @@ msgid "Kalium"
 msgstr "Kalium"
 
 #. Theme URI of the plugin/theme
-msgid "http://www.laborator.co/view-theme/kalium"
-msgstr "http://www.laborator.co/view-theme/kalium"
+msgid "https://laborator.co/themes/kalium/"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
-"goods online or just feeling creative, Kalium is absolutely what you have "
-"been waiting for. Start creating that amazing website that you have been "
-"dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
+"Start creating that amazing website that you have always wanted, only with "
+"Kalium — Connect with Laborator:  <a href=\"https://themeforest.net/user/"
 "laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
 "\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
 "\">Facebook</a>."
 msgstr ""
-"Dizajnerë, Arkitektë, Fotografë, Freelancer, Blogerë, njerëz që shesin "
-"online ose ndihen kreativ, Kalium është ajo që keni pritur. Fillo të "
-"krijosh faqen që gjithmonë keni ëndërruar ta keni! Mund të na gjeni në:  "
-"<a href=\"http://themeforest.net/user/laborator\">Envato</a>, <a href="
-"\"https://twitter.com/thelaborator\">Twitter</a> apo <a href=\"https://"
-"www.facebook.com/laboratorcreative\">Facebook</a>."
 
 #. Author of the plugin/theme
 msgid "Laborator"
 msgstr "Laborator"
 
 #. Author URI of the plugin/theme
-msgid "http://laborator.co/"
-msgstr "http://laborator.co/"
+msgid "https://laborator.co/"
+msgstr ""
+
+#~ msgid "Payment Method"
+#~ msgstr "Mënyra e pagesës"
+
+#~ msgid "Reset Password"
+#~ msgstr "Rivendos fjalëkalimin"
+
+#~ msgid "Lost Password"
+#~ msgstr "Harruat Fjalëkalimin"
+
+#~ msgctxt "submit button"
+#~ msgid "Go"
+#~ msgstr "Shko"
+
+#~ msgid "My Account"
+#~ msgstr "Llogaria ime"
+
+#~ msgid ""
+#~ "Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
+#~ "goods online or just feeling creative, Kalium is absolutely what you have "
+#~ "been waiting for. Start creating that amazing website that you have been "
+#~ "dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
+#~ "laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
+#~ "\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
+#~ "\">Facebook</a>."
+#~ msgstr ""
+#~ "Dizajnerë, Arkitektë, Fotografë, Freelancer, Blogerë, njerëz që shesin "
+#~ "online ose ndihen kreativ, Kalium është ajo që keni pritur. Fillo të "
+#~ "krijosh faqen që gjithmonë keni ëndërruar ta keni! Mund të na gjeni në:  "
+#~ "<a href=\"http://themeforest.net/user/laborator\">Envato</a>, <a href="
+#~ "\"https://twitter.com/thelaborator\">Twitter</a> apo <a href=\"https://"
+#~ "www.facebook.com/laboratorcreative\">Facebook</a>."
+
+#~ msgid "http://www.laborator.co/view-theme/kalium"
+#~ msgstr "http://www.laborator.co/view-theme/kalium"
+
+#~ msgid "http://laborator.co/"
+#~ msgstr "http://laborator.co/"
+
+#~ msgid "%s at %s"
+#~ msgstr "%s në %s"
+
+#~ msgid "Password Change"
+#~ msgstr "Ndryshim Fjalëkalimi"
+
+#~ msgid "Current Password"
+#~ msgstr "Fjalëkalimi i tanishëm"
+
+#~ msgid "New Password"
+#~ msgstr "Fjalkalimi i ri"
