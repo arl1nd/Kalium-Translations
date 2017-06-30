@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-06-27 15:40+0200\n"
-"PO-Revision-Date: 2017-06-28 13:19+0200\n"
+"POT-Creation-Date: 2017-06-30 11:34+0200\n"
+"PO-Revision-Date: 2017-06-30 11:34+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: 404.php:25
 msgid "Not found!"
-msgstr "Nic nenalezeno!"
+msgstr "Nic nenalezeno!1"
 
 #: 404.php:26
 #, php-format
@@ -200,7 +200,7 @@ msgstr "Podívejte se, co jsem si všiml: %s"
 msgid "Print"
 msgstr "Tisk"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:849
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
 msgid "Show More"
 msgstr "Ukázat Více"
 
@@ -212,15 +212,15 @@ msgstr "Už žádné příspěvky k zobrazení"
 msgid "Search site..."
 msgstr "Hledat…"
 
-#: inc/laborator_portfolio.php:531
+#: inc/laborator_portfolio.php:546
 msgid "Your browser does not support HTML5 video."
 msgstr "Váš prohlížeč nepodporuje HTML5 video."
 
-#: inc/laborator_portfolio.php:850
+#: inc/laborator_portfolio.php:865
 msgid "No more portfolio items to show"
 msgstr "Žádné další položky portfolio ukázat"
 
-#: inc/laborator_portfolio.php:1813
+#: inc/laborator_portfolio.php:1828
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -247,123 +247,119 @@ msgstr "%s z 5"
 msgid "Share this item:"
 msgstr "Sdílet tuto položku:"
 
-#: inc/laborator_woocommerce.php:864
+#: inc/laborator_woocommerce.php:861
 msgid "Cart"
 msgstr "Košík"
 
-#: inc/laborator_woocommerce.php:946
+#: inc/laborator_woocommerce.php:943
 msgid "Logout"
 msgstr "Odhlášení"
 
-#: inc/laborator_woocommerce.php:967
+#: inc/laborator_woocommerce.php:964
 msgid "My Orders"
 msgstr "Moje objednávky"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:965
 msgid "Your recent orders are displayed in the table below."
 msgstr "Vaše poslední příkazy jsou zobrazeny v následující tabulce."
 
-#: inc/laborator_woocommerce.php:980
+#: inc/laborator_woocommerce.php:977
 msgid "My Downloads"
 msgstr "Moje položky ke stažení"
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:978
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Digitální stahování jsou zobrazeny v následující tabulce."
 
-#: inc/laborator_woocommerce.php:1009 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
 msgid "Login"
 msgstr "Přihlášení"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1007
 msgid "&laquo; Go back"
 msgstr "&laquo; Zpět"
 
-#: inc/laborator_woocommerce.php:1011 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
 msgid "Payment method"
 msgstr "Platební metoda"
 
-#: inc/laborator_woocommerce.php:1012
+#: inc/laborator_woocommerce.php:1009
 msgid "Added to cart"
 msgstr "Přidáno do košíku"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1010
 msgid "Out of stock"
 msgstr "Není skladem"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1011
 msgid "Featured"
 msgstr "Speciální nabídka"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1012
 #: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
 msgstr "Načítání..."
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1013
 msgid "No more products to show"
 msgstr "Žádné další zboží"
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1014
 msgid "Edit information for this address type"
 msgstr "Upravit informace pro tento adresy"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1015
 msgid "Reset password"
 msgstr "Vytvořit nové heslo"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1016
 msgid "Lost password"
 msgstr "Zapomenuté heslo"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
 msgid "Login or register"
 msgstr "Přihlášení nebo registrace"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1018
 msgid "Manage your account and see your orders"
 msgstr "Spravovat svůj účet a vidět své objednávky"
 
-#: inc/laborator_woocommerce.php:1022 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
 msgstr "Začít"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1020
 msgid "My account"
 msgstr "Můj účet"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1021
 msgid "Edit your account details or change your password"
 msgstr "Úpravy podrobností účtu nebo změnit heslo"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1022
 msgid "Password change"
 msgstr "Změna hesla"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1023
 msgid "(leave blank to leave unchanged)"
 msgstr "(ponechejte prázdné, pokud ho nechcete změnit)"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1024
 msgid "Current password"
 msgstr "Aktuální heslo"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1025
 msgid "New password"
 msgstr "Nové heslo"
 
-#: inc/laborator_woocommerce.php:1029
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Hodnocení %s z 5"
-
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1500
 msgid "View full size"
 msgstr "Zobrazit v plné velikosti"
 
-#: inc/laborator_woocommerce.php:1558
-msgid "Login or Register"
-msgstr "Přihlášení nebo Registrace"
+#: inc/laborator_woocommerce.php:1688
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Hodnocení %s z 5"
 
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
@@ -530,6 +526,9 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Login or Register"
+#~ msgstr "Přihlášení nebo Registrace"
 
 #~ msgid "Payment Method"
 #~ msgstr "Platební metoda:"

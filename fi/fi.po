@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-27 15:40+0200\n"
-"PO-Revision-Date: 2017-06-28 13:54+0200\n"
+"POT-Creation-Date: 2017-06-30 11:34+0200\n"
+"PO-Revision-Date: 2017-06-30 11:34+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -200,7 +200,7 @@ msgstr "Katso mitä löysin: %s"
 msgid "Print"
 msgstr "Tulosta"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:849
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
 msgid "Show More"
 msgstr "Näytä lisää"
 
@@ -212,15 +212,15 @@ msgstr "Ei enempää viestejä näytettäväksi"
 msgid "Search site..."
 msgstr "Hae sivustolta..."
 
-#: inc/laborator_portfolio.php:531
+#: inc/laborator_portfolio.php:546
 msgid "Your browser does not support HTML5 video."
 msgstr "Selaimesi ei tue HTML5-videota."
 
-#: inc/laborator_portfolio.php:850
+#: inc/laborator_portfolio.php:865
 msgid "No more portfolio items to show"
 msgstr "Ei lisää portfoliomerkintöjä näytettäväksi"
 
-#: inc/laborator_portfolio.php:1813
+#: inc/laborator_portfolio.php:1828
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -247,123 +247,119 @@ msgstr "%s/5"
 msgid "Share this item:"
 msgstr "Jaa tämä kohde:"
 
-#: inc/laborator_woocommerce.php:864
+#: inc/laborator_woocommerce.php:861
 msgid "Cart"
 msgstr "Kori"
 
-#: inc/laborator_woocommerce.php:946
+#: inc/laborator_woocommerce.php:943
 msgid "Logout"
 msgstr "Kirjaudu ulos"
 
-#: inc/laborator_woocommerce.php:967
+#: inc/laborator_woocommerce.php:964
 msgid "My Orders"
 msgstr "Tilaukseni"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:965
 msgid "Your recent orders are displayed in the table below."
 msgstr "Viimeaikaiset tilauksesi ovat näkyvillä alla."
 
-#: inc/laborator_woocommerce.php:980
+#: inc/laborator_woocommerce.php:977
 msgid "My Downloads"
 msgstr "Lataukseni"
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:978
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Digitaaliset latauksesi ovat esitetty alla."
 
-#: inc/laborator_woocommerce.php:1009 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
 msgid "Login"
 msgstr "Kirjaudu"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1007
 msgid "&laquo; Go back"
 msgstr "&laquo; Takaisin"
 
-#: inc/laborator_woocommerce.php:1011 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
 msgid "Payment method"
 msgstr "Maksutapa"
 
-#: inc/laborator_woocommerce.php:1012
+#: inc/laborator_woocommerce.php:1009
 msgid "Added to cart"
 msgstr "Lisätty koriin"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1010
 msgid "Out of stock"
 msgstr "Loppu"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1011
 msgid "Featured"
 msgstr "Suositellut"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1012
 #: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
 msgstr "Ladataan tuotteita..."
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1013
 msgid "No more products to show"
 msgstr "Ei lisää tuotteita näytettäväksi"
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1014
 msgid "Edit information for this address type"
 msgstr "Muokkaa tämän osoitteen tietoja"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1015
 msgid "Reset password"
 msgstr "Salasanan palautus"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1016
 msgid "Lost password"
 msgstr "Salasana unohtunut"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
 msgid "Login or register"
 msgstr "Kirjaudu tai rekisteröidy"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1018
 msgid "Manage your account and see your orders"
 msgstr "Muokkaa tiliäsi ja tarkastele tilauksiasi"
 
-#: inc/laborator_woocommerce.php:1022 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
 msgstr "Mene"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1020
 msgid "My account"
 msgstr "Oma tili"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1021
 msgid "Edit your account details or change your password"
 msgstr "Muokkaa tilisi tietoja tai vaihda salasanasi"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1022
 msgid "Password change"
 msgstr "Salasanan vaihto"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1023
 msgid "(leave blank to leave unchanged)"
 msgstr "(jätä tyhjäksi jos et halua vaihtaa)"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1024
 msgid "Current password"
 msgstr "Nykyinen salasana"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1025
 msgid "New password"
 msgstr "Uusi salasana"
 
-#: inc/laborator_woocommerce.php:1029
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Arvioitu %s/5"
-
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1500
 msgid "View full size"
 msgstr "Näytä täysikokoisena"
 
-#: inc/laborator_woocommerce.php:1558
-msgid "Login or Register"
-msgstr "Kirjaudu tai rekisteröidy"
+#: inc/laborator_woocommerce.php:1688
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Arvioitu %s/5"
 
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
@@ -528,6 +524,9 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Login or Register"
+#~ msgstr "Kirjaudu tai rekisteröidy"
 
 #~ msgid "Payment Method"
 #~ msgstr "Maksutapa"

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-06-27 15:39+0200\n"
-"PO-Revision-Date: 2017-06-28 14:09+0200\n"
+"POT-Creation-Date: 2017-06-30 11:33+0200\n"
+"PO-Revision-Date: 2017-06-30 11:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -199,7 +199,7 @@ msgstr "Kolla vad jag just upptäckt: %s"
 msgid "Print"
 msgstr "Skriv ut"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:849
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
 msgid "Show More"
 msgstr "Visa Fler"
 
@@ -211,15 +211,15 @@ msgstr "Inga inlägg att visa"
 msgid "Search site..."
 msgstr "Sök på sajten..."
 
-#: inc/laborator_portfolio.php:531
+#: inc/laborator_portfolio.php:546
 msgid "Your browser does not support HTML5 video."
 msgstr "Din webbläsare stöder inte HTML5 video."
 
-#: inc/laborator_portfolio.php:850
+#: inc/laborator_portfolio.php:865
 msgid "No more portfolio items to show"
 msgstr "Inga fler portfölj objekt att visa"
 
-#: inc/laborator_portfolio.php:1813
+#: inc/laborator_portfolio.php:1828
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -246,123 +246,119 @@ msgstr "%s av 5"
 msgid "Share this item:"
 msgstr "Dela detta:"
 
-#: inc/laborator_woocommerce.php:864
+#: inc/laborator_woocommerce.php:861
 msgid "Cart"
 msgstr "Varukorg"
 
-#: inc/laborator_woocommerce.php:946
+#: inc/laborator_woocommerce.php:943
 msgid "Logout"
 msgstr "Logga ut"
 
-#: inc/laborator_woocommerce.php:967
+#: inc/laborator_woocommerce.php:964
 msgid "My Orders"
 msgstr "Mina Order"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:965
 msgid "Your recent orders are displayed in the table below."
 msgstr "Dina senaste order visas i tabellen nedan."
 
-#: inc/laborator_woocommerce.php:980
+#: inc/laborator_woocommerce.php:977
 msgid "My Downloads"
 msgstr "Mina Nedladdningar"
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:978
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Dina digitala nedladdningar visas i tabellen nedan."
 
-#: inc/laborator_woocommerce.php:1009 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
 msgid "Login"
 msgstr "Logga in"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1007
 msgid "&laquo; Go back"
 msgstr "&laquo; Gå tillbaka"
 
-#: inc/laborator_woocommerce.php:1011 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
 msgid "Payment method"
 msgstr "Betalsätt"
 
-#: inc/laborator_woocommerce.php:1012
+#: inc/laborator_woocommerce.php:1009
 msgid "Added to cart"
 msgstr "Läggas till i kundvagnen"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1010
 msgid "Out of stock"
 msgstr "Slut i lager"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1011
 msgid "Featured"
 msgstr "Utvald"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1012
 #: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
 msgstr "Laddar produkter…"
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1013
 msgid "No more products to show"
 msgstr "Det finns inga fler produkter att visa"
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1014
 msgid "Edit information for this address type"
 msgstr "Redigera informationen för denna adresstyp"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1015
 msgid "Reset password"
 msgstr "Återställ lösenord"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1016
 msgid "Lost password"
 msgstr "Glömt lösenordet"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
 msgid "Login or register"
 msgstr "Logga in eller Registrera"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1018
 msgid "Manage your account and see your orders"
 msgstr "Hantera ditt konto och se dina beställningar"
 
-#: inc/laborator_woocommerce.php:1022 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
 msgstr "Kör"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1020
 msgid "My account"
 msgstr "Mitt konto"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1021
 msgid "Edit your account details or change your password"
 msgstr "Redigera dina kontouppgifter eller ändra ditt lösenord"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1022
 msgid "Password change"
 msgstr "Ändra lösenord"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1023
 msgid "(leave blank to leave unchanged)"
 msgstr "(lämna tomt för att behålla nuvarande)"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1024
 msgid "Current password"
 msgstr "Nuvarande lösenord"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1025
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: inc/laborator_woocommerce.php:1029
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Betygsatt %s av 5"
-
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1500
 msgid "View full size"
 msgstr "Se full storlek"
 
-#: inc/laborator_woocommerce.php:1558
-msgid "Login or Register"
-msgstr "Logga in eller Registrera"
+#: inc/laborator_woocommerce.php:1688
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Betygsatt %s av 5"
 
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
@@ -527,6 +523,9 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Login or Register"
+#~ msgstr "Logga in eller Registrera"
 
 #~ msgid "Payment Method"
 #~ msgstr "Betalsätt"

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-06-27 15:40+0200\n"
-"PO-Revision-Date: 2017-06-28 13:33+0200\n"
+"POT-Creation-Date: 2017-06-30 11:34+0200\n"
+"PO-Revision-Date: 2017-06-30 11:34+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -200,7 +200,7 @@ msgstr "Ελέγξτε έξω αυτό επισήμανα απλώς: %s"
 msgid "Print"
 msgstr "Εκτύπωση"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:849
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
 msgid "Show More"
 msgstr "Εμφάνιση περισσότερων"
 
@@ -212,15 +212,15 @@ msgstr "Δεν περισσότερες θέσεις για να δείξει"
 msgid "Search site..."
 msgstr "Αναζήτηση..."
 
-#: inc/laborator_portfolio.php:531
+#: inc/laborator_portfolio.php:546
 msgid "Your browser does not support HTML5 video."
 msgstr "Το πρόγραμμα περιήγησής σας δεν υποστηρίζει βίντεο HTML5."
 
-#: inc/laborator_portfolio.php:850
+#: inc/laborator_portfolio.php:865
 msgid "No more portfolio items to show"
 msgstr "Υπάρχουν περισσότερα στοιχεία χαρτοφυλακίου προς εμφάνιση"
 
-#: inc/laborator_portfolio.php:1813
+#: inc/laborator_portfolio.php:1828
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -247,125 +247,121 @@ msgstr "%s από 5"
 msgid "Share this item:"
 msgstr "Μοιραστείτε αυτό το στοιχείο:"
 
-#: inc/laborator_woocommerce.php:864
+#: inc/laborator_woocommerce.php:861
 msgid "Cart"
 msgstr "Καλάθι"
 
-#: inc/laborator_woocommerce.php:946
+#: inc/laborator_woocommerce.php:943
 msgid "Logout"
 msgstr "Έξοδος"
 
-#: inc/laborator_woocommerce.php:967
+#: inc/laborator_woocommerce.php:964
 msgid "My Orders"
 msgstr "Οι Παραγγελίες μου"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:965
 msgid "Your recent orders are displayed in the table below."
 msgstr "Πρόσφατες παραγγελίες σας εμφανίζονται στον παρακάτω πίνακα."
 
-#: inc/laborator_woocommerce.php:980
+#: inc/laborator_woocommerce.php:977
 msgid "My Downloads"
 msgstr "Οι Λήψεις μου"
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:978
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Ψηφιακές λήψεις σας εμφανίζονται στον παρακάτω πίνακα."
 
-#: inc/laborator_woocommerce.php:1009 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
 msgid "Login"
 msgstr "Είσοδος"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1007
 msgid "&laquo; Go back"
 msgstr "&laquo; Γύρνα πίσω"
 
-#: inc/laborator_woocommerce.php:1011 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
 msgid "Payment method"
 msgstr "Μέθοδος Πληρωμής"
 
-#: inc/laborator_woocommerce.php:1012
+#: inc/laborator_woocommerce.php:1009
 msgid "Added to cart"
 msgstr "Προστέθηκε στο καλάθι"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1010
 msgid "Out of stock"
 msgstr "Εξαντλήθηκε"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1011
 msgid "Featured"
 msgstr "Προτεινόμενα"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1012
 #: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
 msgstr "Φόρτωση προϊόντων..."
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1013
 msgid "No more products to show"
 msgstr "Δεν περισσότερα προϊόντα να δείξει"
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1014
 msgid "Edit information for this address type"
 msgstr "Επεξεργασία πληροφοριών για αυτόν τον τύπο διεύθυνσης"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1015
 msgid "Reset password"
 msgstr "Επαναφορά κωδικού"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1016
 msgid "Lost password"
 msgstr "Χαμένος κωδικός"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
 msgid "Login or register"
 msgstr "Σύνδεση ή Εγγραφή"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1018
 msgid "Manage your account and see your orders"
 msgstr "Διαχείριση στοιχείων λογαριασμού σας"
 
-#: inc/laborator_woocommerce.php:1022 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
 msgstr "Γκο"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1020
 msgid "My account"
 msgstr "Ο Λογαριασμός Μου"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1021
 msgid "Edit your account details or change your password"
 msgstr ""
 "Επεξεργαστείτε τα στοιχεία του λογαριασμού σας ή να αλλάξετε τον κωδικό "
 "πρόσβασής σας"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1022
 msgid "Password change"
 msgstr "Αλλαγή Κωδικού"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1023
 msgid "(leave blank to leave unchanged)"
 msgstr "(άφησε κενό για να μην αλλαχθεί)"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1024
 msgid "Current password"
 msgstr "Τρέχων κωδικός"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1025
 msgid "New password"
 msgstr "Νέος κωδικός"
 
-#: inc/laborator_woocommerce.php:1029
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Βαθμολογήθηκε με %s από 5"
-
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1500
 msgid "View full size"
 msgstr "Δείτε το πλήρες μέγεθος"
 
-#: inc/laborator_woocommerce.php:1558
-msgid "Login or Register"
-msgstr "Σύνδεση ή Εγγραφή"
+#: inc/laborator_woocommerce.php:1688
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Βαθμολογήθηκε με %s από 5"
 
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
@@ -531,6 +527,9 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Login or Register"
+#~ msgstr "Σύνδεση ή Εγγραφή"
 
 #~ msgid "Payment Method"
 #~ msgstr "Τρόπος Πληρωμής"

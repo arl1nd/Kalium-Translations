@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-06-27 15:39+0200\n"
-"PO-Revision-Date: 2017-06-28 11:17+0200\n"
+"POT-Creation-Date: 2017-06-30 11:34+0200\n"
+"PO-Revision-Date: 2017-06-30 11:34+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -199,7 +199,7 @@ msgstr "Shih se çka vura re: %s"
 msgid "Print"
 msgstr "Shtyp"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:849
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
 msgid "Show More"
 msgstr "Shfaq më shumë"
 
@@ -211,15 +211,15 @@ msgstr "Ska më poste për të shfaqur"
 msgid "Search site..."
 msgstr "Kërko faqen..."
 
-#: inc/laborator_portfolio.php:531
+#: inc/laborator_portfolio.php:546
 msgid "Your browser does not support HTML5 video."
 msgstr "Shfletuesi juaj nuk i mbështet videot e formatit HTML5."
 
-#: inc/laborator_portfolio.php:850
+#: inc/laborator_portfolio.php:865
 msgid "No more portfolio items to show"
 msgstr "Nuk ka artikuj nga portfolio për të shfaqur"
 
-#: inc/laborator_portfolio.php:1813
+#: inc/laborator_portfolio.php:1828
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -246,123 +246,119 @@ msgstr "%s nga 5"
 msgid "Share this item:"
 msgstr "Shpërndaje këtë artikull:"
 
-#: inc/laborator_woocommerce.php:864
+#: inc/laborator_woocommerce.php:861
 msgid "Cart"
 msgstr "Shporta"
 
-#: inc/laborator_woocommerce.php:946
+#: inc/laborator_woocommerce.php:943
 msgid "Logout"
 msgstr "Dilni"
 
-#: inc/laborator_woocommerce.php:967
+#: inc/laborator_woocommerce.php:964
 msgid "My Orders"
 msgstr "Porositë e mija"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:965
 msgid "Your recent orders are displayed in the table below."
 msgstr "Porositë tuaja do të shfaqen në tabelën e mëposhtme."
 
-#: inc/laborator_woocommerce.php:980
+#: inc/laborator_woocommerce.php:977
 msgid "My Downloads"
 msgstr "Shkarkimet e mia"
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:978
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Shkarkimet tuaja digjitale do të shfaqen në tabelën e mëposhtme."
 
-#: inc/laborator_woocommerce.php:1009 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
 msgid "Login"
 msgstr "Hyni"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1007
 msgid "&laquo; Go back"
 msgstr "&laquo; Go prapa"
 
-#: inc/laborator_woocommerce.php:1011 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
 msgid "Payment method"
 msgstr "Metoda e pagesës"
 
-#: inc/laborator_woocommerce.php:1012
+#: inc/laborator_woocommerce.php:1009
 msgid "Added to cart"
 msgstr "U shtua në shportë"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1010
 msgid "Out of stock"
 msgstr "Jashtë stokut"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1011
 msgid "Featured"
 msgstr "E zgjedhur"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1012
 #: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
 msgstr "Duke ngarkuar produktet..."
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1013
 msgid "No more products to show"
 msgstr "Ska më produkte për të shfaqur"
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1014
 msgid "Edit information for this address type"
 msgstr "Ndrysho informatën për kët tip të adresës"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1015
 msgid "Reset password"
 msgstr "Resetoni Fjalëkalimin"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1016
 msgid "Lost password"
 msgstr "Humbi Fjalëkalimi"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
 msgid "Login or register"
 msgstr "Hyr ose regjistrohuni"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1018
 msgid "Manage your account and see your orders"
 msgstr "Përkujdesu për llogarinë dhe shiko porositë"
 
-#: inc/laborator_woocommerce.php:1022 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
 msgstr "Shko"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1020
 msgid "My account"
 msgstr "Llogaria juaj"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1021
 msgid "Edit your account details or change your password"
 msgstr "Ndrysho detajet e llogarisë ose ndrysho fjalëkalimin"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1022
 msgid "Password change"
 msgstr "Ndryshim fjalëkalimi"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1023
 msgid "(leave blank to leave unchanged)"
 msgstr "(leje bosh pë ta lënë të pandryshuar)"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1024
 msgid "Current password"
 msgstr "Fjalëkalimi momental"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1025
 msgid "New password"
 msgstr "Fjalëkalimi i ri"
 
-#: inc/laborator_woocommerce.php:1029
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Vlerësuar %s nga 5"
-
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1500
 msgid "View full size"
 msgstr "Shiko madhësinë e plotë"
 
-#: inc/laborator_woocommerce.php:1558
-msgid "Login or Register"
-msgstr "Hyni ose Regjistrohu"
+#: inc/laborator_woocommerce.php:1688
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Vlerësuar %s nga 5"
 
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
@@ -527,6 +523,9 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Login or Register"
+#~ msgstr "Hyni ose Regjistrohu"
 
 #~ msgid "Payment Method"
 #~ msgstr "Mënyra e pagesës"
