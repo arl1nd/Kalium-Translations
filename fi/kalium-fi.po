@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-30 15:03+0200\n"
-"PO-Revision-Date: 2017-06-30 15:03+0200\n"
+"POT-Creation-Date: 2017-07-10 16:42+0200\n"
+"PO-Revision-Date: 2017-07-10 16:42+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -325,9 +325,10 @@ msgstr "Kirjaudu tai rekisteröidy"
 msgid "Manage your account and see your orders"
 msgstr "Muokkaa tiliäsi ja tarkastele tilauksiasi"
 
-#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019
+msgctxt "submit button"
 msgid "Go"
-msgstr "Mene"
+msgstr "Lähetä"
 
 #: inc/laborator_woocommerce.php:1020
 msgid "My account"
@@ -406,6 +407,10 @@ msgstr "Sivuston URL: %s"
 msgctxt "label"
 msgid "Search for:"
 msgstr "Hae nimikkeellä:"
+
+#: searchform.php:18 tpls/menu-mobile.php:56
+msgid "Go"
+msgstr "Mene"
 
 #: tpls/header-main.php:323
 msgid "Search"
@@ -537,10 +542,6 @@ msgstr ""
 
 #~ msgid "Lost Password"
 #~ msgstr "Salasana hukassa"
-
-#~ msgctxt "submit button"
-#~ msgid "Go"
-#~ msgstr "Lähetä"
 
 #~ msgid "My Account"
 #~ msgstr "Tilini"

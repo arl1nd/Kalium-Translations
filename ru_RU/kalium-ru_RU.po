@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-06-30 14:59+0200\n"
-"PO-Revision-Date: 2017-06-30 14:59+0200\n"
+"POT-Creation-Date: 2017-07-10 16:41+0200\n"
+"PO-Revision-Date: 2017-07-10 16:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: ru\n"
@@ -326,7 +326,8 @@ msgstr "Войти или Регистрация"
 msgid "Manage your account and see your orders"
 msgstr "Личный аккаунт и ваши заказы"
 
-#: inc/laborator_woocommerce.php:1019 searchform.php:18 tpls/menu-mobile.php:56
+#: inc/laborator_woocommerce.php:1019
+msgctxt "submit button"
 msgid "Go"
 msgstr "Перейти"
 
@@ -407,6 +408,10 @@ msgstr "URL сайта: %s"
 msgctxt "label"
 msgid "Search for:"
 msgstr "Поиск:"
+
+#: searchform.php:18 tpls/menu-mobile.php:56
+msgid "Go"
+msgstr "Перейти"
 
 #: tpls/header-main.php:323
 msgid "Search"
@@ -539,10 +544,6 @@ msgstr ""
 
 #~ msgid "Lost Password"
 #~ msgstr "Забыли пароль"
-
-#~ msgctxt "submit button"
-#~ msgid "Go"
-#~ msgstr "Перейти"
 
 #~ msgid "My Account"
 #~ msgstr "Мой аккаунт"
