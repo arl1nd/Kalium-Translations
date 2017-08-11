@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-07-10 16:42+0200\n"
-"PO-Revision-Date: 2017-07-10 16:42+0200\n"
+"POT-Creation-Date: 2017-08-11 13:51+0200\n"
+"PO-Revision-Date: 2017-08-11 13:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.1\n"
+"X-Translation-Version: 2.1.2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -82,11 +82,11 @@ msgstr[1] "%d Kommentare"
 
 #: comments.php:23
 msgid "Join the discussion and tell us your opinion."
-msgstr "An diskussionen teilnehmen."
+msgstr "An Diskussionen teilnehmen."
 
 #: comments.php:23
 msgid "Be the first to comment on this article."
-msgstr "Sei der Erste der diesen artikel kommentiert."
+msgstr "Sei der Erste, der diesen Artikel kommentiert."
 
 #: comments.php:44
 #, php-format
@@ -100,7 +100,7 @@ msgstr "Nächster %s"
 
 #: comments.php:78
 msgid "Leave a reply"
-msgstr "Schreibe einen kommentar"
+msgstr "Schreibe einen Kommentar"
 
 #: comments.php:78
 msgid "Share your thoughts"
@@ -115,86 +115,86 @@ msgstr "Antworte an %s"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: inc/functions/template/blog-template-functions.php:52
+#: inc/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr "Kategorie"
 
-#: inc/functions/template/blog-template-functions.php:58
+#: inc/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr "Schlagwörter"
 
-#: inc/functions/template/blog-template-functions.php:63
+#: inc/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr "Autor"
 
-#: inc/functions/template/blog-template-functions.php:68
+#: inc/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr "Jahr"
 
-#: inc/functions/template/blog-template-functions.php:73
-#: inc/functions/template/blog-template-functions.php:78
+#: inc/functions/template/blog-template-functions.php:79
+#: inc/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr "Monat"
 
-#: inc/functions/template/blog-template-functions.php:169
+#: inc/functions/template/blog-template-functions.php:175
 msgid "There are no posts to show"
 msgstr "Keine weiteren Beiträge vorhanden"
 
-#: inc/functions/template/blog-template-functions.php:220
+#: inc/functions/template/blog-template-functions.php:226
 msgid "Show more"
 msgstr "Mehr anzeigen"
 
-#: inc/functions/template/blog-template-functions.php:221
+#: inc/functions/template/blog-template-functions.php:227
 msgid "All posts are shown"
-msgstr "Alle beiträge werden angezeigt"
+msgstr "Alle Beiträge werden angezeigt"
 
-#: inc/functions/template/blog-template-functions.php:519
+#: inc/functions/template/blog-template-functions.php:525
 msgid "Previous page"
-msgstr "Vorherige seite"
+msgstr "Vorherige Seite"
 
-#: inc/functions/template/blog-template-functions.php:520
+#: inc/functions/template/blog-template-functions.php:526
 msgid "Next page"
-msgstr "Nächste seite"
+msgstr "Nächste Seite"
 
-#: inc/functions/template/blog-template-functions.php:611
+#: inc/functions/template/blog-template-functions.php:617
 msgid "Loading posts..."
 msgstr "Weitere laden…"
 
-#: inc/functions/template/blog-template-functions.php:736
+#: inc/functions/template/blog-template-functions.php:742
 msgid "Share:"
 msgstr "Teilen:"
 
-#: inc/functions/template/blog-template-functions.php:1059
+#: inc/functions/template/blog-template-functions.php:1065
 msgid "Older Post"
-msgstr "Älterere beiträge"
+msgstr "Älterere Beiträge"
 
-#: inc/functions/template/blog-template-functions.php:1066
+#: inc/functions/template/blog-template-functions.php:1072
 msgid "Newer Post"
 msgstr "Neuerer Beitrag"
 
-#: inc/functions/template/blog-template-functions.php:1110
+#: inc/functions/template/blog-template-functions.php:1116
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s um %s"
 
-#: inc/functions/template/blog-template-functions.php:1145
+#: inc/functions/template/blog-template-functions.php:1151
 msgid "reply"
 msgstr "antworten"
 
-#: inc/functions/template/blog-template-functions.php:1166
+#: inc/functions/template/blog-template-functions.php:1172
 #, php-format
 msgid "In reply to: %s"
 msgstr "Als Antwort auf: %s"
 
 #: inc/laborator_filters.php:136 inc/laborator_functions.php:132
 msgid "Email"
-msgstr "Emailadres"
+msgstr "Email"
 
 #: inc/laborator_functions.php:131
 #, php-format
 msgid "Check out what I just spotted: %s"
-msgstr "Schauen sie was ich gerade entdeckt habe: %s"
+msgstr "Schauen Sie, was ich gerade entdeckt habe: %s"
 
 #: inc/laborator_functions.php:138
 msgid "Print"
@@ -206,7 +206,7 @@ msgstr "Mehr anzeigen"
 
 #: inc/laborator_functions.php:520
 msgid "No more posts to show"
-msgstr "Keine weiteren beiträge vorhanden"
+msgstr "Keine weiteren Beiträge vorhanden"
 
 #: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
@@ -214,7 +214,7 @@ msgstr "Seite durchsuchen..."
 
 #: inc/laborator_portfolio.php:546
 msgid "Your browser does not support HTML5 video."
-msgstr "Dein browser unterstützt keine HTML5-Videos."
+msgstr "Dein Browser unterstützt keine HTML5-Videos."
 
 #: inc/laborator_portfolio.php:865
 msgid "No more portfolio items to show"
@@ -245,7 +245,7 @@ msgstr "%s von 5"
 
 #: inc/laborator_woocommerce.php:640
 msgid "Share this item:"
-msgstr "Dieses produkt teilen:"
+msgstr "Dieses Produkt teilen:"
 
 #: inc/laborator_woocommerce.php:861
 msgid "Cart"
@@ -270,7 +270,7 @@ msgstr "Meine Downloads"
 
 #: inc/laborator_woocommerce.php:978
 msgid "Your digital downloads are displayed in the table below."
-msgstr "Ihre digitale Downloads sind in der Tabelle unten dargestellt."
+msgstr "Ihre digitalen Downloads sind in der Tabelle unten dargestellt."
 
 #: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
 msgid "Login"
@@ -299,11 +299,11 @@ msgstr "Hervorgehoben"
 #: inc/laborator_woocommerce.php:1012
 #: inc/lib/vc/lab_products_carousel/init.php:167
 msgid "Loading products..."
-msgstr "Lade produkte..."
+msgstr "Lade Produkte..."
 
 #: inc/laborator_woocommerce.php:1013
 msgid "No more products to show"
-msgstr "Nicht mehr produkte zu zeigen"
+msgstr "Keine weiteren Produkte anzuzeigen"
 
 #: inc/laborator_woocommerce.php:1014
 msgid "Edit information for this address type"
@@ -323,7 +323,7 @@ msgstr "Anmelden oder registrieren"
 
 #: inc/laborator_woocommerce.php:1018
 msgid "Manage your account and see your orders"
-msgstr "Verwalten Sie ihr Konto und bestellungen"
+msgstr "Verwalten Sie ihr Konto und Bestellungen"
 
 #: inc/laborator_woocommerce.php:1019
 msgctxt "submit button"
@@ -336,7 +336,7 @@ msgstr "Mein Konto"
 
 #: inc/laborator_woocommerce.php:1021
 msgid "Edit your account details or change your password"
-msgstr "Ändern der persönlichen einstellungen oder ihres kennwortes"
+msgstr "Ändern der persönlichen Einstellungen oder Ihres Kennwortes"
 
 #: inc/laborator_woocommerce.php:1022
 msgid "Password change"
@@ -344,7 +344,7 @@ msgstr "Passwort ändern"
 
 #: inc/laborator_woocommerce.php:1023
 msgid "(leave blank to leave unchanged)"
-msgstr "(leer lassen für keine änderung)"
+msgstr "(leer lassen für keine Änderung)"
 
 #: inc/laborator_woocommerce.php:1024
 msgid "Current password"
@@ -371,7 +371,7 @@ msgstr "Vorheriger Beitrag"
 msgid "Next Post"
 msgstr "Nächster Beitrag"
 
-#: inc/lib/vc/custom-font-icons.php:32
+#: inc/lib/vc/custom-font-icons.php:31
 msgid "Icon"
 msgstr "Icon"
 
@@ -379,12 +379,12 @@ msgstr "Icon"
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
-msgstr "[%s] Neues kontaktformular nachricht wurde empfangen."
+msgstr "[%s] Neue Kontaktformular-Nachricht wurde empfangen."
 
 #: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "You have received new contact form message."
-msgstr "Sie haben eine neue kontaktformular nachricht erhalten:"
+msgstr "Sie haben eine neue Kontaktformular-Nachricht erhalten:"
 
 #: inc/lib/vc/lab_contact_form/init.php:161
 msgctxt "contact form"
@@ -395,13 +395,13 @@ msgstr "----- Nachrichten Details -----"
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
-msgstr "Diese nachricht wurde von %s IP gesendet"
+msgstr "Diese Nachricht wurde von %s IP gesendet"
 
 #: inc/lib/vc/lab_contact_form/init.php:177
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
-msgstr "Seite URL: %s"
+msgstr "Seiten-URL: %s"
 
 #: searchform.php:15 searchform.php:16
 msgctxt "label"
@@ -422,7 +422,7 @@ msgstr "Alle"
 
 #: tpls/portfolio-single-5.php:79
 msgid "Click here to show project info"
-msgstr "Klicken Sie hier für projektinformationen"
+msgstr "Klicken Sie hier für Projektinformationen"
 
 #: tpls/portfolio-single-6.php:35
 msgid "Open in Lightbox"
@@ -434,7 +434,7 @@ msgstr "Teilen"
 
 #: tpls/portfolio-single-prevnext.php:64
 msgid "Previous project"
-msgstr "Vorheriges projekt"
+msgstr "Vorheriges Projekt"
 
 #: tpls/portfolio-single-prevnext.php:65
 msgid "Next project"
@@ -442,27 +442,27 @@ msgstr "Nächstes Projekt"
 
 #: tpls/portfolio-single-prevnext.php:127
 msgid "Go to portfolio archive"
-msgstr "Zum portfolio archiv"
+msgstr "Zum Portfolio-Archiv"
 
 #: tpls/search-results.php:21
 msgid "Click to change your search"
-msgstr "Um ihre suche zu ändern"
+msgstr "Klicken, um Ihre Suche zu ändern"
 
 #: tpls/search-results.php:27
 #, php-format
 msgid "%d results for “%s”"
-msgstr "%d ergebniss(e) für „%s“"
+msgstr "%d Ergebniss(e) für „%s“"
 
 #: tpls/search-results.php:30
 #, php-format
 msgid "We have found one match with the word you searched."
 msgid_plural "We have found %d results with the word you searched."
-msgstr[0] "Die suche ergab einen treffer"
-msgstr[1] "Die suche ergab %d treffer"
+msgstr[0] "Die Suche ergab einen Treffer"
+msgstr[1] "Die Suche ergab %d Treffer"
 
 #: tpls/search-results.php:32
 msgid "There is nothing found that matches your search criteria."
-msgstr "Ihre suche ergab keine treffer."
+msgstr "Ihre Suche ergab keine Treffer."
 
 #: tpls/search-results.php:65
 msgid "Continue &#65515;"
@@ -470,7 +470,7 @@ msgstr "Weiterlesen &#65515;"
 
 #: tpls/wc-mini-cart.php:18
 msgid "Loading cart contents..."
-msgstr "Laden warenkorb anwendbar..."
+msgstr "Warenkorb-Inhalte laden..."
 
 #: tpls/wc-mini-cart.php:30
 #, php-format
@@ -496,11 +496,11 @@ msgstr "Zwischensumme"
 
 #: vc_templates/lab_blog_posts.php:223
 msgid "Loading blog posts..."
-msgstr "Laden Blog-Beiträge..."
+msgstr "Blog-Beiträge laden..."
 
 #: vc_templates/lab_contact_form.php:30
 msgid "Please fill \"%\" field."
-msgstr "Füllen Sie bitte \"%\" feld."
+msgstr "Füllen Sie bitte \"%\" Feld."
 
 #: vc_templates/lab_message.php:57
 msgid "Close"
