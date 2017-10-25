@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-07-10 16:41+0200\n"
-"PO-Revision-Date: 2017-07-10 16:41+0200\n"
+"POT-Creation-Date: 2017-08-30 14:38+0200\n"
+"PO-Revision-Date: 2017-08-30 14:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: sv\n"
@@ -115,74 +115,74 @@ msgstr "Kommentera %s"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: inc/functions/template/blog-template-functions.php:52
+#: inc/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr "Kategori"
 
-#: inc/functions/template/blog-template-functions.php:58
+#: inc/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr "Tagg"
 
-#: inc/functions/template/blog-template-functions.php:63
+#: inc/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr "Författade"
 
-#: inc/functions/template/blog-template-functions.php:68
+#: inc/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr "År"
 
-#: inc/functions/template/blog-template-functions.php:73
-#: inc/functions/template/blog-template-functions.php:78
+#: inc/functions/template/blog-template-functions.php:79
+#: inc/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr "Månad"
 
-#: inc/functions/template/blog-template-functions.php:169
+#: inc/functions/template/blog-template-functions.php:175
 msgid "There are no posts to show"
 msgstr "Inga inlägg att visa"
 
-#: inc/functions/template/blog-template-functions.php:220
+#: inc/functions/template/blog-template-functions.php:226
 msgid "Show more"
 msgstr "Visa Fler"
 
-#: inc/functions/template/blog-template-functions.php:221
+#: inc/functions/template/blog-template-functions.php:227
 msgid "All posts are shown"
 msgstr "Alla inlägg visas"
 
-#: inc/functions/template/blog-template-functions.php:519
+#: inc/functions/template/blog-template-functions.php:525
 msgid "Previous page"
 msgstr "Föregående sida"
 
-#: inc/functions/template/blog-template-functions.php:520
+#: inc/functions/template/blog-template-functions.php:526
 msgid "Next page"
 msgstr "Nästa sida"
 
-#: inc/functions/template/blog-template-functions.php:611
+#: inc/functions/template/blog-template-functions.php:617
 msgid "Loading posts..."
 msgstr "Laddar inlägg…"
 
-#: inc/functions/template/blog-template-functions.php:736
+#: inc/functions/template/blog-template-functions.php:742
 msgid "Share:"
 msgstr "Dela:"
 
-#: inc/functions/template/blog-template-functions.php:1059
+#: inc/functions/template/blog-template-functions.php:1065
 msgid "Older Post"
 msgstr "Äldre inlägg"
 
-#: inc/functions/template/blog-template-functions.php:1066
+#: inc/functions/template/blog-template-functions.php:1072
 msgid "Newer Post"
 msgstr "Nyare inlägg"
 
-#: inc/functions/template/blog-template-functions.php:1110
+#: inc/functions/template/blog-template-functions.php:1116
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s kl. %s"
 
-#: inc/functions/template/blog-template-functions.php:1145
+#: inc/functions/template/blog-template-functions.php:1151
 msgid "reply"
 msgstr "svara"
 
-#: inc/functions/template/blog-template-functions.php:1166
+#: inc/functions/template/blog-template-functions.php:1172
 #, php-format
 msgid "In reply to: %s"
 msgstr "Svar till: %s"
@@ -208,7 +208,7 @@ msgstr "Visa Fler"
 msgid "No more posts to show"
 msgstr "Inga inlägg att visa"
 
-#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1895 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Sök på sajten..."
 
@@ -226,138 +226,138 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:259 templates/global/pagination-normal.php:21
+#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
 #: tpls/portfolio-listing.php:99 tpls/search-results.php:76
 #: tpls/search-results.php:90
 msgid "Previous"
 msgstr "Föregående"
 
-#: inc/laborator_woocommerce.php:261 templates/global/pagination-normal.php:22
+#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
 #: tpls/portfolio-listing.php:102 tpls/search-results.php:79
 #: tpls/search-results.php:91
 msgid "Next"
 msgstr "Nästa"
 
-#: inc/laborator_woocommerce.php:569
+#: inc/laborator_woocommerce.php:573
 #, php-format
 msgid "%s out of 5"
 msgstr "%s av 5"
 
-#: inc/laborator_woocommerce.php:640
+#: inc/laborator_woocommerce.php:644
 msgid "Share this item:"
 msgstr "Dela detta:"
 
-#: inc/laborator_woocommerce.php:861
+#: inc/laborator_woocommerce.php:865
 msgid "Cart"
 msgstr "Varukorg"
 
-#: inc/laborator_woocommerce.php:943
+#: inc/laborator_woocommerce.php:947
 msgid "Logout"
 msgstr "Logga ut"
 
-#: inc/laborator_woocommerce.php:964
+#: inc/laborator_woocommerce.php:968
 msgid "My Orders"
 msgstr "Mina Order"
 
-#: inc/laborator_woocommerce.php:965
+#: inc/laborator_woocommerce.php:969
 msgid "Your recent orders are displayed in the table below."
 msgstr "Dina senaste order visas i tabellen nedan."
 
-#: inc/laborator_woocommerce.php:977
+#: inc/laborator_woocommerce.php:981
 msgid "My Downloads"
 msgstr "Mina Nedladdningar"
 
-#: inc/laborator_woocommerce.php:978
+#: inc/laborator_woocommerce.php:982
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Dina digitala nedladdningar visas i tabellen nedan."
 
-#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
+#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
 msgid "Login"
 msgstr "Logga in"
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:1011
 msgid "&laquo; Go back"
 msgstr "&laquo; Gå tillbaka"
 
-#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
+#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
 msgid "Payment method"
 msgstr "Betalsätt"
 
-#: inc/laborator_woocommerce.php:1009
+#: inc/laborator_woocommerce.php:1013
 msgid "Added to cart"
 msgstr "Läggas till i kundvagnen"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1014
 msgid "Out of stock"
 msgstr "Slut i lager"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1015
 msgid "Featured"
 msgstr "Utvald"
 
-#: inc/laborator_woocommerce.php:1012
-#: inc/lib/vc/lab_products_carousel/init.php:167
+#: inc/laborator_woocommerce.php:1016
+#: inc/lib/vc/lab_products_carousel/init.php:166
 msgid "Loading products..."
 msgstr "Laddar produkter…"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1017
 msgid "No more products to show"
 msgstr "Det finns inga fler produkter att visa"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1018
 msgid "Edit information for this address type"
 msgstr "Redigera informationen för denna adresstyp"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1019
 msgid "Reset password"
 msgstr "Återställ lösenord"
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1020
 msgid "Lost password"
 msgstr "Glömt lösenordet"
 
-#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
+#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
 msgid "Login or register"
 msgstr "Logga in eller Registrera"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1022
 msgid "Manage your account and see your orders"
 msgstr "Hantera ditt konto och se dina beställningar"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1023
 msgctxt "submit button"
 msgid "Go"
 msgstr "Kör"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1024
 msgid "My account"
 msgstr "Mitt konto"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1025
 msgid "Edit your account details or change your password"
 msgstr "Redigera dina kontouppgifter eller ändra ditt lösenord"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1026
 msgid "Password change"
 msgstr "Ändra lösenord"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1027
 msgid "(leave blank to leave unchanged)"
 msgstr "(lämna tomt för att behålla nuvarande)"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1028
 msgid "Current password"
 msgstr "Nuvarande lösenord"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1029
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: inc/laborator_woocommerce.php:1500
+#: inc/laborator_woocommerce.php:1504
 msgid "View full size"
 msgstr "Se full storlek"
 
-#: inc/laborator_woocommerce.php:1688
+#: inc/laborator_woocommerce.php:1692
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Betygsatt %s av 5"
@@ -370,7 +370,7 @@ msgstr "Tidigare inlägg"
 msgid "Next Post"
 msgstr "Följande inlägg"
 
-#: inc/lib/vc/custom-font-icons.php:32
+#: inc/lib/vc/custom-font-icons.php:31
 msgid "Icon"
 msgstr "Ikon"
 

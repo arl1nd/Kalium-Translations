@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-07-10 16:42+0200\n"
-"PO-Revision-Date: 2017-07-10 16:42+0200\n"
+"POT-Creation-Date: 2017-08-30 14:39+0200\n"
+"PO-Revision-Date: 2017-08-30 14:39+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -115,74 +115,74 @@ msgstr "Antwoord aan %s"
 msgid "Comment"
 msgstr "Reactie"
 
-#: inc/functions/template/blog-template-functions.php:52
+#: inc/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr "Categorie"
 
-#: inc/functions/template/blog-template-functions.php:58
+#: inc/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr "Tag"
 
-#: inc/functions/template/blog-template-functions.php:63
+#: inc/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr "Auteur"
 
-#: inc/functions/template/blog-template-functions.php:68
+#: inc/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr "Jaar"
 
-#: inc/functions/template/blog-template-functions.php:73
-#: inc/functions/template/blog-template-functions.php:78
+#: inc/functions/template/blog-template-functions.php:79
+#: inc/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr "Maand"
 
-#: inc/functions/template/blog-template-functions.php:169
+#: inc/functions/template/blog-template-functions.php:175
 msgid "There are no posts to show"
 msgstr "Er zijn geen berichten om te tonen"
 
-#: inc/functions/template/blog-template-functions.php:220
+#: inc/functions/template/blog-template-functions.php:226
 msgid "Show more"
 msgstr "Laat meer zien"
 
-#: inc/functions/template/blog-template-functions.php:221
+#: inc/functions/template/blog-template-functions.php:227
 msgid "All posts are shown"
 msgstr "Alle berichten worden weergegeven"
 
-#: inc/functions/template/blog-template-functions.php:519
+#: inc/functions/template/blog-template-functions.php:525
 msgid "Previous page"
 msgstr "Vorige pagina"
 
-#: inc/functions/template/blog-template-functions.php:520
+#: inc/functions/template/blog-template-functions.php:526
 msgid "Next page"
 msgstr "Volgende pagina"
 
-#: inc/functions/template/blog-template-functions.php:611
+#: inc/functions/template/blog-template-functions.php:617
 msgid "Loading posts..."
 msgstr "Berichten laden..."
 
-#: inc/functions/template/blog-template-functions.php:736
+#: inc/functions/template/blog-template-functions.php:742
 msgid "Share:"
 msgstr "Delen:"
 
-#: inc/functions/template/blog-template-functions.php:1059
+#: inc/functions/template/blog-template-functions.php:1065
 msgid "Older Post"
 msgstr "Oudere berichten"
 
-#: inc/functions/template/blog-template-functions.php:1066
+#: inc/functions/template/blog-template-functions.php:1072
 msgid "Newer Post"
 msgstr "Nieuwere berichten"
 
-#: inc/functions/template/blog-template-functions.php:1110
+#: inc/functions/template/blog-template-functions.php:1116
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s om %s"
 
-#: inc/functions/template/blog-template-functions.php:1145
+#: inc/functions/template/blog-template-functions.php:1151
 msgid "reply"
 msgstr "antwoord"
 
-#: inc/functions/template/blog-template-functions.php:1166
+#: inc/functions/template/blog-template-functions.php:1172
 #, php-format
 msgid "In reply to: %s"
 msgstr "Antwoord aan: %s"
@@ -208,7 +208,7 @@ msgstr "Laat meer zien"
 msgid "No more posts to show"
 msgstr "Geen berichten om te laten zien"
 
-#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1895 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Zoeken..."
 
@@ -226,138 +226,138 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:259 templates/global/pagination-normal.php:21
+#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
 #: tpls/portfolio-listing.php:99 tpls/search-results.php:76
 #: tpls/search-results.php:90
 msgid "Previous"
 msgstr "Vorige"
 
-#: inc/laborator_woocommerce.php:261 templates/global/pagination-normal.php:22
+#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
 #: tpls/portfolio-listing.php:102 tpls/search-results.php:79
 #: tpls/search-results.php:91
 msgid "Next"
 msgstr "Naast"
 
-#: inc/laborator_woocommerce.php:569
+#: inc/laborator_woocommerce.php:573
 #, php-format
 msgid "%s out of 5"
 msgstr "Beoordeling %s uit 5"
 
-#: inc/laborator_woocommerce.php:640
+#: inc/laborator_woocommerce.php:644
 msgid "Share this item:"
 msgstr "Deel dit:"
 
-#: inc/laborator_woocommerce.php:861
+#: inc/laborator_woocommerce.php:865
 msgid "Cart"
 msgstr "Winkelmand"
 
-#: inc/laborator_woocommerce.php:943
+#: inc/laborator_woocommerce.php:947
 msgid "Logout"
 msgstr "Uitloggen"
 
-#: inc/laborator_woocommerce.php:964
+#: inc/laborator_woocommerce.php:968
 msgid "My Orders"
 msgstr "Mijn bestellingen"
 
-#: inc/laborator_woocommerce.php:965
+#: inc/laborator_woocommerce.php:969
 msgid "Your recent orders are displayed in the table below."
 msgstr "Uw recente bestellingen worden weergegeven in de onderstaande tabel."
 
-#: inc/laborator_woocommerce.php:977
+#: inc/laborator_woocommerce.php:981
 msgid "My Downloads"
 msgstr "Mijn Downloads"
 
-#: inc/laborator_woocommerce.php:978
+#: inc/laborator_woocommerce.php:982
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Je aanvragen zijn weergegeven in de onderstaande tabel."
 
-#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
+#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
 msgid "Login"
 msgstr "Inloggen"
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:1011
 msgid "&laquo; Go back"
 msgstr "&laquo; Ga terug"
 
-#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
+#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
 msgid "Payment method"
 msgstr "Betaalmethode"
 
-#: inc/laborator_woocommerce.php:1009
+#: inc/laborator_woocommerce.php:1013
 msgid "Added to cart"
 msgstr "Toegevoegd aan winkelmand"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1014
 msgid "Out of stock"
 msgstr "Niet op voorraad"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1015
 msgid "Featured"
 msgstr "Uitgelicht"
 
-#: inc/laborator_woocommerce.php:1012
-#: inc/lib/vc/lab_products_carousel/init.php:167
+#: inc/laborator_woocommerce.php:1016
+#: inc/lib/vc/lab_products_carousel/init.php:166
 msgid "Loading products..."
 msgstr "Producten laden..."
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1017
 msgid "No more products to show"
 msgstr "Niet meer producten te tonen"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1018
 msgid "Edit information for this address type"
 msgstr "Adrestype bewerken"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1019
 msgid "Reset password"
 msgstr "Wachtwoord opnieuw instellen"
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1020
 msgid "Lost password"
 msgstr "Wachtwoord vergeten"
 
-#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
+#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
 msgid "Login or register"
 msgstr "Inloggen of registreren"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1022
 msgid "Manage your account and see your orders"
 msgstr "Beheer je account en zien uw bestellingen"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1023
 msgctxt "submit button"
 msgid "Go"
 msgstr "Ga"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1024
 msgid "My account"
 msgstr "Mijn account"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1025
 msgid "Edit your account details or change your password"
 msgstr "Bewerk hieronder u account gegevens"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1026
 msgid "Password change"
 msgstr "Wachtwoordwijziging"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1027
 msgid "(leave blank to leave unchanged)"
 msgstr "(leeg laten om ongewijzigd te laten)"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1028
 msgid "Current password"
 msgstr "Huidig wachtwoord"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1029
 msgid "New password"
 msgstr "Nieuw wachtwoord"
 
-#: inc/laborator_woocommerce.php:1500
+#: inc/laborator_woocommerce.php:1504
 msgid "View full size"
 msgstr "Bekijk de volledige grootte"
 
-#: inc/laborator_woocommerce.php:1688
+#: inc/laborator_woocommerce.php:1692
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Waardering %s uit 5"
@@ -370,7 +370,7 @@ msgstr "Vorig bericht"
 msgid "Next Post"
 msgstr "Volgend bericht"
 
-#: inc/lib/vc/custom-font-icons.php:32
+#: inc/lib/vc/custom-font-icons.php:31
 msgid "Icon"
 msgstr "Ikoon"
 

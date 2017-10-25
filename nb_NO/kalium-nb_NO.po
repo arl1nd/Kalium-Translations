@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-07-10 16:42+0200\n"
-"PO-Revision-Date: 2017-07-10 16:42+0200\n"
+"POT-Creation-Date: 2017-08-30 14:39+0200\n"
+"PO-Revision-Date: 2017-08-30 14:39+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: nb\n"
@@ -115,74 +115,74 @@ msgstr "Svar til %s"
 msgid "Comment"
 msgstr "Kommenter"
 
-#: inc/functions/template/blog-template-functions.php:52
+#: inc/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr "Kategori"
 
-#: inc/functions/template/blog-template-functions.php:58
+#: inc/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr "Stikkord"
 
-#: inc/functions/template/blog-template-functions.php:63
+#: inc/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr "Forfatter"
 
-#: inc/functions/template/blog-template-functions.php:68
+#: inc/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr "År"
 
-#: inc/functions/template/blog-template-functions.php:73
-#: inc/functions/template/blog-template-functions.php:78
+#: inc/functions/template/blog-template-functions.php:79
+#: inc/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr "Måned"
 
-#: inc/functions/template/blog-template-functions.php:169
+#: inc/functions/template/blog-template-functions.php:175
 msgid "There are no posts to show"
 msgstr "Det er ingen innlegg å vise"
 
-#: inc/functions/template/blog-template-functions.php:220
+#: inc/functions/template/blog-template-functions.php:226
 msgid "Show more"
 msgstr "Vis Mer"
 
-#: inc/functions/template/blog-template-functions.php:221
+#: inc/functions/template/blog-template-functions.php:227
 msgid "All posts are shown"
 msgstr "Alle innlegg vises"
 
-#: inc/functions/template/blog-template-functions.php:519
+#: inc/functions/template/blog-template-functions.php:525
 msgid "Previous page"
 msgstr "Forrige side"
 
-#: inc/functions/template/blog-template-functions.php:520
+#: inc/functions/template/blog-template-functions.php:526
 msgid "Next page"
 msgstr "Neste side"
 
-#: inc/functions/template/blog-template-functions.php:611
+#: inc/functions/template/blog-template-functions.php:617
 msgid "Loading posts..."
 msgstr "Laster nye innlegg…"
 
-#: inc/functions/template/blog-template-functions.php:736
+#: inc/functions/template/blog-template-functions.php:742
 msgid "Share:"
 msgstr "Del:"
 
-#: inc/functions/template/blog-template-functions.php:1059
+#: inc/functions/template/blog-template-functions.php:1065
 msgid "Older Post"
 msgstr "Eldre Innlegg"
 
-#: inc/functions/template/blog-template-functions.php:1066
+#: inc/functions/template/blog-template-functions.php:1072
 msgid "Newer Post"
 msgstr "Nyere Innlegg"
 
-#: inc/functions/template/blog-template-functions.php:1110
+#: inc/functions/template/blog-template-functions.php:1116
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s på %s"
 
-#: inc/functions/template/blog-template-functions.php:1145
+#: inc/functions/template/blog-template-functions.php:1151
 msgid "reply"
 msgstr "svar"
 
-#: inc/functions/template/blog-template-functions.php:1166
+#: inc/functions/template/blog-template-functions.php:1172
 #, php-format
 msgid "In reply to: %s"
 msgstr "Svar til: %s"
@@ -208,7 +208,7 @@ msgstr "Vis Mer"
 msgid "No more posts to show"
 msgstr "Ingen flere innlegg å vise"
 
-#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1895 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Søk..."
 
@@ -226,138 +226,138 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:259 templates/global/pagination-normal.php:21
+#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
 #: tpls/portfolio-listing.php:99 tpls/search-results.php:76
 #: tpls/search-results.php:90
 msgid "Previous"
 msgstr "Forrige"
 
-#: inc/laborator_woocommerce.php:261 templates/global/pagination-normal.php:22
+#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
 #: tpls/portfolio-listing.php:102 tpls/search-results.php:79
 #: tpls/search-results.php:91
 msgid "Next"
 msgstr "Neste"
 
-#: inc/laborator_woocommerce.php:569
+#: inc/laborator_woocommerce.php:573
 #, php-format
 msgid "%s out of 5"
 msgstr "%s ut av 5"
 
-#: inc/laborator_woocommerce.php:640
+#: inc/laborator_woocommerce.php:644
 msgid "Share this item:"
 msgstr "Del dette:"
 
-#: inc/laborator_woocommerce.php:861
+#: inc/laborator_woocommerce.php:865
 msgid "Cart"
 msgstr "Handlekurv"
 
-#: inc/laborator_woocommerce.php:943
+#: inc/laborator_woocommerce.php:947
 msgid "Logout"
 msgstr "Logg ut"
 
-#: inc/laborator_woocommerce.php:964
+#: inc/laborator_woocommerce.php:968
 msgid "My Orders"
 msgstr "Mine Ordre"
 
-#: inc/laborator_woocommerce.php:965
+#: inc/laborator_woocommerce.php:969
 msgid "Your recent orders are displayed in the table below."
 msgstr "Dine siste ordrene er vist i tabellen nedenfor."
 
-#: inc/laborator_woocommerce.php:977
+#: inc/laborator_woocommerce.php:981
 msgid "My Downloads"
 msgstr "Mine Nedlastninger"
 
-#: inc/laborator_woocommerce.php:978
+#: inc/laborator_woocommerce.php:982
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Dine digitale nedlastinger vises i tabellen nedenfor."
 
-#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
+#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
 msgid "Login"
 msgstr "Logg inn"
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:1011
 msgid "&laquo; Go back"
 msgstr "&laquo; Tilbake"
 
-#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
+#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
 msgid "Payment method"
 msgstr "Betalingsmetode"
 
-#: inc/laborator_woocommerce.php:1009
+#: inc/laborator_woocommerce.php:1013
 msgid "Added to cart"
 msgstr "Vare lagt i handlekurven"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1014
 msgid "Out of stock"
 msgstr "Tomt på lager"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1015
 msgid "Featured"
 msgstr "Fremhevet"
 
-#: inc/laborator_woocommerce.php:1012
-#: inc/lib/vc/lab_products_carousel/init.php:167
+#: inc/laborator_woocommerce.php:1016
+#: inc/lib/vc/lab_products_carousel/init.php:166
 msgid "Loading products..."
 msgstr "Laster inn produkter…"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1017
 msgid "No more products to show"
 msgstr "Ingen flere produkter å vise"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1018
 msgid "Edit information for this address type"
 msgstr "Rediger informasjonen for denne adressen typen"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1019
 msgid "Reset password"
 msgstr "Tilbakestill passord"
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1020
 msgid "Lost password"
 msgstr "Glemt passord"
 
-#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
+#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
 msgid "Login or register"
 msgstr "Logg Inn eller registrer"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1022
 msgid "Manage your account and see your orders"
 msgstr "Administrere kontoen din og se dine bestillinger"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1023
 msgctxt "submit button"
 msgid "Go"
 msgstr "Gå"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1024
 msgid "My account"
 msgstr "Min konto"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1025
 msgid "Edit your account details or change your password"
 msgstr "Rediger kontoopplysninger eller endre passord"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1026
 msgid "Password change"
 msgstr "Endring av passord"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1027
 msgid "(leave blank to leave unchanged)"
 msgstr "(la stå tom for å forbli uendret)"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1028
 msgid "Current password"
 msgstr "Nåværende passord"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1029
 msgid "New password"
 msgstr "Nytt passord"
 
-#: inc/laborator_woocommerce.php:1500
+#: inc/laborator_woocommerce.php:1504
 msgid "View full size"
 msgstr "Se full størrelse"
 
-#: inc/laborator_woocommerce.php:1688
+#: inc/laborator_woocommerce.php:1692
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Rangert %s av 5"
@@ -370,7 +370,7 @@ msgstr "Forrige innlegg"
 msgid "Next Post"
 msgstr "Neste innlegg"
 
-#: inc/lib/vc/custom-font-icons.php:32
+#: inc/lib/vc/custom-font-icons.php:31
 msgid "Icon"
 msgstr "Ikon"
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-08-11 13:51+0200\n"
-"PO-Revision-Date: 2017-08-11 13:51+0200\n"
+"POT-Creation-Date: 2017-10-12 15:42+0200\n"
+"PO-Revision-Date: 2017-10-12 15:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.1.2\n"
+"X-Translation-Version: 2.1.4\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -166,7 +166,7 @@ msgstr "Teilen:"
 
 #: inc/functions/template/blog-template-functions.php:1065
 msgid "Older Post"
-msgstr "Älterere Beiträge"
+msgstr "Älterer Beitrag"
 
 #: inc/functions/template/blog-template-functions.php:1072
 msgid "Newer Post"
@@ -187,7 +187,7 @@ msgstr "antworten"
 msgid "In reply to: %s"
 msgstr "Als Antwort auf: %s"
 
-#: inc/laborator_filters.php:136 inc/laborator_functions.php:132
+#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
 msgid "Email"
 msgstr "Email"
 
@@ -200,7 +200,7 @@ msgstr "Schauen Sie, was ich gerade entdeckt habe: %s"
 msgid "Print"
 msgstr "Drucken"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
+#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:863
 msgid "Show More"
 msgstr "Mehr anzeigen"
 
@@ -208,157 +208,157 @@ msgstr "Mehr anzeigen"
 msgid "No more posts to show"
 msgstr "Keine weiteren Beiträge vorhanden"
 
-#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1873 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Seite durchsuchen..."
 
-#: inc/laborator_portfolio.php:546
+#: inc/laborator_portfolio.php:545
 msgid "Your browser does not support HTML5 video."
 msgstr "Dein Browser unterstützt keine HTML5-Videos."
 
-#: inc/laborator_portfolio.php:865
+#: inc/laborator_portfolio.php:864
 msgid "No more portfolio items to show"
 msgstr "Alle Einträge geladen"
 
-#: inc/laborator_portfolio.php:1828
+#: inc/laborator_portfolio.php:1827
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:259 templates/global/pagination-normal.php:21
+#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
 #: tpls/portfolio-listing.php:99 tpls/search-results.php:76
 #: tpls/search-results.php:90
 msgid "Previous"
 msgstr "Vorherige"
 
-#: inc/laborator_woocommerce.php:261 templates/global/pagination-normal.php:22
+#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
 #: tpls/portfolio-listing.php:102 tpls/search-results.php:79
 #: tpls/search-results.php:91
 msgid "Next"
 msgstr "Nächster"
 
-#: inc/laborator_woocommerce.php:569
+#: inc/laborator_woocommerce.php:573
 #, php-format
 msgid "%s out of 5"
 msgstr "%s von 5"
 
-#: inc/laborator_woocommerce.php:640
+#: inc/laborator_woocommerce.php:644
 msgid "Share this item:"
 msgstr "Dieses Produkt teilen:"
 
-#: inc/laborator_woocommerce.php:861
+#: inc/laborator_woocommerce.php:865
 msgid "Cart"
 msgstr "Warenkorb"
 
-#: inc/laborator_woocommerce.php:943
+#: inc/laborator_woocommerce.php:947
 msgid "Logout"
 msgstr "Abmelden"
 
-#: inc/laborator_woocommerce.php:964
+#: inc/laborator_woocommerce.php:968
 msgid "My Orders"
 msgstr "Meine Bestellungen"
 
-#: inc/laborator_woocommerce.php:965
+#: inc/laborator_woocommerce.php:969
 msgid "Your recent orders are displayed in the table below."
 msgstr ""
 "Ihre bisherigen Bestellungen werden in der folgenden Tabelle dargestellt."
 
-#: inc/laborator_woocommerce.php:977
+#: inc/laborator_woocommerce.php:981
 msgid "My Downloads"
 msgstr "Meine Downloads"
 
-#: inc/laborator_woocommerce.php:978
+#: inc/laborator_woocommerce.php:982
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Ihre digitalen Downloads sind in der Tabelle unten dargestellt."
 
-#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
+#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
 msgid "Login"
 msgstr "Anmeldung"
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:1011
 msgid "&laquo; Go back"
 msgstr "&laquo; Zurück"
 
-#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
+#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
 msgid "Payment method"
 msgstr "Zahlungsweg"
 
-#: inc/laborator_woocommerce.php:1009
+#: inc/laborator_woocommerce.php:1013
 msgid "Added to cart"
 msgstr "In den Warenkorb"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1014
 msgid "Out of stock"
 msgstr "Nicht vorrätig"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1015
 msgid "Featured"
 msgstr "Hervorgehoben"
 
-#: inc/laborator_woocommerce.php:1012
-#: inc/lib/vc/lab_products_carousel/init.php:167
+#: inc/laborator_woocommerce.php:1016
+#: inc/lib/vc/lab_products_carousel/init.php:166
 msgid "Loading products..."
 msgstr "Lade Produkte..."
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1017
 msgid "No more products to show"
 msgstr "Keine weiteren Produkte anzuzeigen"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1018
 msgid "Edit information for this address type"
 msgstr "Adresse bearbeiten"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1019
 msgid "Reset password"
 msgstr "Passwort zurücksetzen"
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1020
 msgid "Lost password"
 msgstr "Passwort vergessen"
 
-#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
+#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
 msgid "Login or register"
 msgstr "Anmelden oder registrieren"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1022
 msgid "Manage your account and see your orders"
 msgstr "Verwalten Sie ihr Konto und Bestellungen"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1023
 msgctxt "submit button"
 msgid "Go"
 msgstr "Los"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1024
 msgid "My account"
 msgstr "Mein Konto"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1025
 msgid "Edit your account details or change your password"
 msgstr "Ändern der persönlichen Einstellungen oder Ihres Kennwortes"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1026
 msgid "Password change"
 msgstr "Passwort ändern"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1027
 msgid "(leave blank to leave unchanged)"
 msgstr "(leer lassen für keine Änderung)"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1028
 msgid "Current password"
 msgstr "Aktuelles Passwort"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1029
 msgid "New password"
 msgstr "Neues Passwort"
 
-#: inc/laborator_woocommerce.php:1500
+#: inc/laborator_woocommerce.php:1504
 msgid "View full size"
 msgstr "In voller Größe betrachten"
 
-#: inc/laborator_woocommerce.php:1688
+#: inc/laborator_woocommerce.php:1692
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Bewertet mit %s von 5"
@@ -482,15 +482,15 @@ msgstr "Ihr Warenkorb ist leer! <a href=\"%s\">Go shopping &raquo;</a>"
 msgid "Quantity: %s &times; <strong>%s</strong>"
 msgstr "Menge: %s &times; <strong>%s</strong>"
 
-#: tpls/wc-mini-cart.php:89
+#: tpls/wc-mini-cart.php:100
 msgid "View Cart"
 msgstr "Warenkorb ansehen"
 
-#: tpls/wc-mini-cart.php:93
+#: tpls/wc-mini-cart.php:104
 msgid "Checkout"
 msgstr "Kasse"
 
-#: tpls/wc-mini-cart.php:99
+#: tpls/wc-mini-cart.php:110
 msgid "Subtotal"
 msgstr "Zwischensumme"
 

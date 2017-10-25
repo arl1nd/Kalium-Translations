@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-07-10 16:41+0200\n"
-"PO-Revision-Date: 2017-07-10 16:41+0200\n"
+"POT-Creation-Date: 2017-08-30 14:39+0200\n"
+"PO-Revision-Date: 2017-08-30 14:39+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: sq\n"
@@ -115,74 +115,74 @@ msgstr "Përgjigju %s"
 msgid "Comment"
 msgstr "Koment"
 
-#: inc/functions/template/blog-template-functions.php:52
+#: inc/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr "Kategoria"
 
-#: inc/functions/template/blog-template-functions.php:58
+#: inc/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr "Etiketë"
 
-#: inc/functions/template/blog-template-functions.php:63
+#: inc/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr "Autor"
 
-#: inc/functions/template/blog-template-functions.php:68
+#: inc/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr "Viti"
 
-#: inc/functions/template/blog-template-functions.php:73
-#: inc/functions/template/blog-template-functions.php:78
+#: inc/functions/template/blog-template-functions.php:79
+#: inc/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr "Muaji"
 
-#: inc/functions/template/blog-template-functions.php:169
+#: inc/functions/template/blog-template-functions.php:175
 msgid "There are no posts to show"
 msgstr "Nuk ka postime per te shfaqur"
 
-#: inc/functions/template/blog-template-functions.php:220
+#: inc/functions/template/blog-template-functions.php:226
 msgid "Show more"
 msgstr "Shfaq më shume"
 
-#: inc/functions/template/blog-template-functions.php:221
+#: inc/functions/template/blog-template-functions.php:227
 msgid "All posts are shown"
 msgstr "Te gjitha postimet janë shfaqur"
 
-#: inc/functions/template/blog-template-functions.php:519
+#: inc/functions/template/blog-template-functions.php:525
 msgid "Previous page"
 msgstr "Faqja e mëparshme"
 
-#: inc/functions/template/blog-template-functions.php:520
+#: inc/functions/template/blog-template-functions.php:526
 msgid "Next page"
 msgstr "Faqja tjetër"
 
-#: inc/functions/template/blog-template-functions.php:611
+#: inc/functions/template/blog-template-functions.php:617
 msgid "Loading posts..."
 msgstr "Duke ngarkuar postimet..."
 
-#: inc/functions/template/blog-template-functions.php:736
+#: inc/functions/template/blog-template-functions.php:742
 msgid "Share:"
 msgstr "Shpërndaje:"
 
-#: inc/functions/template/blog-template-functions.php:1059
+#: inc/functions/template/blog-template-functions.php:1065
 msgid "Older Post"
 msgstr "Më të vjetra"
 
-#: inc/functions/template/blog-template-functions.php:1066
+#: inc/functions/template/blog-template-functions.php:1072
 msgid "Newer Post"
 msgstr "Më të reja"
 
-#: inc/functions/template/blog-template-functions.php:1110
+#: inc/functions/template/blog-template-functions.php:1116
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s në %s"
 
-#: inc/functions/template/blog-template-functions.php:1145
+#: inc/functions/template/blog-template-functions.php:1151
 msgid "reply"
 msgstr "përgjigju"
 
-#: inc/functions/template/blog-template-functions.php:1166
+#: inc/functions/template/blog-template-functions.php:1172
 #, php-format
 msgid "In reply to: %s"
 msgstr "Në përgjigje të: %s"
@@ -208,7 +208,7 @@ msgstr "Shfaq më shumë"
 msgid "No more posts to show"
 msgstr "Ska më poste për të shfaqur"
 
-#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1895 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Kërko faqen..."
 
@@ -226,138 +226,138 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:259 templates/global/pagination-normal.php:21
+#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
 #: tpls/portfolio-listing.php:99 tpls/search-results.php:76
 #: tpls/search-results.php:90
 msgid "Previous"
 msgstr "Prapa"
 
-#: inc/laborator_woocommerce.php:261 templates/global/pagination-normal.php:22
+#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
 #: tpls/portfolio-listing.php:102 tpls/search-results.php:79
 #: tpls/search-results.php:91
 msgid "Next"
 msgstr "Tjetra"
 
-#: inc/laborator_woocommerce.php:569
+#: inc/laborator_woocommerce.php:573
 #, php-format
 msgid "%s out of 5"
 msgstr "%s nga 5"
 
-#: inc/laborator_woocommerce.php:640
+#: inc/laborator_woocommerce.php:644
 msgid "Share this item:"
 msgstr "Shpërndaje këtë artikull:"
 
-#: inc/laborator_woocommerce.php:861
+#: inc/laborator_woocommerce.php:865
 msgid "Cart"
 msgstr "Shporta"
 
-#: inc/laborator_woocommerce.php:943
+#: inc/laborator_woocommerce.php:947
 msgid "Logout"
 msgstr "Dilni"
 
-#: inc/laborator_woocommerce.php:964
+#: inc/laborator_woocommerce.php:968
 msgid "My Orders"
 msgstr "Porositë e mija"
 
-#: inc/laborator_woocommerce.php:965
+#: inc/laborator_woocommerce.php:969
 msgid "Your recent orders are displayed in the table below."
 msgstr "Porositë tuaja do të shfaqen në tabelën e mëposhtme."
 
-#: inc/laborator_woocommerce.php:977
+#: inc/laborator_woocommerce.php:981
 msgid "My Downloads"
 msgstr "Shkarkimet e mia"
 
-#: inc/laborator_woocommerce.php:978
+#: inc/laborator_woocommerce.php:982
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Shkarkimet tuaja digjitale do të shfaqen në tabelën e mëposhtme."
 
-#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
+#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
 msgid "Login"
 msgstr "Hyni"
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:1011
 msgid "&laquo; Go back"
 msgstr "&laquo; Go prapa"
 
-#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
+#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
 msgid "Payment method"
 msgstr "Metoda e pagesës"
 
-#: inc/laborator_woocommerce.php:1009
+#: inc/laborator_woocommerce.php:1013
 msgid "Added to cart"
 msgstr "U shtua në shportë"
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1014
 msgid "Out of stock"
 msgstr "Jashtë stokut"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1015
 msgid "Featured"
 msgstr "E zgjedhur"
 
-#: inc/laborator_woocommerce.php:1012
-#: inc/lib/vc/lab_products_carousel/init.php:167
+#: inc/laborator_woocommerce.php:1016
+#: inc/lib/vc/lab_products_carousel/init.php:166
 msgid "Loading products..."
 msgstr "Duke ngarkuar produktet..."
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1017
 msgid "No more products to show"
 msgstr "Ska më produkte për të shfaqur"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1018
 msgid "Edit information for this address type"
 msgstr "Ndrysho informatën për kët tip të adresës"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1019
 msgid "Reset password"
 msgstr "Resetoni Fjalëkalimin"
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1020
 msgid "Lost password"
 msgstr "Humbi Fjalëkalimi"
 
-#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
+#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
 msgid "Login or register"
 msgstr "Hyr ose regjistrohuni"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1022
 msgid "Manage your account and see your orders"
 msgstr "Përkujdesu për llogarinë dhe shiko porositë"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1023
 msgctxt "submit button"
 msgid "Go"
 msgstr "Shko"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1024
 msgid "My account"
 msgstr "Llogaria juaj"
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1025
 msgid "Edit your account details or change your password"
 msgstr "Ndrysho detajet e llogarisë ose ndrysho fjalëkalimin"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1026
 msgid "Password change"
 msgstr "Ndryshim fjalëkalimi"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1027
 msgid "(leave blank to leave unchanged)"
 msgstr "(leje bosh pë ta lënë të pandryshuar)"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1028
 msgid "Current password"
 msgstr "Fjalëkalimi momental"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1029
 msgid "New password"
 msgstr "Fjalëkalimi i ri"
 
-#: inc/laborator_woocommerce.php:1500
+#: inc/laborator_woocommerce.php:1504
 msgid "View full size"
 msgstr "Shiko madhësinë e plotë"
 
-#: inc/laborator_woocommerce.php:1688
+#: inc/laborator_woocommerce.php:1692
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Vlerësuar %s nga 5"
@@ -370,7 +370,7 @@ msgstr "Postimi i Mëparshëm"
 msgid "Next Post"
 msgstr "Postimi Pasues"
 
-#: inc/lib/vc/custom-font-icons.php:32
+#: inc/lib/vc/custom-font-icons.php:31
 msgid "Icon"
 msgstr "Ikona"
 
