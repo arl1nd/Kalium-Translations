@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-07-10 17:12+0200\n"
+"POT-Creation-Date: 2018-01-11 12:42+0100\n"
 "PO-Revision-Date: 2015-07-10 10:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
@@ -111,79 +111,79 @@ msgstr ""
 msgid "Comment"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:52
+#: inc/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:58
+#: inc/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:63
+#: inc/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:68
+#: inc/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:73
-#: inc/functions/template/blog-template-functions.php:78
+#: inc/functions/template/blog-template-functions.php:79
+#: inc/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:169
+#: inc/functions/template/blog-template-functions.php:184
 msgid "There are no posts to show"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:220
+#: inc/functions/template/blog-template-functions.php:235
 msgid "Show more"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:221
+#: inc/functions/template/blog-template-functions.php:236
 msgid "All posts are shown"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:519
+#: inc/functions/template/blog-template-functions.php:537
 msgid "Previous page"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:520
+#: inc/functions/template/blog-template-functions.php:538
 msgid "Next page"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:611
+#: inc/functions/template/blog-template-functions.php:629
 msgid "Loading posts..."
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:736
+#: inc/functions/template/blog-template-functions.php:754
 msgid "Share:"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:1059
+#: inc/functions/template/blog-template-functions.php:1077
 msgid "Older Post"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:1066
+#: inc/functions/template/blog-template-functions.php:1084
 msgid "Newer Post"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:1110
+#: inc/functions/template/blog-template-functions.php:1128
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:1145
+#: inc/functions/template/blog-template-functions.php:1163
 msgid "reply"
 msgstr ""
 
-#: inc/functions/template/blog-template-functions.php:1166
+#: inc/functions/template/blog-template-functions.php:1184
 #, php-format
 msgid "In reply to: %s"
 msgstr ""
 
-#: inc/laborator_filters.php:136 inc/laborator_functions.php:132
+#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
 msgid "Email"
 msgstr ""
 
@@ -196,164 +196,164 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
+#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
 msgid "Show More"
 msgstr ""
 
-#: inc/laborator_functions.php:520
+#: inc/laborator_functions.php:508
 msgid "No more posts to show"
 msgstr ""
 
-#: inc/laborator_functions.php:1891 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr ""
 
-#: inc/laborator_portfolio.php:546
+#: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
 msgstr ""
 
-#: inc/laborator_portfolio.php:865
+#: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
 msgstr ""
 
-#: inc/laborator_portfolio.php:1828
+#: inc/laborator_portfolio.php:1834
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:259
+#: inc/laborator_woocommerce.php:263
 #: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:99
 #: tpls/search-results.php:76 tpls/search-results.php:90
 msgid "Previous"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:261
+#: inc/laborator_woocommerce.php:265
 #: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:102
 #: tpls/search-results.php:79 tpls/search-results.php:91
 msgid "Next"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:569
+#: inc/laborator_woocommerce.php:594
 #, php-format
 msgid "%s out of 5"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:640
+#: inc/laborator_woocommerce.php:665
 msgid "Share this item:"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:861
+#: inc/laborator_woocommerce.php:901
 msgid "Cart"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:943
+#: inc/laborator_woocommerce.php:964
 msgid "Logout"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:964
+#: inc/laborator_woocommerce.php:985
 msgid "My Orders"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:965
+#: inc/laborator_woocommerce.php:986
 msgid "Your recent orders are displayed in the table below."
 msgstr ""
 
-#: inc/laborator_woocommerce.php:977
+#: inc/laborator_woocommerce.php:998
 msgid "My Downloads"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:978
+#: inc/laborator_woocommerce.php:999
 msgid "Your digital downloads are displayed in the table below."
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1006 inc/laborator_woocommerce.php:1556
+#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
 msgid "Login"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1007
+#: inc/laborator_woocommerce.php:1028
 msgid "&laquo; Go back"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1008 inc/laborator_woocommerce.php:1667
+#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
 msgid "Payment method"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1009
+#: inc/laborator_woocommerce.php:1030
 msgid "Added to cart"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1010
+#: inc/laborator_woocommerce.php:1031
 msgid "Out of stock"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1032
 msgid "Featured"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1012
-#: inc/lib/vc/lab_products_carousel/init.php:167
+#: inc/laborator_woocommerce.php:1033
+#: inc/lib/vc/lab_products_carousel/init.php:243
 msgid "Loading products..."
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1034
 msgid "No more products to show"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1035
 msgid "Edit information for this address type"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1036
 msgid "Reset password"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1016
+#: inc/laborator_woocommerce.php:1037
 msgid "Lost password"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1017 inc/laborator_woocommerce.php:1554
+#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
 msgid "Login or register"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1039
 msgid "Manage your account and see your orders"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1040
 msgctxt "submit button"
 msgid "Go"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1041
 msgid "My account"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1021
+#: inc/laborator_woocommerce.php:1042
 msgid "Edit your account details or change your password"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1043
 msgid "Password change"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1044
 msgid "(leave blank to leave unchanged)"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1045
 msgid "Current password"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1046
 msgid "New password"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1500
+#: inc/laborator_woocommerce.php:1531
 msgid "View full size"
 msgstr ""
 
-#: inc/laborator_woocommerce.php:1688
+#: inc/laborator_woocommerce.php:1720
 #, php-format
 msgid "Rated %s out of 5"
 msgstr ""
@@ -366,7 +366,7 @@ msgstr ""
 msgid "Next Post"
 msgstr ""
 
-#: inc/lib/vc/custom-font-icons.php:32
+#: inc/lib/vc/custom-font-icons.php:31
 msgid "Icon"
 msgstr ""
 
@@ -474,22 +474,22 @@ msgstr ""
 
 #: tpls/wc-mini-cart.php:67
 #, php-format
-msgid "Quantity: %s &times; <strong>%s</strong>"
+msgid "Quantity: %s %s %s"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:89
+#: tpls/wc-mini-cart.php:100
 msgid "View Cart"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:93
+#: tpls/wc-mini-cart.php:104
 msgid "Checkout"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:99
+#: tpls/wc-mini-cart.php:110
 msgid "Subtotal"
 msgstr ""
 
-#: vc_templates/lab_blog_posts.php:223
+#: vc_templates/lab_blog_posts.php:220
 msgid "Loading blog posts..."
 msgstr ""
 

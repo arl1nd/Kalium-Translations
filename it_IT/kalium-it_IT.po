@@ -1,9 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-08-30 14:39+0200\n"
-"PO-Revision-Date: 2017-08-30 14:39+0200\n"
-"Last-Translator: Laborator <info@laborator.co>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-11 12:48+0100\n"
+"PO-Revision-Date: 2018-01-11 12:48+0100\n"
+"Last-Translator: admin <info@alcegraphics.com>\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
@@ -14,10 +15,10 @@ msgstr ""
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.1\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Translation-Version: 2.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -38,8 +39,8 @@ msgid ""
 "We’re sorry, the page you have looked for does not exist in our database! "
 "<br /> Perhaps you would like to go to our <a href=\"%s\">home page</a>?"
 msgstr ""
-"Siamo spiacenti, la pagina che hai cercato non esiste nel nostro database! "
-"<br /> Forse vuoi andare alla nostra <a href=\"%s\">home page</a>?"
+"La pagina che stai cercando non esiste.\n"
+"Vuoi tornare alla <a href=\"%s\">home page</a>?"
 
 #: coming-soon-mode.php:91
 msgid "Days"
@@ -47,7 +48,7 @@ msgstr "Giorni"
 
 #: coming-soon-mode.php:91
 msgid "Day"
-msgstr "Giomo"
+msgstr "Giorno"
 
 #: coming-soon-mode.php:95
 msgid "Hours"
@@ -55,7 +56,7 @@ msgstr "Ore"
 
 #: coming-soon-mode.php:95
 msgid "Hour"
-msgstr "Ora"
+msgstr "ora"
 
 #: coming-soon-mode.php:99
 msgid "Minutes"
@@ -82,11 +83,11 @@ msgstr[1] "%d Commenti"
 
 #: comments.php:23
 msgid "Join the discussion and tell us your opinion."
-msgstr "Partecipa alla discussione e dacci la tua opinione."
+msgstr "Unisciti alla discussione per dirci la tua"
 
 #: comments.php:23
 msgid "Be the first to comment on this article."
-msgstr "Puoi essere il primo a commentare questo articolo."
+msgstr "Commenta per primo"
 
 #: comments.php:44
 #, php-format
@@ -96,15 +97,15 @@ msgstr "%s Precedente"
 #: comments.php:45
 #, php-format
 msgid "Next %s"
-msgstr "Prossimo %s"
+msgstr "Successivo %s"
 
 #: comments.php:78
 msgid "Leave a reply"
-msgstr "Lascia un commento"
+msgstr "Rispondi"
 
 #: comments.php:78
 msgid "Share your thoughts"
-msgstr "Condividi i tuoi pensieri"
+msgstr "Condividi la tua opinione"
 
 #: comments.php:79
 #, php-format
@@ -136,91 +137,91 @@ msgstr "Anno"
 msgid "Month"
 msgstr "Mese"
 
-#: inc/functions/template/blog-template-functions.php:175
+#: inc/functions/template/blog-template-functions.php:184
 msgid "There are no posts to show"
-msgstr "Nessun post da mostrare"
+msgstr "Non ci sono altri elementi"
 
-#: inc/functions/template/blog-template-functions.php:226
+#: inc/functions/template/blog-template-functions.php:235
 msgid "Show more"
-msgstr "Mostra di più"
+msgstr "Mostra ancora"
 
-#: inc/functions/template/blog-template-functions.php:227
+#: inc/functions/template/blog-template-functions.php:236
 msgid "All posts are shown"
-msgstr "Tutti i post vengono visualizzati"
+msgstr "Questi sono tutti gli articoli"
 
-#: inc/functions/template/blog-template-functions.php:525
+#: inc/functions/template/blog-template-functions.php:537
 msgid "Previous page"
 msgstr "Pagina precedente"
 
-#: inc/functions/template/blog-template-functions.php:526
+#: inc/functions/template/blog-template-functions.php:538
 msgid "Next page"
-msgstr "Prossima pagina"
+msgstr "Pagina successiva"
 
-#: inc/functions/template/blog-template-functions.php:617
+#: inc/functions/template/blog-template-functions.php:629
 msgid "Loading posts..."
-msgstr "In caricamento..."
+msgstr "Sto caricando..."
 
-#: inc/functions/template/blog-template-functions.php:742
+#: inc/functions/template/blog-template-functions.php:754
 msgid "Share:"
 msgstr "Condividi:"
 
-#: inc/functions/template/blog-template-functions.php:1065
+#: inc/functions/template/blog-template-functions.php:1077
 msgid "Older Post"
-msgstr "Meno recente"
+msgstr "Articoli più vecchi"
 
-#: inc/functions/template/blog-template-functions.php:1072
+#: inc/functions/template/blog-template-functions.php:1084
 msgid "Newer Post"
-msgstr "Più recente"
+msgstr "Articoli più recenti"
 
-#: inc/functions/template/blog-template-functions.php:1116
+#: inc/functions/template/blog-template-functions.php:1128
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s a %s"
 
-#: inc/functions/template/blog-template-functions.php:1151
+#: inc/functions/template/blog-template-functions.php:1163
 msgid "reply"
 msgstr "rispondi"
 
-#: inc/functions/template/blog-template-functions.php:1172
+#: inc/functions/template/blog-template-functions.php:1184
 #, php-format
 msgid "In reply to: %s"
-msgstr "Rispondi a: %s"
+msgstr "In risposta a: %s"
 
-#: inc/laborator_filters.php:136 inc/laborator_functions.php:132
+#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: inc/laborator_functions.php:131
 #, php-format
 msgid "Check out what I just spotted: %s"
-msgstr "Verifica cosa ho appena notato: %s"
+msgstr "Guarda cosa ho appena visto: %s"
 
 #: inc/laborator_functions.php:138
 msgid "Print"
 msgstr "Stampa"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
+#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
 msgid "Show More"
-msgstr "Mostra di più"
+msgstr "Carica altri"
 
-#: inc/laborator_functions.php:520
+#: inc/laborator_functions.php:508
 msgid "No more posts to show"
-msgstr "Nessun articolo da mostrare"
+msgstr "Non ci sono più elementi da mostrare"
 
-#: inc/laborator_functions.php:1895 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Cerca nel sito..."
 
-#: inc/laborator_portfolio.php:546
+#: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
-msgstr "Il tuo browser non supporta i video HTML5."
+msgstr "Il tuo browser non supporta video HTML5."
 
-#: inc/laborator_portfolio.php:865
+#: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
-msgstr "Nessun altro elemento portfolio da mostrare"
+msgstr "Non ci sono più progetti da mostrare"
 
-#: inc/laborator_portfolio.php:1828
+#: inc/laborator_portfolio.php:1834
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -236,133 +237,131 @@ msgstr "Precedente"
 #: tpls/portfolio-listing.php:102 tpls/search-results.php:79
 #: tpls/search-results.php:91
 msgid "Next"
-msgstr "Prossimo"
+msgstr "Successivo"
 
-#: inc/laborator_woocommerce.php:573
+#: inc/laborator_woocommerce.php:594
 #, php-format
 msgid "%s out of 5"
-msgstr "%s su 5"
+msgstr "%s di 5"
 
-#: inc/laborator_woocommerce.php:644
+#: inc/laborator_woocommerce.php:665
 msgid "Share this item:"
-msgstr "Condividi questo articolo:"
+msgstr "Condividi:"
 
-#: inc/laborator_woocommerce.php:865
+#: inc/laborator_woocommerce.php:901
 msgid "Cart"
 msgstr "Carrello"
 
-#: inc/laborator_woocommerce.php:947
+#: inc/laborator_woocommerce.php:964
 msgid "Logout"
-msgstr "Uscita"
+msgstr "Logout"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:985
 msgid "My Orders"
 msgstr "I miei ordini"
 
-#: inc/laborator_woocommerce.php:969
+#: inc/laborator_woocommerce.php:986
 msgid "Your recent orders are displayed in the table below."
-msgstr ""
-"I vostri ordini recenti vengono visualizzati nella tabella sottostante."
+msgstr "I tuoi ultimi ordini sono visualizzati nella tabella qui sotto"
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:998
 msgid "My Downloads"
 msgstr "I miei download"
 
-#: inc/laborator_woocommerce.php:982
+#: inc/laborator_woocommerce.php:999
 msgid "Your digital downloads are displayed in the table below."
-msgstr ""
-"I tuoi download digitali vengono visualizzati nella tabella sottostante."
+msgstr "I tuoi download digitali sono visualizzati nella tabella qui sotto"
 
-#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
 msgid "Login"
-msgstr "Accesso"
+msgstr "Login"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1028
 msgid "&laquo; Go back"
 msgstr "&laquo; Torna indietro"
 
-#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
 msgid "Payment method"
 msgstr "Metodo di pagamento"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1030
 msgid "Added to cart"
 msgstr "Aggiunto al carrello"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1031
 msgid "Out of stock"
-msgstr "Esaurito"
+msgstr "Non disponibile"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1032
 msgid "Featured"
-msgstr "In evidenza"
+msgstr "Featured"
 
-#: inc/laborator_woocommerce.php:1016
-#: inc/lib/vc/lab_products_carousel/init.php:166
+#: inc/laborator_woocommerce.php:1033
+#: inc/lib/vc/lab_products_carousel/init.php:243
 msgid "Loading products..."
-msgstr "Caricamento prodotti..."
+msgstr "Sto caricando i prodotti..."
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1034
 msgid "No more products to show"
-msgstr "Nessun altro prodotto da mostrare"
+msgstr "Non ci sono altri prodotti da mostrare"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1035
 msgid "Edit information for this address type"
-msgstr "Modifica le informazioni per questo tipo di indirizzo"
+msgstr "Modifica le informazioni per questo indirizzo"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1036
 msgid "Reset password"
-msgstr "Reimposta password"
+msgstr "Reset della password"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1037
 msgid "Lost password"
-msgstr "Password persa"
+msgstr "Password dimenticata"
 
-#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
+#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
 msgid "Login or register"
-msgstr "Accedi o registrati"
+msgstr "Login o registrati"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1039
 msgid "Manage your account and see your orders"
 msgstr "Gestisci il tuo account e vedi i tuoi ordini"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1040
 msgctxt "submit button"
 msgid "Go"
 msgstr "Vai"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1041
 msgid "My account"
 msgstr "Il mio account"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1042
 msgid "Edit your account details or change your password"
-msgstr "Modifica i dettagli del tuo account o cambia la tua password"
+msgstr "Modifica i dettagli del tuo account o cambia la password"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1043
 msgid "Password change"
-msgstr "Modifica password"
+msgstr "Cambia la password"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1044
 msgid "(leave blank to leave unchanged)"
-msgstr "(lascia il campo vuoto per non modificarla)"
+msgstr "(lascia vuoto per non modificare)"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1045
 msgid "Current password"
 msgstr "Password attuale"
 
-#: inc/laborator_woocommerce.php:1029
+#: inc/laborator_woocommerce.php:1046
 msgid "New password"
 msgstr "Nuova password"
 
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1531
 msgid "View full size"
-msgstr "Visualizza dimensioni interi"
+msgstr "Vedi intero"
 
-#: inc/laborator_woocommerce.php:1692
+#: inc/laborator_woocommerce.php:1720
 #, php-format
 msgid "Rated %s out of 5"
-msgstr "Valutato %s su 5"
+msgstr "Votato %s su 5"
 
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
@@ -380,34 +379,34 @@ msgstr "Icona"
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
-msgstr "[%s] È stato ricevuto un nuovo messaggio dal modulo di contatto."
+msgstr "[%s] E' arrivato un nuovo messaggio dal form di contatto"
 
 #: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "You have received new contact form message."
-msgstr "Hai ricevuto un nuovo messaggio dal modulo di contatto."
+msgstr "Hai ricevuto un nuovo messaggio dal form di contatto"
 
 #: inc/lib/vc/lab_contact_form/init.php:161
 msgctxt "contact form"
 msgid "----- Message Details -----"
-msgstr "----- Dettagli del messaggio -----"
+msgstr "----- Dettagli messaggio -----"
 
 #: inc/lib/vc/lab_contact_form/init.php:175
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
-msgstr "Questo messaggio è stato inviato dall'IP: %s"
+msgstr "Messaggio inviato dall'IP: %s"
 
 #: inc/lib/vc/lab_contact_form/init.php:177
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
-msgstr "URL Sito: %s"
+msgstr "Site URL: %s"
 
 #: searchform.php:15 searchform.php:16
 msgctxt "label"
 msgid "Search for:"
-msgstr "Ricerca per:"
+msgstr "Cerca:"
 
 #: searchform.php:18 tpls/menu-mobile.php:56
 msgid "Go"
@@ -419,15 +418,15 @@ msgstr "Cerca"
 
 #: tpls/portfolio-listing-title.php:66
 msgid "All"
-msgstr "Tutti"
+msgstr "Tutto"
 
 #: tpls/portfolio-single-5.php:79
 msgid "Click here to show project info"
-msgstr "Clicca qui per visualizzare le informazioni di progetto"
+msgstr "Clicca qui per mostrare le info del progetto"
 
 #: tpls/portfolio-single-6.php:35
 msgid "Open in Lightbox"
-msgstr "Apri in una Lightbox"
+msgstr "Apri con lightbox"
 
 #: tpls/portfolio-single-like-share.php:53
 msgid "Share"
@@ -443,27 +442,27 @@ msgstr "Progetto successivo"
 
 #: tpls/portfolio-single-prevnext.php:127
 msgid "Go to portfolio archive"
-msgstr "Vai all'archivio portfolio"
+msgstr "Vai al porfolio completo"
 
 #: tpls/search-results.php:21
 msgid "Click to change your search"
-msgstr "Fai clic per modificare la tua ricerca"
+msgstr "Clicca per modificare la ricerca"
 
 #: tpls/search-results.php:27
 #, php-format
 msgid "%d results for “%s”"
-msgstr "%d risultati per “%s”"
+msgstr "%d risultato per “%s”"
 
 #: tpls/search-results.php:30
 #, php-format
 msgid "We have found one match with the word you searched."
 msgid_plural "We have found %d results with the word you searched."
-msgstr[0] "Abbiamo trovato una corrispondenza con la parola che hai cercato."
-msgstr[1] "Abbiamo trovato %d corrispondenze con la parola che hai cercato."
+msgstr[0] "Abbiamo trovato una corrispondenza con la tua ricerca"
+msgstr[1] "Abbiamo trovato %d corrispondenze con la tua ricerca"
 
 #: tpls/search-results.php:32
 msgid "There is nothing found that matches your search criteria."
-msgstr "Non è stato trovato nulla che corrisponda ai tuoi criteri di ricerca."
+msgstr "Non c'è nessuna corrispondenza con la tua ricerca"
 
 #: tpls/search-results.php:65
 msgid "Continue &#65515;"
@@ -471,37 +470,38 @@ msgstr "Continua &#65515;"
 
 #: tpls/wc-mini-cart.php:18
 msgid "Loading cart contents..."
-msgstr "Caricamento dei prodotti…"
+msgstr "Sto caricando il carrello..."
 
 #: tpls/wc-mini-cart.php:30
 #, php-format
 msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
-msgstr "Il carrello è vuoto! <a href=\"%s\">Vai a fare shopping &raquo;</a>"
+msgstr ""
+"Il tuo carrello è vuoto! <a href=\"%s\">Continua a fare shopping &raquo;</a>"
 
 #: tpls/wc-mini-cart.php:67
 #, php-format
-msgid "Quantity: %s &times; <strong>%s</strong>"
-msgstr "Quantità: %s &times; <strong>×%s</strong>"
+msgid "Quantity: %s %s %s"
+msgstr "Quantità: %s %s %s"
 
-#: tpls/wc-mini-cart.php:89
+#: tpls/wc-mini-cart.php:100
 msgid "View Cart"
-msgstr "Vedi carrello"
+msgstr "Vedi il carrello"
 
-#: tpls/wc-mini-cart.php:93
+#: tpls/wc-mini-cart.php:104
 msgid "Checkout"
-msgstr "Alla cassa"
+msgstr "Checkout"
 
-#: tpls/wc-mini-cart.php:99
+#: tpls/wc-mini-cart.php:110
 msgid "Subtotal"
 msgstr "Subtotale"
 
-#: vc_templates/lab_blog_posts.php:223
+#: vc_templates/lab_blog_posts.php:220
 msgid "Loading blog posts..."
-msgstr "Caricamento articoli del blog..."
+msgstr "Sto caricando gli articoli..."
 
 #: vc_templates/lab_contact_form.php:30
 msgid "Please fill \"%\" field."
-msgstr "Si prega di compilare il campo \"%\"."
+msgstr "Per piacere compila \"%\" campi."
 
 #: vc_templates/lab_message.php:57
 msgid "Close"
@@ -513,7 +513,7 @@ msgstr "Kalium"
 
 #. Theme URI of the plugin/theme
 msgid "https://laborator.co/themes/kalium/"
-msgstr ""
+msgstr "https://laborator.co/themes/kalium/"
 
 #. Description of the plugin/theme
 msgid ""
@@ -523,6 +523,10 @@ msgid ""
 "\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
 "\">Facebook</a>."
 msgstr ""
+"Inizia a creare fantastici siti con Kalium:  <a href=\"https://themeforest."
+"net/user/laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
+"\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
+"\">Facebook</a>."
 
 #. Author of the plugin/theme
 msgid "Laborator"
@@ -530,61 +534,7 @@ msgstr "Laborator"
 
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
-msgstr ""
+msgstr "https://laborator.co/"
 
-#~ msgid "Login or Register"
-#~ msgstr "Accedi o registrati"
-
-#~ msgid "Payment Method"
-#~ msgstr "Metodo di pagamento"
-
-#~ msgid "Reset Password"
-#~ msgstr "Reset password"
-
-#~ msgid "Lost Password"
-#~ msgstr "Password persa"
-
-#~ msgid "My Account"
-#~ msgstr "Il mio account"
-
-#~ msgid ""
-#~ "Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
-#~ "goods online or just feeling creative, Kalium is absolutely what you have "
-#~ "been waiting for. Start creating that amazing website that you have been "
-#~ "dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
-#~ "laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
-#~ "\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
-#~ "\">Facebook</a>."
-#~ msgstr ""
-#~ "Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
-#~ "goods online or just feeling creative, Kalium is absolutely what you have "
-#~ "been waiting for. Start creating that amazing website that you have been "
-#~ "dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
-#~ "laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
-#~ "\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
-#~ "\">Facebook</a>."
-
-#~ msgid "http://www.laborator.co/view-theme/kalium"
-#~ msgstr "http://www.laborator.co/view-theme/kalium"
-
-#~ msgid "%s at %s"
-#~ msgstr "%s in %s"
-
-#~ msgid "Password Change"
-#~ msgstr "Cambia password"
-
-#~ msgid "Current Password"
-#~ msgstr "Password attuale"
-
-#~ msgid "New Password"
-#~ msgstr "Nuova password"
-
-#~ msgid "http://laborator.co/"
-#~ msgstr "http://laborator.co/"
-
-#~ msgid "Visit plugin homepage"
-#~ msgstr "Visita l'home page del plugin"
-
-#~ msgctxt "by author"
-#~ msgid "by %s"
-#~ msgstr "di %s"
+#~ msgid "Quantity: %s &times; <strong>%s</strong>"
+#~ msgstr "Quantità:"

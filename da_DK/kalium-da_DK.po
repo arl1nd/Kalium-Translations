@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2017-08-30 14:40+0200\n"
-"PO-Revision-Date: 2017-08-30 14:40+0200\n"
+"POT-Creation-Date: 2018-01-11 12:51+0100\n"
+"PO-Revision-Date: 2018-01-11 12:51+0100\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: da_DK\n"
@@ -136,58 +136,58 @@ msgstr "År"
 msgid "Month"
 msgstr "Måned"
 
-#: inc/functions/template/blog-template-functions.php:175
+#: inc/functions/template/blog-template-functions.php:184
 msgid "There are no posts to show"
 msgstr "Der er ingen indlæg at vise"
 
-#: inc/functions/template/blog-template-functions.php:226
+#: inc/functions/template/blog-template-functions.php:235
 msgid "Show more"
 msgstr "Vis mere"
 
-#: inc/functions/template/blog-template-functions.php:227
+#: inc/functions/template/blog-template-functions.php:236
 msgid "All posts are shown"
 msgstr "Alle indlæg vises"
 
-#: inc/functions/template/blog-template-functions.php:525
+#: inc/functions/template/blog-template-functions.php:537
 msgid "Previous page"
 msgstr "Tidligere side"
 
-#: inc/functions/template/blog-template-functions.php:526
+#: inc/functions/template/blog-template-functions.php:538
 msgid "Next page"
 msgstr "Næste side"
 
-#: inc/functions/template/blog-template-functions.php:617
+#: inc/functions/template/blog-template-functions.php:629
 msgid "Loading posts..."
 msgstr "Indlæser indlæg..."
 
-#: inc/functions/template/blog-template-functions.php:742
+#: inc/functions/template/blog-template-functions.php:754
 msgid "Share:"
 msgstr "Del:"
 
-#: inc/functions/template/blog-template-functions.php:1065
+#: inc/functions/template/blog-template-functions.php:1077
 msgid "Older Post"
 msgstr "Ældre indlæg"
 
-#: inc/functions/template/blog-template-functions.php:1072
+#: inc/functions/template/blog-template-functions.php:1084
 msgid "Newer Post"
 msgstr "Nyere indlæg"
 
-#: inc/functions/template/blog-template-functions.php:1116
+#: inc/functions/template/blog-template-functions.php:1128
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s på %s"
 
-#: inc/functions/template/blog-template-functions.php:1151
+#: inc/functions/template/blog-template-functions.php:1163
 msgid "reply"
 msgstr "svar"
 
-#: inc/functions/template/blog-template-functions.php:1172
+#: inc/functions/template/blog-template-functions.php:1184
 #, php-format
 msgid "In reply to: %s"
 msgstr "Som svar til: %s"
 
-#: inc/laborator_filters.php:136 inc/laborator_functions.php:132
+#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
 msgid "Email"
 msgstr "Email"
 
@@ -200,27 +200,27 @@ msgstr "Tjek hvad jeg lige opdaget: %s"
 msgid "Print"
 msgstr "Print"
 
-#: inc/laborator_functions.php:519 inc/laborator_portfolio.php:864
+#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
 msgid "Show More"
 msgstr "Vis mere"
 
-#: inc/laborator_functions.php:520
+#: inc/laborator_functions.php:508
 msgid "No more posts to show"
 msgstr "Ikke flere indlæg at vise"
 
-#: inc/laborator_functions.php:1895 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
 msgid "Search site..."
 msgstr "Søg..."
 
-#: inc/laborator_portfolio.php:546
+#: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
 msgstr "Din browser understøtter ikke HTML5-video."
 
-#: inc/laborator_portfolio.php:865
+#: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
 msgstr "Ikke flere portefølje emner at vise"
 
-#: inc/laborator_portfolio.php:1828
+#: inc/laborator_portfolio.php:1834
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -238,126 +238,126 @@ msgstr "Tidligere"
 msgid "Next"
 msgstr "Næste"
 
-#: inc/laborator_woocommerce.php:573
+#: inc/laborator_woocommerce.php:594
 #, php-format
 msgid "%s out of 5"
 msgstr "%s ud af 5"
 
-#: inc/laborator_woocommerce.php:644
+#: inc/laborator_woocommerce.php:665
 msgid "Share this item:"
 msgstr "Del dette produkt:"
 
-#: inc/laborator_woocommerce.php:865
+#: inc/laborator_woocommerce.php:901
 msgid "Cart"
 msgstr "Kurv"
 
-#: inc/laborator_woocommerce.php:947
+#: inc/laborator_woocommerce.php:964
 msgid "Logout"
 msgstr "Log ud"
 
-#: inc/laborator_woocommerce.php:968
+#: inc/laborator_woocommerce.php:985
 msgid "My Orders"
 msgstr "Mine Ordre"
 
-#: inc/laborator_woocommerce.php:969
+#: inc/laborator_woocommerce.php:986
 msgid "Your recent orders are displayed in the table below."
 msgstr "Din seneste ordrer vises i tabellen herunder."
 
-#: inc/laborator_woocommerce.php:981
+#: inc/laborator_woocommerce.php:998
 msgid "My Downloads"
 msgstr "Mine downloads"
 
-#: inc/laborator_woocommerce.php:982
+#: inc/laborator_woocommerce.php:999
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Dine opslag vises i tabellen herunder."
 
-#: inc/laborator_woocommerce.php:1010 inc/laborator_woocommerce.php:1560
+#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
 msgid "Login"
 msgstr "Log ind"
 
-#: inc/laborator_woocommerce.php:1011
+#: inc/laborator_woocommerce.php:1028
 msgid "&laquo; Go back"
 msgstr "&laquo; Tilbage"
 
-#: inc/laborator_woocommerce.php:1012 inc/laborator_woocommerce.php:1671
+#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
 msgid "Payment method"
 msgstr "Betalingsmetode"
 
-#: inc/laborator_woocommerce.php:1013
+#: inc/laborator_woocommerce.php:1030
 msgid "Added to cart"
 msgstr "Tilføjet til kurv"
 
-#: inc/laborator_woocommerce.php:1014
+#: inc/laborator_woocommerce.php:1031
 msgid "Out of stock"
 msgstr "Ikke på lager"
 
-#: inc/laborator_woocommerce.php:1015
+#: inc/laborator_woocommerce.php:1032
 msgid "Featured"
 msgstr "Udvalgte"
 
-#: inc/laborator_woocommerce.php:1016
-#: inc/lib/vc/lab_products_carousel/init.php:166
+#: inc/laborator_woocommerce.php:1033
+#: inc/lib/vc/lab_products_carousel/init.php:243
 msgid "Loading products..."
 msgstr "Indlæser produkter…"
 
-#: inc/laborator_woocommerce.php:1017
+#: inc/laborator_woocommerce.php:1034
 msgid "No more products to show"
 msgstr "Ikke flere produkter at vise"
 
-#: inc/laborator_woocommerce.php:1018
+#: inc/laborator_woocommerce.php:1035
 msgid "Edit information for this address type"
 msgstr "Redigere oplysninger til denne adressetype"
 
-#: inc/laborator_woocommerce.php:1019
+#: inc/laborator_woocommerce.php:1036
 msgid "Reset password"
 msgstr "Nulstil adgangskode"
 
-#: inc/laborator_woocommerce.php:1020
+#: inc/laborator_woocommerce.php:1037
 msgid "Lost password"
 msgstr "Glemt kodeord"
 
-#: inc/laborator_woocommerce.php:1021 inc/laborator_woocommerce.php:1558
+#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
 msgid "Login or register"
 msgstr "Log ind eller registrer"
 
-#: inc/laborator_woocommerce.php:1022
+#: inc/laborator_woocommerce.php:1039
 msgid "Manage your account and see your orders"
 msgstr "Administrer din konto og se dine ordrer"
 
-#: inc/laborator_woocommerce.php:1023
+#: inc/laborator_woocommerce.php:1040
 msgctxt "submit button"
 msgid "Go"
 msgstr "Gå"
 
-#: inc/laborator_woocommerce.php:1024
+#: inc/laborator_woocommerce.php:1041
 msgid "My account"
 msgstr "Min konto"
 
-#: inc/laborator_woocommerce.php:1025
+#: inc/laborator_woocommerce.php:1042
 msgid "Edit your account details or change your password"
 msgstr "Redigere dine kontooplysninger eller ændre din kodeord"
 
-#: inc/laborator_woocommerce.php:1026
+#: inc/laborator_woocommerce.php:1043
 msgid "Password change"
 msgstr "Ændring af adgangskode"
 
-#: inc/laborator_woocommerce.php:1027
+#: inc/laborator_woocommerce.php:1044
 msgid "(leave blank to leave unchanged)"
 msgstr "(efterlad blank for uændret)"
 
-#: inc/laborator_woocommerce.php:1028
+#: inc/laborator_woocommerce.php:1045
 msgid "Current password"
 msgstr "Nuværende adgangskode"
 
-#: inc/laborator_woocommerce.php:1029
+#: inc/laborator_woocommerce.php:1046
 msgid "New password"
 msgstr "Ny adgangskode"
 
-#: inc/laborator_woocommerce.php:1504
+#: inc/laborator_woocommerce.php:1531
 msgid "View full size"
 msgstr "Se fuld størrelse"
 
-#: inc/laborator_woocommerce.php:1692
+#: inc/laborator_woocommerce.php:1720
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Vurderet %s ud af 5"
@@ -478,22 +478,22 @@ msgstr "Din kurv er tom! <a href=\"%s\">Gå shopping &raquo;</a>"
 
 #: tpls/wc-mini-cart.php:67
 #, php-format
-msgid "Quantity: %s &times; <strong>%s</strong>"
-msgstr "Mængde: %s &times; <strong>%s</strong>"
+msgid "Quantity: %s %s %s"
+msgstr ""
 
-#: tpls/wc-mini-cart.php:89
+#: tpls/wc-mini-cart.php:100
 msgid "View Cart"
 msgstr "Se Kurv"
 
-#: tpls/wc-mini-cart.php:93
+#: tpls/wc-mini-cart.php:104
 msgid "Checkout"
 msgstr "Kasse"
 
-#: tpls/wc-mini-cart.php:99
+#: tpls/wc-mini-cart.php:110
 msgid "Subtotal"
 msgstr "Subtotal"
 
-#: vc_templates/lab_blog_posts.php:223
+#: vc_templates/lab_blog_posts.php:220
 msgid "Loading blog posts..."
 msgstr "Lastning blogindlæg..."
 
@@ -529,6 +529,9 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Quantity: %s &times; <strong>%s</strong>"
+#~ msgstr "Mængde: %s &times; <strong>%s</strong>"
 
 #~ msgid "Login or Register"
 #~ msgstr "Log ind eller Registrer"
