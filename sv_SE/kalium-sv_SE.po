@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2018-01-11 12:48+0100\n"
-"PO-Revision-Date: 2018-01-11 12:48+0100\n"
+"POT-Creation-Date: 2018-03-06 15:01+0100\n"
+"PO-Revision-Date: 2018-03-06 15:01+0100\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.1\n"
+"X-Translation-Version: 2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -141,6 +141,7 @@ msgid "There are no posts to show"
 msgstr "Inga inlägg att visa"
 
 #: inc/functions/template/blog-template-functions.php:235
+#: inc/functions/template/woocommerce-template-functions.php:429
 msgid "Show more"
 msgstr "Visa Fler"
 
@@ -187,34 +188,144 @@ msgstr "svara"
 msgid "In reply to: %s"
 msgstr "Svar till: %s"
 
-#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
+#: inc/functions/template/woocommerce-template-functions.php:430
+msgid "No more products to show"
+msgstr "Det finns inga fler produkter att visa"
+
+#: inc/functions/template/woocommerce-template-functions.php:817
+msgid "Added to cart"
+msgstr "Läggas till i kundvagnen"
+
+#: inc/functions/template/woocommerce-template-functions.php:851
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:99
+#: tpls/search-results.php:76 tpls/search-results.php:90
+msgid "Previous"
+msgstr "Föregående"
+
+#: inc/functions/template/woocommerce-template-functions.php:852
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:102
+#: tpls/search-results.php:79 tpls/search-results.php:91
+msgid "Next"
+msgstr "Nästa"
+
+#: inc/functions/template/woocommerce-template-functions.php:1123
+#, php-format
+msgid "%s out of 5"
+msgstr "%s av 5"
+
+#: inc/functions/template/woocommerce-template-functions.php:1236
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Betygsatt %s av 5"
+
+#: inc/functions/template/woocommerce-template-functions.php:1250
+msgid "Payment method"
+msgstr "Betalsätt"
+
+#: inc/functions/template/woocommerce-template-functions.php:1294
+msgid "Login or register"
+msgstr "Logga in eller Registrera"
+
+#: inc/functions/template/woocommerce-template-functions.php:1296
+msgid "Login"
+msgstr "Logga in"
+
+#: inc/functions/template/woocommerce-template-functions.php:1300
+msgid "Manage your account and see your orders"
+msgstr "Hantera ditt konto och se dina beställningar"
+
+#: inc/functions/template/woocommerce-template-functions.php:1380
+msgid "Cart"
+msgstr "Varukorg"
+
+#: inc/functions/template/woocommerce-template-functions.php:1420
+msgid "Share this item:"
+msgstr "Dela detta:"
+
+#: inc/functions/template/woocommerce-template-functions.php:1470
+msgid "Logout"
+msgstr "Logga ut"
+
+#: inc/functions/template/woocommerce-template-functions.php:1498
+msgid "My Orders"
+msgstr "Mina Order"
+
+#: inc/functions/template/woocommerce-template-functions.php:1499
+msgid "Your recent orders are displayed in the table below."
+msgstr "Dina senaste order visas i tabellen nedan."
+
+#: inc/functions/template/woocommerce-template-functions.php:1514
+msgid "My Downloads"
+msgstr "Mina Nedladdningar"
+
+#: inc/functions/template/woocommerce-template-functions.php:1515
+msgid "Your digital downloads are displayed in the table below."
+msgstr "Dina digitala nedladdningar visas i tabellen nedan."
+
+#: inc/functions/template/woocommerce-template-functions.php:1595
+msgid "View full size"
+msgstr "Se full storlek"
+
+#: inc/functions/template/woocommerce-template-functions.php:1770
+msgid "Out of stock"
+msgstr "Slut i lager"
+
+#: inc/functions/template/woocommerce-template-functions.php:1775
+msgid "Featured"
+msgstr "Utvald"
+
+#: inc/functions/template/woocommerce-template-functions.php:1780
+msgid "Sale!"
+msgstr ""
+
+#: inc/functions/woocommerce-functions.php:124
+msgid "&laquo; Go back"
+msgstr "&laquo; Gå tillbaka"
+
+#: inc/functions/woocommerce-functions.php:125
+msgid "Edit information for this address type"
+msgstr "Redigera informationen för denna adresstyp"
+
+#: inc/functions/woocommerce-functions.php:126
+msgid "My account"
+msgstr "Mitt konto"
+
+#: inc/functions/woocommerce-functions.php:127
+msgid "Edit your account details or change your password"
+msgstr "Redigera dina kontouppgifter eller ändra ditt lösenord"
+
+#: inc/functions/woocommerce-functions.php:128
+msgid "(leave blank to leave unchanged)"
+msgstr "(lämna tomt för att behålla nuvarande)"
+
+#: inc/functions/woocommerce-functions.php:129
+msgid "Current password"
+msgstr "Nuvarande lösenord"
+
+#: inc/laborator_filters.php:131 inc/laborator_functions.php:134
 msgid "Email"
 msgstr "E-post"
 
-#: inc/laborator_functions.php:131
+#: inc/laborator_functions.php:133
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Kolla vad jag just upptäckt: %s"
 
-#: inc/laborator_functions.php:138
+#: inc/laborator_functions.php:140
 msgid "Print"
 msgstr "Skriv ut"
 
-#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
-msgid "Show More"
-msgstr "Visa Fler"
-
-#: inc/laborator_functions.php:508
-msgid "No more posts to show"
-msgstr "Inga inlägg att visa"
-
-#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:903 searchform.php:16 tpls/menu-mobile.php:52
 msgid "Search site..."
 msgstr "Sök på sajten..."
 
 #: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
 msgstr "Din webbläsare stöder inte HTML5 video."
+
+#: inc/laborator_portfolio.php:871
+msgid "Show More"
+msgstr "Visa Fler"
 
 #: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
@@ -226,142 +337,6 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
-#: tpls/portfolio-listing.php:99 tpls/search-results.php:76
-#: tpls/search-results.php:90
-msgid "Previous"
-msgstr "Föregående"
-
-#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
-#: tpls/portfolio-listing.php:102 tpls/search-results.php:79
-#: tpls/search-results.php:91
-msgid "Next"
-msgstr "Nästa"
-
-#: inc/laborator_woocommerce.php:594
-#, php-format
-msgid "%s out of 5"
-msgstr "%s av 5"
-
-#: inc/laborator_woocommerce.php:665
-msgid "Share this item:"
-msgstr "Dela detta:"
-
-#: inc/laborator_woocommerce.php:901
-msgid "Cart"
-msgstr "Varukorg"
-
-#: inc/laborator_woocommerce.php:964
-msgid "Logout"
-msgstr "Logga ut"
-
-#: inc/laborator_woocommerce.php:985
-msgid "My Orders"
-msgstr "Mina Order"
-
-#: inc/laborator_woocommerce.php:986
-msgid "Your recent orders are displayed in the table below."
-msgstr "Dina senaste order visas i tabellen nedan."
-
-#: inc/laborator_woocommerce.php:998
-msgid "My Downloads"
-msgstr "Mina Nedladdningar"
-
-#: inc/laborator_woocommerce.php:999
-msgid "Your digital downloads are displayed in the table below."
-msgstr "Dina digitala nedladdningar visas i tabellen nedan."
-
-#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
-msgid "Login"
-msgstr "Logga in"
-
-#: inc/laborator_woocommerce.php:1028
-msgid "&laquo; Go back"
-msgstr "&laquo; Gå tillbaka"
-
-#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
-msgid "Payment method"
-msgstr "Betalsätt"
-
-#: inc/laborator_woocommerce.php:1030
-msgid "Added to cart"
-msgstr "Läggas till i kundvagnen"
-
-#: inc/laborator_woocommerce.php:1031
-msgid "Out of stock"
-msgstr "Slut i lager"
-
-#: inc/laborator_woocommerce.php:1032
-msgid "Featured"
-msgstr "Utvald"
-
-#: inc/laborator_woocommerce.php:1033
-#: inc/lib/vc/lab_products_carousel/init.php:243
-msgid "Loading products..."
-msgstr "Laddar produkter…"
-
-#: inc/laborator_woocommerce.php:1034
-msgid "No more products to show"
-msgstr "Det finns inga fler produkter att visa"
-
-#: inc/laborator_woocommerce.php:1035
-msgid "Edit information for this address type"
-msgstr "Redigera informationen för denna adresstyp"
-
-#: inc/laborator_woocommerce.php:1036
-msgid "Reset password"
-msgstr "Återställ lösenord"
-
-#: inc/laborator_woocommerce.php:1037
-msgid "Lost password"
-msgstr "Glömt lösenordet"
-
-#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
-msgid "Login or register"
-msgstr "Logga in eller Registrera"
-
-#: inc/laborator_woocommerce.php:1039
-msgid "Manage your account and see your orders"
-msgstr "Hantera ditt konto och se dina beställningar"
-
-#: inc/laborator_woocommerce.php:1040
-msgctxt "submit button"
-msgid "Go"
-msgstr "Kör"
-
-#: inc/laborator_woocommerce.php:1041
-msgid "My account"
-msgstr "Mitt konto"
-
-#: inc/laborator_woocommerce.php:1042
-msgid "Edit your account details or change your password"
-msgstr "Redigera dina kontouppgifter eller ändra ditt lösenord"
-
-#: inc/laborator_woocommerce.php:1043
-msgid "Password change"
-msgstr "Ändra lösenord"
-
-#: inc/laborator_woocommerce.php:1044
-msgid "(leave blank to leave unchanged)"
-msgstr "(lämna tomt för att behålla nuvarande)"
-
-#: inc/laborator_woocommerce.php:1045
-msgid "Current password"
-msgstr "Nuvarande lösenord"
-
-#: inc/laborator_woocommerce.php:1046
-msgid "New password"
-msgstr "Nytt lösenord"
-
-#: inc/laborator_woocommerce.php:1531
-msgid "View full size"
-msgstr "Se full storlek"
-
-#: inc/laborator_woocommerce.php:1720
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Betygsatt %s av 5"
-
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
 msgstr "Tidigare inlägg"
@@ -370,48 +345,52 @@ msgstr "Tidigare inlägg"
 msgid "Next Post"
 msgstr "Följande inlägg"
 
-#: inc/lib/vc/custom-font-icons.php:31
+#: inc/lib/vc/custom-font-icons.php:30
 msgid "Icon"
 msgstr "Ikon"
 
-#: inc/lib/vc/lab_contact_form/init.php:151
+#: inc/lib/vc/lab_contact_form/init.php:149
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Ny Kontaktformulär meddelande har tagits emot."
 
-#: inc/lib/vc/lab_contact_form/init.php:159
+#: inc/lib/vc/lab_contact_form/init.php:157
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Du har fått ett nytt kontaktformulär meddelande."
 
-#: inc/lib/vc/lab_contact_form/init.php:161
+#: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Meddelandeinformation -----"
 
-#: inc/lib/vc/lab_contact_form/init.php:175
+#: inc/lib/vc/lab_contact_form/init.php:173
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Det här meddelandet har skickats från IP:%s"
 
-#: inc/lib/vc/lab_contact_form/init.php:177
+#: inc/lib/vc/lab_contact_form/init.php:175
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
 msgstr "Webbplatsens URL: %s"
+
+#: inc/lib/vc/lab_products_carousel/init.php:245
+msgid "Loading products..."
+msgstr "Laddar produkter…"
 
 #: searchform.php:15 searchform.php:16
 msgctxt "label"
 msgid "Search for:"
 msgstr "Sök efter:"
 
-#: searchform.php:18 tpls/menu-mobile.php:56
+#: searchform.php:18 tpls/menu-mobile.php:58
 msgid "Go"
 msgstr "Kör"
 
-#: tpls/header-main.php:323
+#: tpls/header-main.php:331
 msgid "Search"
 msgstr "Sök"
 
@@ -477,8 +456,7 @@ msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr "Din varukorg är tom! <a href=\"%s\">Shoppa &raquo;</a>"
 
 #: tpls/wc-mini-cart.php:67
-#, php-format
-msgid "Quantity: %s %s %s"
+msgid "Quantity"
 msgstr ""
 
 #: tpls/wc-mini-cart.php:100
@@ -529,6 +507,25 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "No more posts to show"
+#~ msgstr "Inga inlägg att visa"
+
+#~ msgid "Reset password"
+#~ msgstr "Återställ lösenord"
+
+#~ msgid "Lost password"
+#~ msgstr "Glömt lösenordet"
+
+#~ msgctxt "submit button"
+#~ msgid "Go"
+#~ msgstr "Kör"
+
+#~ msgid "Password change"
+#~ msgstr "Ändra lösenord"
+
+#~ msgid "New password"
+#~ msgstr "Nytt lösenord"
 
 #~ msgid "Quantity: %s &times; <strong>%s</strong>"
 #~ msgstr "Antal: %s &times; <strong>%s</strong>"

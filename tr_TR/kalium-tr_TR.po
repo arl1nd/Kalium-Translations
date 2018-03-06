@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2018-01-11 12:48+0100\n"
-"PO-Revision-Date: 2018-01-11 12:48+0100\n"
+"POT-Creation-Date: 2018-03-06 15:01+0100\n"
+"PO-Revision-Date: 2018-03-06 15:01+0100\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.1\n"
+"X-Translation-Version: 2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -141,6 +141,7 @@ msgid "There are no posts to show"
 msgstr "Göstermek için ileti yok"
 
 #: inc/functions/template/blog-template-functions.php:235
+#: inc/functions/template/woocommerce-template-functions.php:429
 msgid "Show more"
 msgstr "Daha Fazla Göster"
 
@@ -187,34 +188,144 @@ msgstr "cevap"
 msgid "In reply to: %s"
 msgstr "Cevap: %s"
 
-#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
+#: inc/functions/template/woocommerce-template-functions.php:430
+msgid "No more products to show"
+msgstr "Gösterilecek daha fazla ürün yok"
+
+#: inc/functions/template/woocommerce-template-functions.php:817
+msgid "Added to cart"
+msgstr "Sepete eklendi"
+
+#: inc/functions/template/woocommerce-template-functions.php:851
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:99
+#: tpls/search-results.php:76 tpls/search-results.php:90
+msgid "Previous"
+msgstr "Önceki"
+
+#: inc/functions/template/woocommerce-template-functions.php:852
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:102
+#: tpls/search-results.php:79 tpls/search-results.php:91
+msgid "Next"
+msgstr "Sonraki"
+
+#: inc/functions/template/woocommerce-template-functions.php:1123
+#, php-format
+msgid "%s out of 5"
+msgstr "5 üzerinden %s"
+
+#: inc/functions/template/woocommerce-template-functions.php:1236
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "5 üzerinden %s oy aldı"
+
+#: inc/functions/template/woocommerce-template-functions.php:1250
+msgid "Payment method"
+msgstr "Ödeme yöntemi"
+
+#: inc/functions/template/woocommerce-template-functions.php:1294
+msgid "Login or register"
+msgstr "Giriş veya Kayıt"
+
+#: inc/functions/template/woocommerce-template-functions.php:1296
+msgid "Login"
+msgstr "Giriş"
+
+#: inc/functions/template/woocommerce-template-functions.php:1300
+msgid "Manage your account and see your orders"
+msgstr "Hesabınızı yönetin veya siparişlerinizi görüntüleyin"
+
+#: inc/functions/template/woocommerce-template-functions.php:1380
+msgid "Cart"
+msgstr "Sepet"
+
+#: inc/functions/template/woocommerce-template-functions.php:1420
+msgid "Share this item:"
+msgstr "Paylaş:"
+
+#: inc/functions/template/woocommerce-template-functions.php:1470
+msgid "Logout"
+msgstr "Çıkış"
+
+#: inc/functions/template/woocommerce-template-functions.php:1498
+msgid "My Orders"
+msgstr "Siparişlerim"
+
+#: inc/functions/template/woocommerce-template-functions.php:1499
+msgid "Your recent orders are displayed in the table below."
+msgstr "En son siparişler aşağıdaki tabloda gösterilmektedir."
+
+#: inc/functions/template/woocommerce-template-functions.php:1514
+msgid "My Downloads"
+msgstr "İndirmelerim"
+
+#: inc/functions/template/woocommerce-template-functions.php:1515
+msgid "Your digital downloads are displayed in the table below."
+msgstr "Dijital indirme aşağıdaki tabloda gösterilmektedir."
+
+#: inc/functions/template/woocommerce-template-functions.php:1595
+msgid "View full size"
+msgstr "Tam boy gör"
+
+#: inc/functions/template/woocommerce-template-functions.php:1770
+msgid "Out of stock"
+msgstr "Stokta yok"
+
+#: inc/functions/template/woocommerce-template-functions.php:1775
+msgid "Featured"
+msgstr "Öne Çıkan"
+
+#: inc/functions/template/woocommerce-template-functions.php:1780
+msgid "Sale!"
+msgstr ""
+
+#: inc/functions/woocommerce-functions.php:124
+msgid "&laquo; Go back"
+msgstr "&laquo; Geri dön"
+
+#: inc/functions/woocommerce-functions.php:125
+msgid "Edit information for this address type"
+msgstr "Bu adres türü için düzenleme bilgisi"
+
+#: inc/functions/woocommerce-functions.php:126
+msgid "My account"
+msgstr "Hesabım"
+
+#: inc/functions/woocommerce-functions.php:127
+msgid "Edit your account details or change your password"
+msgstr "Şifrenizi hesap bilgilerinizi düzenleyebilir veya değiştirebilirsiniz"
+
+#: inc/functions/woocommerce-functions.php:128
+msgid "(leave blank to leave unchanged)"
+msgstr "(değişiklik yapmamak için boş bırakın)"
+
+#: inc/functions/woocommerce-functions.php:129
+msgid "Current password"
+msgstr "Mevcut parola"
+
+#: inc/laborator_filters.php:131 inc/laborator_functions.php:134
 msgid "Email"
 msgstr "E-posta"
 
-#: inc/laborator_functions.php:131
+#: inc/laborator_functions.php:133
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Sadece gördüm ne göz atın: %s"
 
-#: inc/laborator_functions.php:138
+#: inc/laborator_functions.php:140
 msgid "Print"
 msgstr "Yazdır"
 
-#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
-msgid "Show More"
-msgstr "Daha Fazla Göster"
-
-#: inc/laborator_functions.php:508
-msgid "No more posts to show"
-msgstr "Hayır daha fazla içerik görmek için"
-
-#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:903 searchform.php:16 tpls/menu-mobile.php:52
 msgid "Search site..."
 msgstr "Sitede ara..."
 
 #: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
 msgstr "Tarayıcınız HTML 5 video desteklemiyor."
+
+#: inc/laborator_portfolio.php:871
+msgid "Show More"
+msgstr "Daha Fazla Göster"
 
 #: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
@@ -226,142 +337,6 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s"
 
-#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
-#: tpls/portfolio-listing.php:99 tpls/search-results.php:76
-#: tpls/search-results.php:90
-msgid "Previous"
-msgstr "Önceki"
-
-#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
-#: tpls/portfolio-listing.php:102 tpls/search-results.php:79
-#: tpls/search-results.php:91
-msgid "Next"
-msgstr "Sonraki"
-
-#: inc/laborator_woocommerce.php:594
-#, php-format
-msgid "%s out of 5"
-msgstr "5 üzerinden %s"
-
-#: inc/laborator_woocommerce.php:665
-msgid "Share this item:"
-msgstr "Paylaş:"
-
-#: inc/laborator_woocommerce.php:901
-msgid "Cart"
-msgstr "Sepet"
-
-#: inc/laborator_woocommerce.php:964
-msgid "Logout"
-msgstr "Çıkış"
-
-#: inc/laborator_woocommerce.php:985
-msgid "My Orders"
-msgstr "Siparişlerim"
-
-#: inc/laborator_woocommerce.php:986
-msgid "Your recent orders are displayed in the table below."
-msgstr "En son siparişler aşağıdaki tabloda gösterilmektedir."
-
-#: inc/laborator_woocommerce.php:998
-msgid "My Downloads"
-msgstr "İndirmelerim"
-
-#: inc/laborator_woocommerce.php:999
-msgid "Your digital downloads are displayed in the table below."
-msgstr "Dijital indirme aşağıdaki tabloda gösterilmektedir."
-
-#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
-msgid "Login"
-msgstr "Giriş"
-
-#: inc/laborator_woocommerce.php:1028
-msgid "&laquo; Go back"
-msgstr "&laquo; Geri dön"
-
-#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
-msgid "Payment method"
-msgstr "Ödeme yöntemi"
-
-#: inc/laborator_woocommerce.php:1030
-msgid "Added to cart"
-msgstr "Sepete eklendi"
-
-#: inc/laborator_woocommerce.php:1031
-msgid "Out of stock"
-msgstr "Stokta yok"
-
-#: inc/laborator_woocommerce.php:1032
-msgid "Featured"
-msgstr "Öne Çıkan"
-
-#: inc/laborator_woocommerce.php:1033
-#: inc/lib/vc/lab_products_carousel/init.php:243
-msgid "Loading products..."
-msgstr "Ürünler yükleniyor..."
-
-#: inc/laborator_woocommerce.php:1034
-msgid "No more products to show"
-msgstr "Gösterilecek daha fazla ürün yok"
-
-#: inc/laborator_woocommerce.php:1035
-msgid "Edit information for this address type"
-msgstr "Bu adres türü için düzenleme bilgisi"
-
-#: inc/laborator_woocommerce.php:1036
-msgid "Reset password"
-msgstr "Şifre sıfırlama"
-
-#: inc/laborator_woocommerce.php:1037
-msgid "Lost password"
-msgstr "Şifremi unuttum"
-
-#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
-msgid "Login or register"
-msgstr "Giriş veya Kayıt"
-
-#: inc/laborator_woocommerce.php:1039
-msgid "Manage your account and see your orders"
-msgstr "Hesabınızı yönetin veya siparişlerinizi görüntüleyin"
-
-#: inc/laborator_woocommerce.php:1040
-msgctxt "submit button"
-msgid "Go"
-msgstr "Git"
-
-#: inc/laborator_woocommerce.php:1041
-msgid "My account"
-msgstr "Hesabım"
-
-#: inc/laborator_woocommerce.php:1042
-msgid "Edit your account details or change your password"
-msgstr "Şifrenizi hesap bilgilerinizi düzenleyebilir veya değiştirebilirsiniz"
-
-#: inc/laborator_woocommerce.php:1043
-msgid "Password change"
-msgstr "Şifre değiştirme"
-
-#: inc/laborator_woocommerce.php:1044
-msgid "(leave blank to leave unchanged)"
-msgstr "(değişiklik yapmamak için boş bırakın)"
-
-#: inc/laborator_woocommerce.php:1045
-msgid "Current password"
-msgstr "Mevcut parola"
-
-#: inc/laborator_woocommerce.php:1046
-msgid "New password"
-msgstr "Yeni parola"
-
-#: inc/laborator_woocommerce.php:1531
-msgid "View full size"
-msgstr "Tam boy gör"
-
-#: inc/laborator_woocommerce.php:1720
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "5 üzerinden %s oy aldı"
-
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
 msgstr "Önceki yazı"
@@ -370,48 +345,52 @@ msgstr "Önceki yazı"
 msgid "Next Post"
 msgstr "Sonraki yazı"
 
-#: inc/lib/vc/custom-font-icons.php:31
+#: inc/lib/vc/custom-font-icons.php:30
 msgid "Icon"
 msgstr "İkon"
 
-#: inc/lib/vc/lab_contact_form/init.php:151
+#: inc/lib/vc/lab_contact_form/init.php:149
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Yeni İletişim Formu mesaj alındı."
 
-#: inc/lib/vc/lab_contact_form/init.php:159
+#: inc/lib/vc/lab_contact_form/init.php:157
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Yeni bir iletişim formu mesajı aldınız."
 
-#: inc/lib/vc/lab_contact_form/init.php:161
+#: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Mesaj Detayları -----"
 
-#: inc/lib/vc/lab_contact_form/init.php:175
+#: inc/lib/vc/lab_contact_form/init.php:173
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Bu ileti IP'den alıcılara gönderildi: %s"
 
-#: inc/lib/vc/lab_contact_form/init.php:177
+#: inc/lib/vc/lab_contact_form/init.php:175
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
 msgstr "Site URL'si: %s"
+
+#: inc/lib/vc/lab_products_carousel/init.php:245
+msgid "Loading products..."
+msgstr "Ürünler yükleniyor..."
 
 #: searchform.php:15 searchform.php:16
 msgctxt "label"
 msgid "Search for:"
 msgstr "Ara:"
 
-#: searchform.php:18 tpls/menu-mobile.php:56
+#: searchform.php:18 tpls/menu-mobile.php:58
 msgid "Go"
 msgstr "Git"
 
-#: tpls/header-main.php:323
+#: tpls/header-main.php:331
 msgid "Search"
 msgstr "Ara"
 
@@ -477,8 +456,7 @@ msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr "Sepetiniz boş! <a href=\"%s\">Alışveriş sayfasına &raquo;</a>"
 
 #: tpls/wc-mini-cart.php:67
-#, php-format
-msgid "Quantity: %s %s %s"
+msgid "Quantity"
 msgstr ""
 
 #: tpls/wc-mini-cart.php:100
@@ -529,6 +507,25 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "No more posts to show"
+#~ msgstr "Hayır daha fazla içerik görmek için"
+
+#~ msgid "Reset password"
+#~ msgstr "Şifre sıfırlama"
+
+#~ msgid "Lost password"
+#~ msgstr "Şifremi unuttum"
+
+#~ msgctxt "submit button"
+#~ msgid "Go"
+#~ msgstr "Git"
+
+#~ msgid "Password change"
+#~ msgstr "Şifre değiştirme"
+
+#~ msgid "New password"
+#~ msgstr "Yeni parola"
 
 #~ msgid "Quantity: %s &times; <strong>%s</strong>"
 #~ msgstr "Miktar: %s &times; <strong>%s</strong>"

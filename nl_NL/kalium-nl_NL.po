@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2018-01-11 12:50+0100\n"
-"PO-Revision-Date: 2018-01-11 12:51+0100\n"
+"POT-Creation-Date: 2018-03-06 15:02+0100\n"
+"PO-Revision-Date: 2018-03-06 15:02+0100\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.1\n"
+"X-Translation-Version: 2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -141,6 +141,7 @@ msgid "There are no posts to show"
 msgstr "Er zijn geen berichten om te tonen"
 
 #: inc/functions/template/blog-template-functions.php:235
+#: inc/functions/template/woocommerce-template-functions.php:429
 msgid "Show more"
 msgstr "Laat meer zien"
 
@@ -187,34 +188,144 @@ msgstr "antwoord"
 msgid "In reply to: %s"
 msgstr "Antwoord aan: %s"
 
-#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
+#: inc/functions/template/woocommerce-template-functions.php:430
+msgid "No more products to show"
+msgstr "Niet meer producten te tonen"
+
+#: inc/functions/template/woocommerce-template-functions.php:817
+msgid "Added to cart"
+msgstr "Toegevoegd aan winkelmand"
+
+#: inc/functions/template/woocommerce-template-functions.php:851
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:99
+#: tpls/search-results.php:76 tpls/search-results.php:90
+msgid "Previous"
+msgstr "Vorige"
+
+#: inc/functions/template/woocommerce-template-functions.php:852
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:102
+#: tpls/search-results.php:79 tpls/search-results.php:91
+msgid "Next"
+msgstr "Naast"
+
+#: inc/functions/template/woocommerce-template-functions.php:1123
+#, php-format
+msgid "%s out of 5"
+msgstr "Beoordeling %s uit 5"
+
+#: inc/functions/template/woocommerce-template-functions.php:1236
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Waardering %s uit 5"
+
+#: inc/functions/template/woocommerce-template-functions.php:1250
+msgid "Payment method"
+msgstr "Betaalmethode"
+
+#: inc/functions/template/woocommerce-template-functions.php:1294
+msgid "Login or register"
+msgstr "Inloggen of registreren"
+
+#: inc/functions/template/woocommerce-template-functions.php:1296
+msgid "Login"
+msgstr "Inloggen"
+
+#: inc/functions/template/woocommerce-template-functions.php:1300
+msgid "Manage your account and see your orders"
+msgstr "Beheer je account en zien uw bestellingen"
+
+#: inc/functions/template/woocommerce-template-functions.php:1380
+msgid "Cart"
+msgstr "Winkelmand"
+
+#: inc/functions/template/woocommerce-template-functions.php:1420
+msgid "Share this item:"
+msgstr "Deel dit:"
+
+#: inc/functions/template/woocommerce-template-functions.php:1470
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: inc/functions/template/woocommerce-template-functions.php:1498
+msgid "My Orders"
+msgstr "Mijn bestellingen"
+
+#: inc/functions/template/woocommerce-template-functions.php:1499
+msgid "Your recent orders are displayed in the table below."
+msgstr "Uw recente bestellingen worden weergegeven in de onderstaande tabel."
+
+#: inc/functions/template/woocommerce-template-functions.php:1514
+msgid "My Downloads"
+msgstr "Mijn Downloads"
+
+#: inc/functions/template/woocommerce-template-functions.php:1515
+msgid "Your digital downloads are displayed in the table below."
+msgstr "Je aanvragen zijn weergegeven in de onderstaande tabel."
+
+#: inc/functions/template/woocommerce-template-functions.php:1595
+msgid "View full size"
+msgstr "Bekijk de volledige grootte"
+
+#: inc/functions/template/woocommerce-template-functions.php:1770
+msgid "Out of stock"
+msgstr "Niet op voorraad"
+
+#: inc/functions/template/woocommerce-template-functions.php:1775
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: inc/functions/template/woocommerce-template-functions.php:1780
+msgid "Sale!"
+msgstr ""
+
+#: inc/functions/woocommerce-functions.php:124
+msgid "&laquo; Go back"
+msgstr "&laquo; Ga terug"
+
+#: inc/functions/woocommerce-functions.php:125
+msgid "Edit information for this address type"
+msgstr "Adrestype bewerken"
+
+#: inc/functions/woocommerce-functions.php:126
+msgid "My account"
+msgstr "Mijn account"
+
+#: inc/functions/woocommerce-functions.php:127
+msgid "Edit your account details or change your password"
+msgstr "Bewerk hieronder u account gegevens"
+
+#: inc/functions/woocommerce-functions.php:128
+msgid "(leave blank to leave unchanged)"
+msgstr "(leeg laten om ongewijzigd te laten)"
+
+#: inc/functions/woocommerce-functions.php:129
+msgid "Current password"
+msgstr "Huidig wachtwoord"
+
+#: inc/laborator_filters.php:131 inc/laborator_functions.php:134
 msgid "Email"
 msgstr "Email"
 
-#: inc/laborator_functions.php:131
+#: inc/laborator_functions.php:133
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Bekijk wat ik net heb gespot: %s"
 
-#: inc/laborator_functions.php:138
+#: inc/laborator_functions.php:140
 msgid "Print"
 msgstr "Afdrukken"
 
-#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
-msgid "Show More"
-msgstr "Laat meer zien"
-
-#: inc/laborator_functions.php:508
-msgid "No more posts to show"
-msgstr "Geen berichten om te laten zien"
-
-#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:903 searchform.php:16 tpls/menu-mobile.php:52
 msgid "Search site..."
 msgstr "Zoeken..."
 
 #: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
 msgstr "Uw browser ondersteunt deze HTML5 video tag niet."
+
+#: inc/laborator_portfolio.php:871
+msgid "Show More"
+msgstr "Laat meer zien"
 
 #: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
@@ -226,142 +337,6 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
-#: tpls/portfolio-listing.php:99 tpls/search-results.php:76
-#: tpls/search-results.php:90
-msgid "Previous"
-msgstr "Vorige"
-
-#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
-#: tpls/portfolio-listing.php:102 tpls/search-results.php:79
-#: tpls/search-results.php:91
-msgid "Next"
-msgstr "Naast"
-
-#: inc/laborator_woocommerce.php:594
-#, php-format
-msgid "%s out of 5"
-msgstr "Beoordeling %s uit 5"
-
-#: inc/laborator_woocommerce.php:665
-msgid "Share this item:"
-msgstr "Deel dit:"
-
-#: inc/laborator_woocommerce.php:901
-msgid "Cart"
-msgstr "Winkelmand"
-
-#: inc/laborator_woocommerce.php:964
-msgid "Logout"
-msgstr "Uitloggen"
-
-#: inc/laborator_woocommerce.php:985
-msgid "My Orders"
-msgstr "Mijn bestellingen"
-
-#: inc/laborator_woocommerce.php:986
-msgid "Your recent orders are displayed in the table below."
-msgstr "Uw recente bestellingen worden weergegeven in de onderstaande tabel."
-
-#: inc/laborator_woocommerce.php:998
-msgid "My Downloads"
-msgstr "Mijn Downloads"
-
-#: inc/laborator_woocommerce.php:999
-msgid "Your digital downloads are displayed in the table below."
-msgstr "Je aanvragen zijn weergegeven in de onderstaande tabel."
-
-#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
-msgid "Login"
-msgstr "Inloggen"
-
-#: inc/laborator_woocommerce.php:1028
-msgid "&laquo; Go back"
-msgstr "&laquo; Ga terug"
-
-#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
-msgid "Payment method"
-msgstr "Betaalmethode"
-
-#: inc/laborator_woocommerce.php:1030
-msgid "Added to cart"
-msgstr "Toegevoegd aan winkelmand"
-
-#: inc/laborator_woocommerce.php:1031
-msgid "Out of stock"
-msgstr "Niet op voorraad"
-
-#: inc/laborator_woocommerce.php:1032
-msgid "Featured"
-msgstr "Uitgelicht"
-
-#: inc/laborator_woocommerce.php:1033
-#: inc/lib/vc/lab_products_carousel/init.php:243
-msgid "Loading products..."
-msgstr "Producten laden..."
-
-#: inc/laborator_woocommerce.php:1034
-msgid "No more products to show"
-msgstr "Niet meer producten te tonen"
-
-#: inc/laborator_woocommerce.php:1035
-msgid "Edit information for this address type"
-msgstr "Adrestype bewerken"
-
-#: inc/laborator_woocommerce.php:1036
-msgid "Reset password"
-msgstr "Wachtwoord opnieuw instellen"
-
-#: inc/laborator_woocommerce.php:1037
-msgid "Lost password"
-msgstr "Wachtwoord vergeten"
-
-#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
-msgid "Login or register"
-msgstr "Inloggen of registreren"
-
-#: inc/laborator_woocommerce.php:1039
-msgid "Manage your account and see your orders"
-msgstr "Beheer je account en zien uw bestellingen"
-
-#: inc/laborator_woocommerce.php:1040
-msgctxt "submit button"
-msgid "Go"
-msgstr "Ga"
-
-#: inc/laborator_woocommerce.php:1041
-msgid "My account"
-msgstr "Mijn account"
-
-#: inc/laborator_woocommerce.php:1042
-msgid "Edit your account details or change your password"
-msgstr "Bewerk hieronder u account gegevens"
-
-#: inc/laborator_woocommerce.php:1043
-msgid "Password change"
-msgstr "Wachtwoordwijziging"
-
-#: inc/laborator_woocommerce.php:1044
-msgid "(leave blank to leave unchanged)"
-msgstr "(leeg laten om ongewijzigd te laten)"
-
-#: inc/laborator_woocommerce.php:1045
-msgid "Current password"
-msgstr "Huidig wachtwoord"
-
-#: inc/laborator_woocommerce.php:1046
-msgid "New password"
-msgstr "Nieuw wachtwoord"
-
-#: inc/laborator_woocommerce.php:1531
-msgid "View full size"
-msgstr "Bekijk de volledige grootte"
-
-#: inc/laborator_woocommerce.php:1720
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Waardering %s uit 5"
-
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
 msgstr "Vorig bericht"
@@ -370,49 +345,53 @@ msgstr "Vorig bericht"
 msgid "Next Post"
 msgstr "Volgend bericht"
 
-#: inc/lib/vc/custom-font-icons.php:31
+#: inc/lib/vc/custom-font-icons.php:30
 msgid "Icon"
 msgstr "Ikoon"
 
-#: inc/lib/vc/lab_contact_form/init.php:151
+#: inc/lib/vc/lab_contact_form/init.php:149
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Nieuw contactformulier bericht is ontvangen."
 
-#: inc/lib/vc/lab_contact_form/init.php:159
+#: inc/lib/vc/lab_contact_form/init.php:157
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr ""
 "Je hebt een nieuw bericht ontvangen van het contact formulier op je website"
 
-#: inc/lib/vc/lab_contact_form/init.php:161
+#: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "--- Berichtgegevens ---"
 
-#: inc/lib/vc/lab_contact_form/init.php:175
+#: inc/lib/vc/lab_contact_form/init.php:173
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Dit bericht is verzonden vanaf IP: %s"
 
-#: inc/lib/vc/lab_contact_form/init.php:177
+#: inc/lib/vc/lab_contact_form/init.php:175
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
 msgstr "Site URL: %s"
+
+#: inc/lib/vc/lab_products_carousel/init.php:245
+msgid "Loading products..."
+msgstr "Producten laden..."
 
 #: searchform.php:15 searchform.php:16
 msgctxt "label"
 msgid "Search for:"
 msgstr "Zoeken:"
 
-#: searchform.php:18 tpls/menu-mobile.php:56
+#: searchform.php:18 tpls/menu-mobile.php:58
 msgid "Go"
 msgstr "Ga"
 
-#: tpls/header-main.php:323
+#: tpls/header-main.php:331
 msgid "Search"
 msgstr "Zoeken"
 
@@ -478,8 +457,7 @@ msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr "Je winkelwagen is leeg! <a href=\"%s\">Gaan winkelen&raquo;</a>"
 
 #: tpls/wc-mini-cart.php:67
-#, php-format
-msgid "Quantity: %s %s %s"
+msgid "Quantity"
 msgstr ""
 
 #: tpls/wc-mini-cart.php:100
@@ -530,6 +508,25 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "No more posts to show"
+#~ msgstr "Geen berichten om te laten zien"
+
+#~ msgid "Reset password"
+#~ msgstr "Wachtwoord opnieuw instellen"
+
+#~ msgid "Lost password"
+#~ msgstr "Wachtwoord vergeten"
+
+#~ msgctxt "submit button"
+#~ msgid "Go"
+#~ msgstr "Ga"
+
+#~ msgid "Password change"
+#~ msgstr "Wachtwoordwijziging"
+
+#~ msgid "New password"
+#~ msgstr "Nieuw wachtwoord"
 
 #~ msgid "Quantity: %s &times; <strong>%s</strong>"
 #~ msgstr "Aantal: %s &times; <strong>%s</strong>"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-11 12:51+0100\n"
-"PO-Revision-Date: 2018-01-11 12:51+0100\n"
+"POT-Creation-Date: 2018-03-06 15:02+0100\n"
+"PO-Revision-Date: 2018-03-06 15:02+0100\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Translation-Version: 2.1\n"
+"X-Translation-Version: 2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -142,6 +142,7 @@ msgid "There are no posts to show"
 msgstr "Ei ole viestejä näytettäväksi"
 
 #: inc/functions/template/blog-template-functions.php:235
+#: inc/functions/template/woocommerce-template-functions.php:429
 msgid "Show more"
 msgstr "Näytä lisää"
 
@@ -188,34 +189,144 @@ msgstr "vastaus"
 msgid "In reply to: %s"
 msgstr "Vastauksena: %s"
 
-#: inc/laborator_filters.php:132 inc/laborator_functions.php:132
+#: inc/functions/template/woocommerce-template-functions.php:430
+msgid "No more products to show"
+msgstr "Ei lisää tuotteita näytettäväksi"
+
+#: inc/functions/template/woocommerce-template-functions.php:817
+msgid "Added to cart"
+msgstr "Lisätty koriin"
+
+#: inc/functions/template/woocommerce-template-functions.php:851
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:99
+#: tpls/search-results.php:76 tpls/search-results.php:90
+msgid "Previous"
+msgstr "Edellinen"
+
+#: inc/functions/template/woocommerce-template-functions.php:852
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:102
+#: tpls/search-results.php:79 tpls/search-results.php:91
+msgid "Next"
+msgstr "Seuraava"
+
+#: inc/functions/template/woocommerce-template-functions.php:1123
+#, php-format
+msgid "%s out of 5"
+msgstr "%s/5"
+
+#: inc/functions/template/woocommerce-template-functions.php:1236
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Arvioitu %s/5"
+
+#: inc/functions/template/woocommerce-template-functions.php:1250
+msgid "Payment method"
+msgstr "Maksutapa"
+
+#: inc/functions/template/woocommerce-template-functions.php:1294
+msgid "Login or register"
+msgstr "Kirjaudu tai rekisteröidy"
+
+#: inc/functions/template/woocommerce-template-functions.php:1296
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: inc/functions/template/woocommerce-template-functions.php:1300
+msgid "Manage your account and see your orders"
+msgstr "Muokkaa tiliäsi ja tarkastele tilauksiasi"
+
+#: inc/functions/template/woocommerce-template-functions.php:1380
+msgid "Cart"
+msgstr "Kori"
+
+#: inc/functions/template/woocommerce-template-functions.php:1420
+msgid "Share this item:"
+msgstr "Jaa tämä kohde:"
+
+#: inc/functions/template/woocommerce-template-functions.php:1470
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: inc/functions/template/woocommerce-template-functions.php:1498
+msgid "My Orders"
+msgstr "Tilaukseni"
+
+#: inc/functions/template/woocommerce-template-functions.php:1499
+msgid "Your recent orders are displayed in the table below."
+msgstr "Viimeaikaiset tilauksesi ovat näkyvillä alla."
+
+#: inc/functions/template/woocommerce-template-functions.php:1514
+msgid "My Downloads"
+msgstr "Lataukseni"
+
+#: inc/functions/template/woocommerce-template-functions.php:1515
+msgid "Your digital downloads are displayed in the table below."
+msgstr "Digitaaliset latauksesi ovat esitetty alla."
+
+#: inc/functions/template/woocommerce-template-functions.php:1595
+msgid "View full size"
+msgstr "Näytä täysikokoisena"
+
+#: inc/functions/template/woocommerce-template-functions.php:1770
+msgid "Out of stock"
+msgstr "Loppu"
+
+#: inc/functions/template/woocommerce-template-functions.php:1775
+msgid "Featured"
+msgstr "Suositellut"
+
+#: inc/functions/template/woocommerce-template-functions.php:1780
+msgid "Sale!"
+msgstr ""
+
+#: inc/functions/woocommerce-functions.php:124
+msgid "&laquo; Go back"
+msgstr "&laquo; Takaisin"
+
+#: inc/functions/woocommerce-functions.php:125
+msgid "Edit information for this address type"
+msgstr "Muokkaa tämän osoitteen tietoja"
+
+#: inc/functions/woocommerce-functions.php:126
+msgid "My account"
+msgstr "Oma tili"
+
+#: inc/functions/woocommerce-functions.php:127
+msgid "Edit your account details or change your password"
+msgstr "Muokkaa tilisi tietoja tai vaihda salasanasi"
+
+#: inc/functions/woocommerce-functions.php:128
+msgid "(leave blank to leave unchanged)"
+msgstr "(jätä tyhjäksi jos et halua vaihtaa)"
+
+#: inc/functions/woocommerce-functions.php:129
+msgid "Current password"
+msgstr "Nykyinen salasana"
+
+#: inc/laborator_filters.php:131 inc/laborator_functions.php:134
 msgid "Email"
 msgstr "Sähköposti"
 
-#: inc/laborator_functions.php:131
+#: inc/laborator_functions.php:133
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Katso mitä löysin: %s"
 
-#: inc/laborator_functions.php:138
+#: inc/laborator_functions.php:140
 msgid "Print"
 msgstr "Tulosta"
 
-#: inc/laborator_functions.php:507 inc/laborator_portfolio.php:871
-msgid "Show More"
-msgstr "Näytä lisää"
-
-#: inc/laborator_functions.php:508
-msgid "No more posts to show"
-msgstr "Ei enempää viestejä näytettäväksi"
-
-#: inc/laborator_functions.php:1861 searchform.php:16 tpls/menu-mobile.php:50
+#: inc/laborator_functions.php:903 searchform.php:16 tpls/menu-mobile.php:52
 msgid "Search site..."
 msgstr "Hae sivustolta..."
 
 #: inc/laborator_portfolio.php:550
 msgid "Your browser does not support HTML5 video."
 msgstr "Selaimesi ei tue HTML5-videota."
+
+#: inc/laborator_portfolio.php:871
+msgid "Show More"
+msgstr "Näytä lisää"
 
 #: inc/laborator_portfolio.php:872
 msgid "No more portfolio items to show"
@@ -227,142 +338,6 @@ msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/laborator_woocommerce.php:263 templates/global/pagination-normal.php:21
-#: tpls/portfolio-listing.php:99 tpls/search-results.php:76
-#: tpls/search-results.php:90
-msgid "Previous"
-msgstr "Edellinen"
-
-#: inc/laborator_woocommerce.php:265 templates/global/pagination-normal.php:22
-#: tpls/portfolio-listing.php:102 tpls/search-results.php:79
-#: tpls/search-results.php:91
-msgid "Next"
-msgstr "Seuraava"
-
-#: inc/laborator_woocommerce.php:594
-#, php-format
-msgid "%s out of 5"
-msgstr "%s/5"
-
-#: inc/laborator_woocommerce.php:665
-msgid "Share this item:"
-msgstr "Jaa tämä kohde:"
-
-#: inc/laborator_woocommerce.php:901
-msgid "Cart"
-msgstr "Kori"
-
-#: inc/laborator_woocommerce.php:964
-msgid "Logout"
-msgstr "Kirjaudu ulos"
-
-#: inc/laborator_woocommerce.php:985
-msgid "My Orders"
-msgstr "Tilaukseni"
-
-#: inc/laborator_woocommerce.php:986
-msgid "Your recent orders are displayed in the table below."
-msgstr "Viimeaikaiset tilauksesi ovat näkyvillä alla."
-
-#: inc/laborator_woocommerce.php:998
-msgid "My Downloads"
-msgstr "Lataukseni"
-
-#: inc/laborator_woocommerce.php:999
-msgid "Your digital downloads are displayed in the table below."
-msgstr "Digitaaliset latauksesi ovat esitetty alla."
-
-#: inc/laborator_woocommerce.php:1027 inc/laborator_woocommerce.php:1588
-msgid "Login"
-msgstr "Kirjaudu"
-
-#: inc/laborator_woocommerce.php:1028
-msgid "&laquo; Go back"
-msgstr "&laquo; Takaisin"
-
-#: inc/laborator_woocommerce.php:1029 inc/laborator_woocommerce.php:1699
-msgid "Payment method"
-msgstr "Maksutapa"
-
-#: inc/laborator_woocommerce.php:1030
-msgid "Added to cart"
-msgstr "Lisätty koriin"
-
-#: inc/laborator_woocommerce.php:1031
-msgid "Out of stock"
-msgstr "Loppu"
-
-#: inc/laborator_woocommerce.php:1032
-msgid "Featured"
-msgstr "Suositellut"
-
-#: inc/laborator_woocommerce.php:1033
-#: inc/lib/vc/lab_products_carousel/init.php:243
-msgid "Loading products..."
-msgstr "Ladataan tuotteita..."
-
-#: inc/laborator_woocommerce.php:1034
-msgid "No more products to show"
-msgstr "Ei lisää tuotteita näytettäväksi"
-
-#: inc/laborator_woocommerce.php:1035
-msgid "Edit information for this address type"
-msgstr "Muokkaa tämän osoitteen tietoja"
-
-#: inc/laborator_woocommerce.php:1036
-msgid "Reset password"
-msgstr "Salasanan palautus"
-
-#: inc/laborator_woocommerce.php:1037
-msgid "Lost password"
-msgstr "Salasana unohtunut"
-
-#: inc/laborator_woocommerce.php:1038 inc/laborator_woocommerce.php:1586
-msgid "Login or register"
-msgstr "Kirjaudu tai rekisteröidy"
-
-#: inc/laborator_woocommerce.php:1039
-msgid "Manage your account and see your orders"
-msgstr "Muokkaa tiliäsi ja tarkastele tilauksiasi"
-
-#: inc/laborator_woocommerce.php:1040
-msgctxt "submit button"
-msgid "Go"
-msgstr "Lähetä"
-
-#: inc/laborator_woocommerce.php:1041
-msgid "My account"
-msgstr "Oma tili"
-
-#: inc/laborator_woocommerce.php:1042
-msgid "Edit your account details or change your password"
-msgstr "Muokkaa tilisi tietoja tai vaihda salasanasi"
-
-#: inc/laborator_woocommerce.php:1043
-msgid "Password change"
-msgstr "Salasanan vaihto"
-
-#: inc/laborator_woocommerce.php:1044
-msgid "(leave blank to leave unchanged)"
-msgstr "(jätä tyhjäksi jos et halua vaihtaa)"
-
-#: inc/laborator_woocommerce.php:1045
-msgid "Current password"
-msgstr "Nykyinen salasana"
-
-#: inc/laborator_woocommerce.php:1046
-msgid "New password"
-msgstr "Uusi salasana"
-
-#: inc/laborator_woocommerce.php:1531
-msgid "View full size"
-msgstr "Näytä täysikokoisena"
-
-#: inc/laborator_woocommerce.php:1720
-#, php-format
-msgid "Rated %s out of 5"
-msgstr "Arvioitu %s/5"
-
 #: inc/lib/post-link-plus.php:310
 msgid "Previous Post"
 msgstr "Edellinen artikkeli"
@@ -371,48 +346,52 @@ msgstr "Edellinen artikkeli"
 msgid "Next Post"
 msgstr "Seuraava artikkeli"
 
-#: inc/lib/vc/custom-font-icons.php:31
+#: inc/lib/vc/custom-font-icons.php:30
 msgid "Icon"
 msgstr "Kuvake"
 
-#: inc/lib/vc/lab_contact_form/init.php:151
+#: inc/lib/vc/lab_contact_form/init.php:149
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] uusi viesti yhteydenottolomakkeesta."
 
-#: inc/lib/vc/lab_contact_form/init.php:159
+#: inc/lib/vc/lab_contact_form/init.php:157
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Olet vastaanottanut uuden viestin yhteydenottolomakkeen kautta."
 
-#: inc/lib/vc/lab_contact_form/init.php:161
+#: inc/lib/vc/lab_contact_form/init.php:159
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Viestin tiedot -----"
 
-#: inc/lib/vc/lab_contact_form/init.php:175
+#: inc/lib/vc/lab_contact_form/init.php:173
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Tämä viesti lähetettiin IP-osoitteesta: %s"
 
-#: inc/lib/vc/lab_contact_form/init.php:177
+#: inc/lib/vc/lab_contact_form/init.php:175
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
 msgstr "Sivuston URL: %s"
+
+#: inc/lib/vc/lab_products_carousel/init.php:245
+msgid "Loading products..."
+msgstr "Ladataan tuotteita..."
 
 #: searchform.php:15 searchform.php:16
 msgctxt "label"
 msgid "Search for:"
 msgstr "Hae nimikkeellä:"
 
-#: searchform.php:18 tpls/menu-mobile.php:56
+#: searchform.php:18 tpls/menu-mobile.php:58
 msgid "Go"
 msgstr "Mene"
 
-#: tpls/header-main.php:323
+#: tpls/header-main.php:331
 msgid "Search"
 msgstr "Haku"
 
@@ -478,8 +457,7 @@ msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr "Ostoskorisi on tyhjä! <a href=\"%s\">Siirry ostamaan &raquo;</a>"
 
 #: tpls/wc-mini-cart.php:67
-#, php-format
-msgid "Quantity: %s %s %s"
+msgid "Quantity"
 msgstr ""
 
 #: tpls/wc-mini-cart.php:100
@@ -530,6 +508,25 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "No more posts to show"
+#~ msgstr "Ei enempää viestejä näytettäväksi"
+
+#~ msgid "Reset password"
+#~ msgstr "Salasanan palautus"
+
+#~ msgid "Lost password"
+#~ msgstr "Salasana unohtunut"
+
+#~ msgctxt "submit button"
+#~ msgid "Go"
+#~ msgstr "Lähetä"
+
+#~ msgid "Password change"
+#~ msgstr "Salasanan vaihto"
+
+#~ msgid "New password"
+#~ msgstr "Uusi salasana"
 
 #~ msgid "Quantity: %s &times; <strong>%s</strong>"
 #~ msgstr "Lukumäärä: %s &times; <strong>%s</strong>"
