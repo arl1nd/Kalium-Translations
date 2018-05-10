@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2018-03-06 15:02+0100\n"
-"PO-Revision-Date: 2018-03-06 15:02+0100\n"
+"POT-Creation-Date: 2018-05-10 09:22+0200\n"
+"PO-Revision-Date: 2018-05-10 09:22+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.3\n"
+"X-Translation-Version: 2.4\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
@@ -141,7 +141,7 @@ msgid "There are no posts to show"
 msgstr "Det er ingen innlegg å vise"
 
 #: inc/functions/template/blog-template-functions.php:235
-#: inc/functions/template/woocommerce-template-functions.php:429
+#: inc/functions/template/woocommerce-template-functions.php:436
 msgid "Show more"
 msgstr "Vis Mer"
 
@@ -149,189 +149,189 @@ msgstr "Vis Mer"
 msgid "All posts are shown"
 msgstr "Alle innlegg vises"
 
-#: inc/functions/template/blog-template-functions.php:537
+#: inc/functions/template/blog-template-functions.php:554
 msgid "Previous page"
 msgstr "Forrige side"
 
-#: inc/functions/template/blog-template-functions.php:538
+#: inc/functions/template/blog-template-functions.php:555
 msgid "Next page"
 msgstr "Neste side"
 
-#: inc/functions/template/blog-template-functions.php:629
+#: inc/functions/template/blog-template-functions.php:646
 msgid "Loading posts..."
 msgstr "Laster nye innlegg…"
 
-#: inc/functions/template/blog-template-functions.php:754
+#: inc/functions/template/blog-template-functions.php:771
 msgid "Share:"
 msgstr "Del:"
 
-#: inc/functions/template/blog-template-functions.php:1077
+#: inc/functions/template/blog-template-functions.php:1093
 msgid "Older Post"
 msgstr "Eldre Innlegg"
 
-#: inc/functions/template/blog-template-functions.php:1084
+#: inc/functions/template/blog-template-functions.php:1100
 msgid "Newer Post"
 msgstr "Nyere Innlegg"
 
-#: inc/functions/template/blog-template-functions.php:1128
+#: inc/functions/template/blog-template-functions.php:1137
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s på %s"
 
-#: inc/functions/template/blog-template-functions.php:1163
+#: inc/functions/template/blog-template-functions.php:1174
 msgid "reply"
 msgstr "svar"
 
-#: inc/functions/template/blog-template-functions.php:1184
+#: inc/functions/template/blog-template-functions.php:1195
 #, php-format
 msgid "In reply to: %s"
 msgstr "Svar til: %s"
 
-#: inc/functions/template/woocommerce-template-functions.php:430
+#: inc/functions/template/woocommerce-template-functions.php:437
 msgid "No more products to show"
 msgstr "Ingen flere produkter å vise"
 
-#: inc/functions/template/woocommerce-template-functions.php:817
+#: inc/functions/template/woocommerce-template-functions.php:843
 msgid "Added to cart"
 msgstr "Vare lagt i handlekurven"
 
-#: inc/functions/template/woocommerce-template-functions.php:851
-#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:99
+#: inc/functions/template/woocommerce-template-functions.php:864
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:109
 #: tpls/search-results.php:76 tpls/search-results.php:90
 msgid "Previous"
 msgstr "Forrige"
 
-#: inc/functions/template/woocommerce-template-functions.php:852
-#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:102
+#: inc/functions/template/woocommerce-template-functions.php:865
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:112
 #: tpls/search-results.php:79 tpls/search-results.php:91
 msgid "Next"
 msgstr "Neste"
 
-#: inc/functions/template/woocommerce-template-functions.php:1123
+#: inc/functions/template/woocommerce-template-functions.php:1132
 #, php-format
 msgid "%s out of 5"
 msgstr "%s ut av 5"
 
-#: inc/functions/template/woocommerce-template-functions.php:1236
+#: inc/functions/template/woocommerce-template-functions.php:1245
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Rangert %s av 5"
 
-#: inc/functions/template/woocommerce-template-functions.php:1250
+#: inc/functions/template/woocommerce-template-functions.php:1259
 msgid "Payment method"
 msgstr "Betalingsmetode"
 
-#: inc/functions/template/woocommerce-template-functions.php:1294
+#: inc/functions/template/woocommerce-template-functions.php:1303
 msgid "Login or register"
 msgstr "Logg Inn eller registrer"
 
-#: inc/functions/template/woocommerce-template-functions.php:1296
+#: inc/functions/template/woocommerce-template-functions.php:1305
 msgid "Login"
 msgstr "Logg inn"
 
-#: inc/functions/template/woocommerce-template-functions.php:1300
+#: inc/functions/template/woocommerce-template-functions.php:1309
 msgid "Manage your account and see your orders"
 msgstr "Administrere kontoen din og se dine bestillinger"
 
-#: inc/functions/template/woocommerce-template-functions.php:1380
+#: inc/functions/template/woocommerce-template-functions.php:1389
 msgid "Cart"
 msgstr "Handlekurv"
 
-#: inc/functions/template/woocommerce-template-functions.php:1420
+#: inc/functions/template/woocommerce-template-functions.php:1429
 msgid "Share this item:"
 msgstr "Del dette:"
 
-#: inc/functions/template/woocommerce-template-functions.php:1470
+#: inc/functions/template/woocommerce-template-functions.php:1479
 msgid "Logout"
 msgstr "Logg ut"
 
-#: inc/functions/template/woocommerce-template-functions.php:1498
+#: inc/functions/template/woocommerce-template-functions.php:1507
 msgid "My Orders"
 msgstr "Mine Ordre"
 
-#: inc/functions/template/woocommerce-template-functions.php:1499
+#: inc/functions/template/woocommerce-template-functions.php:1508
 msgid "Your recent orders are displayed in the table below."
 msgstr "Dine siste ordrene er vist i tabellen nedenfor."
 
-#: inc/functions/template/woocommerce-template-functions.php:1514
+#: inc/functions/template/woocommerce-template-functions.php:1523
 msgid "My Downloads"
 msgstr "Mine Nedlastninger"
 
-#: inc/functions/template/woocommerce-template-functions.php:1515
+#: inc/functions/template/woocommerce-template-functions.php:1524
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Dine digitale nedlastinger vises i tabellen nedenfor."
 
-#: inc/functions/template/woocommerce-template-functions.php:1595
+#: inc/functions/template/woocommerce-template-functions.php:1606
 msgid "View full size"
 msgstr "Se full størrelse"
 
-#: inc/functions/template/woocommerce-template-functions.php:1770
+#: inc/functions/template/woocommerce-template-functions.php:1781
 msgid "Out of stock"
 msgstr "Tomt på lager"
 
-#: inc/functions/template/woocommerce-template-functions.php:1775
+#: inc/functions/template/woocommerce-template-functions.php:1786
 msgid "Featured"
 msgstr "Fremhevet"
 
-#: inc/functions/template/woocommerce-template-functions.php:1780
+#: inc/functions/template/woocommerce-template-functions.php:1791
 msgid "Sale!"
 msgstr ""
 
-#: inc/functions/woocommerce-functions.php:124
+#: inc/functions/woocommerce-functions.php:127
 msgid "&laquo; Go back"
 msgstr "&laquo; Tilbake"
 
-#: inc/functions/woocommerce-functions.php:125
+#: inc/functions/woocommerce-functions.php:128
 msgid "Edit information for this address type"
 msgstr "Rediger informasjonen for denne adressen typen"
 
-#: inc/functions/woocommerce-functions.php:126
+#: inc/functions/woocommerce-functions.php:129
 msgid "My account"
 msgstr "Min konto"
 
-#: inc/functions/woocommerce-functions.php:127
+#: inc/functions/woocommerce-functions.php:130
 msgid "Edit your account details or change your password"
 msgstr "Rediger kontoopplysninger eller endre passord"
 
-#: inc/functions/woocommerce-functions.php:128
+#: inc/functions/woocommerce-functions.php:131
 msgid "(leave blank to leave unchanged)"
 msgstr "(la stå tom for å forbli uendret)"
 
-#: inc/functions/woocommerce-functions.php:129
+#: inc/functions/woocommerce-functions.php:132
 msgid "Current password"
 msgstr "Nåværende passord"
 
-#: inc/laborator_filters.php:131 inc/laborator_functions.php:134
+#: inc/laborator_filters.php:135 inc/laborator_functions.php:140
 msgid "Email"
 msgstr "E-post"
 
-#: inc/laborator_functions.php:133
+#: inc/laborator_functions.php:139
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Sjekk ut hva jeg nettopp oppdaget: %s"
 
-#: inc/laborator_functions.php:140
+#: inc/laborator_functions.php:146
 msgid "Print"
 msgstr "Skriv ut"
 
-#: inc/laborator_functions.php:903 searchform.php:16 tpls/menu-mobile.php:52
+#: inc/laborator_functions.php:938 searchform.php:16 tpls/menu-mobile.php:52
 msgid "Search site..."
 msgstr "Søk..."
 
-#: inc/laborator_portfolio.php:550
+#: inc/laborator_portfolio.php:568
 msgid "Your browser does not support HTML5 video."
 msgstr "Din nettleser støtter ikke HTML5 video"
 
-#: inc/laborator_portfolio.php:871
+#: inc/laborator_portfolio.php:880
 msgid "Show More"
 msgstr "Vis Mer"
 
-#: inc/laborator_portfolio.php:872
+#: inc/laborator_portfolio.php:881
 msgid "No more portfolio items to show"
 msgstr "Ingen flere portefølje elementer å vise"
 
-#: inc/laborator_portfolio.php:1834
+#: inc/laborator_portfolio.php:1862
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -349,29 +349,33 @@ msgstr "Neste innlegg"
 msgid "Icon"
 msgstr "Ikon"
 
-#: inc/lib/vc/lab_contact_form/init.php:149
+#: inc/lib/vc/lab_contact_form/init.php:160
+msgid "Captcha verification failed, please try again!"
+msgstr ""
+
+#: inc/lib/vc/lab_contact_form/init.php:187
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] New Contact Form melding er mottatt."
 
-#: inc/lib/vc/lab_contact_form/init.php:157
+#: inc/lib/vc/lab_contact_form/init.php:194
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Du har mottatt en ny melding fra kontaktskjemaet."
 
-#: inc/lib/vc/lab_contact_form/init.php:159
+#: inc/lib/vc/lab_contact_form/init.php:196
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Meldingen Detaljer -----"
 
-#: inc/lib/vc/lab_contact_form/init.php:173
+#: inc/lib/vc/lab_contact_form/init.php:213
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Denne meldingen er sendt fra IP: %s"
 
-#: inc/lib/vc/lab_contact_form/init.php:175
+#: inc/lib/vc/lab_contact_form/init.php:215
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -394,7 +398,7 @@ msgstr "Gå"
 msgid "Search"
 msgstr "Søk"
 
-#: tpls/portfolio-listing-title.php:66
+#: tpls/portfolio-listing-title.php:73
 msgid "All"
 msgstr "Alle"
 
@@ -475,9 +479,13 @@ msgstr "Delsum"
 msgid "Loading blog posts..."
 msgstr "Laster nye innlegg…"
 
-#: vc_templates/lab_contact_form.php:30
+#: vc_templates/lab_contact_form.php:51
 msgid "Please fill \"%\" field."
 msgstr "Vennligst fyll \"%\" feltet."
+
+#: vc_templates/lab_contact_form.php:51
+msgid "You must check privacy policy checkbox in order to submit the form."
+msgstr ""
 
 #: vc_templates/lab_message.php:57
 msgid "Close"
