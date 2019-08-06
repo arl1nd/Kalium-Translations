@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
 "POT-Creation-Date: 2018-05-10 09:22+0200\n"
-"PO-Revision-Date: 2018-05-10 09:22+0200\n"
+"PO-Revision-Date: 2019-02-28 14:57+0100\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -206,7 +206,7 @@ msgstr "Vorige"
 #: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:112
 #: tpls/search-results.php:79 tpls/search-results.php:91
 msgid "Next"
-msgstr "Naast"
+msgstr "Volgende"
 
 #: inc/functions/template/woocommerce-template-functions.php:1132
 #, php-format
