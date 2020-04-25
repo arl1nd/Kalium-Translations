@@ -20,11 +20,11 @@ msgstr ""
 "X-Translation-Version: 2.4\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
-"X-Poedit-SearchPathExcluded-2: inc/lib/laborator/laborator-demo-content-"
+"X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-2: includes/libraries/laborator/laborator-demo-content-"
 "importer\n"
-"X-Poedit-SearchPathExcluded-3: inc/lib/smof\n"
-"X-Poedit-SearchPathExcluded-4: inc/lib/BFI_Thumb.php\n"
+"X-Poedit-SearchPathExcluded-3: includes/libraries/smof\n"
+"X-Poedit-SearchPathExcluded-4: includes/libraries/BFI_Thumb.php\n"
 "X-Poedit-SearchPathExcluded-5: style.css\n"
 "X-Poedit-SearchPathExcluded-6: woocommerce\n"
 
@@ -115,273 +115,273 @@ msgstr "Kommentera %s"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: inc/functions/template/blog-template-functions.php:58
+#: includes/functions/template/blog-template-functions.php:58
 msgid "Category"
 msgstr "Kategori"
 
-#: inc/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:64
 msgid "Tag"
 msgstr "Tagg"
 
-#: inc/functions/template/blog-template-functions.php:69
+#: includes/functions/template/blog-template-functions.php:69
 msgid "Author"
 msgstr "Författade"
 
-#: inc/functions/template/blog-template-functions.php:74
+#: includes/functions/template/blog-template-functions.php:74
 msgid "Year"
 msgstr "År"
 
-#: inc/functions/template/blog-template-functions.php:79
-#: inc/functions/template/blog-template-functions.php:84
+#: includes/functions/template/blog-template-functions.php:79
+#: includes/functions/template/blog-template-functions.php:84
 msgid "Month"
 msgstr "Månad"
 
-#: inc/functions/template/blog-template-functions.php:184
+#: includes/functions/template/blog-template-functions.php:184
 msgid "There are no posts to show"
 msgstr "Inga inlägg att visa"
 
-#: inc/functions/template/blog-template-functions.php:235
-#: inc/functions/template/woocommerce-template-functions.php:436
+#: includes/functions/template/blog-template-functions.php:235
+#: includes/functions/template/woocommerce-template-functions.php:436
 msgid "Show more"
 msgstr "Visa Fler"
 
-#: inc/functions/template/blog-template-functions.php:236
+#: includes/functions/template/blog-template-functions.php:236
 msgid "All posts are shown"
 msgstr "Alla inlägg visas"
 
-#: inc/functions/template/blog-template-functions.php:554
+#: includes/functions/template/blog-template-functions.php:554
 msgid "Previous page"
 msgstr "Föregående sida"
 
-#: inc/functions/template/blog-template-functions.php:555
+#: includes/functions/template/blog-template-functions.php:555
 msgid "Next page"
 msgstr "Nästa sida"
 
-#: inc/functions/template/blog-template-functions.php:646
+#: includes/functions/template/blog-template-functions.php:646
 msgid "Loading posts..."
 msgstr "Laddar inlägg…"
 
-#: inc/functions/template/blog-template-functions.php:771
+#: includes/functions/template/blog-template-functions.php:771
 msgid "Share:"
 msgstr "Dela:"
 
-#: inc/functions/template/blog-template-functions.php:1093
+#: includes/functions/template/blog-template-functions.php:1093
 msgid "Older Post"
 msgstr "Äldre inlägg"
 
-#: inc/functions/template/blog-template-functions.php:1100
+#: includes/functions/template/blog-template-functions.php:1100
 msgid "Newer Post"
 msgstr "Nyare inlägg"
 
-#: inc/functions/template/blog-template-functions.php:1137
+#: includes/functions/template/blog-template-functions.php:1137
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s kl. %s"
 
-#: inc/functions/template/blog-template-functions.php:1174
+#: includes/functions/template/blog-template-functions.php:1174
 msgid "reply"
 msgstr "svara"
 
-#: inc/functions/template/blog-template-functions.php:1195
+#: includes/functions/template/blog-template-functions.php:1195
 #, php-format
 msgid "In reply to: %s"
 msgstr "Svar till: %s"
 
-#: inc/functions/template/woocommerce-template-functions.php:437
+#: includes/functions/template/woocommerce-template-functions.php:437
 msgid "No more products to show"
 msgstr "Det finns inga fler produkter att visa"
 
-#: inc/functions/template/woocommerce-template-functions.php:843
+#: includes/functions/template/woocommerce-template-functions.php:843
 msgid "Added to cart"
 msgstr "Läggas till i kundvagnen"
 
-#: inc/functions/template/woocommerce-template-functions.php:864
+#: includes/functions/template/woocommerce-template-functions.php:864
 #: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:109
 #: tpls/search-results.php:76 tpls/search-results.php:90
 msgid "Previous"
 msgstr "Föregående"
 
-#: inc/functions/template/woocommerce-template-functions.php:865
+#: includes/functions/template/woocommerce-template-functions.php:865
 #: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:112
 #: tpls/search-results.php:79 tpls/search-results.php:91
 msgid "Next"
 msgstr "Nästa"
 
-#: inc/functions/template/woocommerce-template-functions.php:1132
+#: includes/functions/template/woocommerce-template-functions.php:1132
 #, php-format
 msgid "%s out of 5"
 msgstr "%s av 5"
 
-#: inc/functions/template/woocommerce-template-functions.php:1245
+#: includes/functions/template/woocommerce-template-functions.php:1245
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Betygsatt %s av 5"
 
-#: inc/functions/template/woocommerce-template-functions.php:1259
+#: includes/functions/template/woocommerce-template-functions.php:1259
 msgid "Payment method"
 msgstr "Betalsätt"
 
-#: inc/functions/template/woocommerce-template-functions.php:1303
+#: includes/functions/template/woocommerce-template-functions.php:1303
 msgid "Login or register"
 msgstr "Logga in eller Registrera"
 
-#: inc/functions/template/woocommerce-template-functions.php:1305
+#: includes/functions/template/woocommerce-template-functions.php:1305
 msgid "Login"
 msgstr "Logga in"
 
-#: inc/functions/template/woocommerce-template-functions.php:1309
+#: includes/functions/template/woocommerce-template-functions.php:1309
 msgid "Manage your account and see your orders"
 msgstr "Hantera ditt konto och se dina beställningar"
 
-#: inc/functions/template/woocommerce-template-functions.php:1389
+#: includes/functions/template/woocommerce-template-functions.php:1389
 msgid "Cart"
 msgstr "Varukorg"
 
-#: inc/functions/template/woocommerce-template-functions.php:1429
+#: includes/functions/template/woocommerce-template-functions.php:1429
 msgid "Share this item:"
 msgstr "Dela detta:"
 
-#: inc/functions/template/woocommerce-template-functions.php:1479
+#: includes/functions/template/woocommerce-template-functions.php:1479
 msgid "Logout"
 msgstr "Logga ut"
 
-#: inc/functions/template/woocommerce-template-functions.php:1507
+#: includes/functions/template/woocommerce-template-functions.php:1507
 msgid "My Orders"
 msgstr "Mina Order"
 
-#: inc/functions/template/woocommerce-template-functions.php:1508
+#: includes/functions/template/woocommerce-template-functions.php:1508
 msgid "Your recent orders are displayed in the table below."
 msgstr "Dina senaste order visas i tabellen nedan."
 
-#: inc/functions/template/woocommerce-template-functions.php:1523
+#: includes/functions/template/woocommerce-template-functions.php:1523
 msgid "My Downloads"
 msgstr "Mina Nedladdningar"
 
-#: inc/functions/template/woocommerce-template-functions.php:1524
+#: includes/functions/template/woocommerce-template-functions.php:1524
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Dina digitala nedladdningar visas i tabellen nedan."
 
-#: inc/functions/template/woocommerce-template-functions.php:1606
+#: includes/functions/template/woocommerce-template-functions.php:1606
 msgid "View full size"
 msgstr "Se full storlek"
 
-#: inc/functions/template/woocommerce-template-functions.php:1781
+#: includes/functions/template/woocommerce-template-functions.php:1781
 msgid "Out of stock"
 msgstr "Slut i lager"
 
-#: inc/functions/template/woocommerce-template-functions.php:1786
+#: includes/functions/template/woocommerce-template-functions.php:1786
 msgid "Featured"
 msgstr "Utvald"
 
-#: inc/functions/template/woocommerce-template-functions.php:1791
+#: includes/functions/template/woocommerce-template-functions.php:1791
 msgid "Sale!"
 msgstr ""
 
-#: inc/functions/woocommerce-functions.php:127
+#: includes/functions/woocommerce-functions.php:127
 msgid "&laquo; Go back"
 msgstr "&laquo; Gå tillbaka"
 
-#: inc/functions/woocommerce-functions.php:128
+#: includes/functions/woocommerce-functions.php:128
 msgid "Edit information for this address type"
 msgstr "Redigera informationen för denna adresstyp"
 
-#: inc/functions/woocommerce-functions.php:129
+#: includes/functions/woocommerce-functions.php:129
 msgid "My account"
 msgstr "Mitt konto"
 
-#: inc/functions/woocommerce-functions.php:130
+#: includes/functions/woocommerce-functions.php:130
 msgid "Edit your account details or change your password"
 msgstr "Redigera dina kontouppgifter eller ändra ditt lösenord"
 
-#: inc/functions/woocommerce-functions.php:131
+#: includes/functions/woocommerce-functions.php:131
 msgid "(leave blank to leave unchanged)"
 msgstr "(lämna tomt för att behålla nuvarande)"
 
-#: inc/functions/woocommerce-functions.php:132
+#: includes/functions/woocommerce-functions.php:132
 msgid "Current password"
 msgstr "Nuvarande lösenord"
 
-#: inc/laborator_filters.php:135 inc/laborator_functions.php:140
+#: includes/laborator_filters.php:135 includes/laborator_functions.php:140
 msgid "Email"
 msgstr "E-post"
 
-#: inc/laborator_functions.php:139
+#: includes/laborator_functions.php:139
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Kolla vad jag just upptäckt: %s"
 
-#: inc/laborator_functions.php:146
+#: includes/laborator_functions.php:146
 msgid "Print"
 msgstr "Skriv ut"
 
-#: inc/laborator_functions.php:938 searchform.php:16 tpls/menu-mobile.php:52
+#: includes/laborator_functions.php:938 searchform.php:16 tpls/menu-mobile.php:52
 msgid "Search site..."
 msgstr "Sök på sajten..."
 
-#: inc/laborator_portfolio.php:568
+#: includes/laborator_portfolio.php:568
 msgid "Your browser does not support HTML5 video."
 msgstr "Din webbläsare stöder inte HTML5 video."
 
-#: inc/laborator_portfolio.php:880
+#: includes/laborator_portfolio.php:880
 msgid "Show More"
 msgstr "Visa Fler"
 
-#: inc/laborator_portfolio.php:881
+#: includes/laborator_portfolio.php:881
 msgid "No more portfolio items to show"
 msgstr "Inga fler portfölj objekt att visa"
 
-#: inc/laborator_portfolio.php:1862
+#: includes/laborator_portfolio.php:1862
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: inc/lib/post-link-plus.php:310
+#: includes/libraries/post-link-plus.php:310
 msgid "Previous Post"
 msgstr "Tidigare inlägg"
 
-#: inc/lib/post-link-plus.php:310
+#: includes/libraries/post-link-plus.php:310
 msgid "Next Post"
 msgstr "Följande inlägg"
 
-#: inc/lib/vc/custom-font-icons.php:30
+#: includes/libraries/vc/custom-font-icons.php:30
 msgid "Icon"
 msgstr "Ikon"
 
-#: inc/lib/vc/lab_contact_form/init.php:160
+#: includes/libraries/vc/lab_contact_form/init.php:160
 msgid "Captcha verification failed, please try again!"
 msgstr ""
 
-#: inc/lib/vc/lab_contact_form/init.php:187
+#: includes/libraries/vc/lab_contact_form/init.php:187
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Ny Kontaktformulär meddelande har tagits emot."
 
-#: inc/lib/vc/lab_contact_form/init.php:194
+#: includes/libraries/vc/lab_contact_form/init.php:194
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Du har fått ett nytt kontaktformulär meddelande."
 
-#: inc/lib/vc/lab_contact_form/init.php:196
+#: includes/libraries/vc/lab_contact_form/init.php:196
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Meddelandeinformation -----"
 
-#: inc/lib/vc/lab_contact_form/init.php:213
+#: includes/libraries/vc/lab_contact_form/init.php:213
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Det här meddelandet har skickats från IP:%s"
 
-#: inc/lib/vc/lab_contact_form/init.php:215
+#: includes/libraries/vc/lab_contact_form/init.php:215
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
 msgstr "Webbplatsens URL: %s"
 
-#: inc/lib/vc/lab_products_carousel/init.php:245
+#: includes/libraries/vc/lab_products_carousel/init.php:245
 msgid "Loading products..."
 msgstr "Laddar produkter…"
 
