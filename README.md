@@ -14,4 +14,4 @@ https://laborator.co/
 <br>
 ThemeForest:
 
-https://themeforest.net/item/kalium-creative-theme-for-professionals/10860525?ref=Laborator
+https://themeforest.net/item/kalium-creative-theme-for-professionals/10860525
