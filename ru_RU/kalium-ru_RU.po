@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2019-02-04 16:28+0100\n"
-"PO-Revision-Date: 2019-02-04 16:28+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2020-06-02 13:00+0200\n"
+"PO-Revision-Date: 2020-06-02 13:00+0200\n"
+"Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +18,24 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Translation-Version: 2.7.6\n"
+"X-Translation-Version: 3.0.2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-activation.php\n"
-"X-Poedit-SearchPathExcluded-2: includes/libraries/laborator/laborator-demo-content-"
-"importer\n"
-"X-Poedit-SearchPathExcluded-3: includes/libraries/smof\n"
-"X-Poedit-SearchPathExcluded-4: includes/libraries/BFI_Thumb.php\n"
-"X-Poedit-SearchPathExcluded-5: style.css\n"
-"X-Poedit-SearchPathExcluded-6: woocommerce\n"
+"X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-"
+"activation.php\n"
+"X-Poedit-SearchPathExcluded-2: includes/libraries/smof\n"
+"X-Poedit-SearchPathExcluded-3: style.css\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce\n"
+"X-Poedit-SearchPathExcluded-5: includes/libraries/laborator/importer/"
+"includes/plugins\n"
+"X-Poedit-SearchPathExcluded-6: theme-demo\n"
+"X-Poedit-SearchPathExcluded-7: includes/libraries/wpml-embedder\n"
 
-#: 404.php:25
+#: 404.php:30
 msgid "Not found!"
 msgstr "ничего не найдено!"
 
-#: 404.php:26
+#: 404.php:31
 #, php-format
 msgid ""
 "We’re sorry, the page you have looked for does not exist in our database! "
@@ -41,38 +43,6 @@ msgid ""
 msgstr ""
 "Упс, Страница удалена или  не существует.  <br /> Пожалуйста, вернитесь  на  "
 "<a href=\"%s\">главную страницу</a>"
-
-#: coming-soon-mode.php:93
-msgid "Days"
-msgstr "Дней"
-
-#: coming-soon-mode.php:94
-msgid "Day"
-msgstr "День"
-
-#: coming-soon-mode.php:99
-msgid "Hours"
-msgstr "часов"
-
-#: coming-soon-mode.php:100
-msgid "Hour"
-msgstr "Час"
-
-#: coming-soon-mode.php:105
-msgid "Minutes"
-msgstr "Минут"
-
-#: coming-soon-mode.php:106
-msgid "Minute"
-msgstr "Минута"
-
-#: coming-soon-mode.php:111
-msgid "Seconds"
-msgstr "Cекунды"
-
-#: coming-soon-mode.php:112
-msgid "Second"
-msgstr "Cекунда"
 
 #: comments.php:22
 #, php-format
@@ -100,251 +70,256 @@ msgstr "%s Предыдущая"
 msgid "Next %s"
 msgstr "Следующие %s"
 
-#: comments.php:66
+#: comments.php:67
 msgid "Leave a reply"
 msgstr "Оставить комментарий"
 
-#: comments.php:66
+#: comments.php:67
 msgid "Share your thoughts"
 msgstr "Поделитесь своими мыслями"
 
-#: comments.php:67
+#: comments.php:68
 #, php-format
 msgid "Reply to %s"
 msgstr "Комментарий к записи %s"
 
-#: comments.php:72
+#: comments.php:73
 msgid "Comment"
 msgstr "комментарий"
 
-#: includes/functions/template/blog-template-functions.php:58
-msgid "Category"
-msgstr "Категория"
-
-#: includes/functions/template/blog-template-functions.php:64
-msgid "Tag"
-msgstr "Метка"
-
-#: includes/functions/template/blog-template-functions.php:71
-msgid "Author"
-msgstr "Автор"
-
-#: includes/functions/template/blog-template-functions.php:76
-msgid "Year"
-msgstr "Год"
-
-#: includes/functions/template/blog-template-functions.php:81
-#: includes/functions/template/blog-template-functions.php:86
-msgid "Month"
-msgstr "Месяц"
-
-#: includes/functions/template/blog-template-functions.php:186
-msgid "There are no posts to show"
-msgstr "Нет больше сообщений для отображения"
-
-#: includes/functions/template/blog-template-functions.php:237
-#: includes/functions/template/woocommerce-template-functions.php:427
+#: includes/functions/blog-hook-functions.php:427
+#: includes/functions/template/woocommerce-template-functions.php:339
 msgid "Show more"
 msgstr "Показать больше"
 
-#: includes/functions/template/blog-template-functions.php:238
+#: includes/functions/blog-hook-functions.php:428
 msgid "All posts are shown"
 msgstr "Все сообщения показаны"
 
-#: includes/functions/template/blog-template-functions.php:556
-msgid "Previous page"
-msgstr "Предыдущая страница"
-
-#: includes/functions/template/blog-template-functions.php:557
-msgid "Next page"
-msgstr "Следующая страница"
-
-#: includes/functions/template/blog-template-functions.php:648
-msgid "Loading posts..."
-msgstr "Загружаются дополнительные..."
-
-#: includes/functions/template/blog-template-functions.php:773
-msgid "Share:"
-msgstr "Поделиться:"
-
-#: includes/functions/template/blog-template-functions.php:1095
+#: includes/functions/blog-hook-functions.php:764
 msgid "Older Post"
 msgstr "Предыдущая публикация"
 
-#: includes/functions/template/blog-template-functions.php:1102
+#: includes/functions/blog-hook-functions.php:771
 msgid "Newer Post"
 msgstr "Следующая публикация"
 
-#: includes/functions/template/blog-template-functions.php:1136
+#: includes/functions/template/blog-template-functions.php:45
+msgid "Category"
+msgstr "Категория"
+
+#: includes/functions/template/blog-template-functions.php:50
+msgid "Tag"
+msgstr "Метка"
+
+#: includes/functions/template/blog-template-functions.php:56
+msgid "Author"
+msgstr "Автор"
+
+#: includes/functions/template/blog-template-functions.php:60
+msgid "Year"
+msgstr "Год"
+
+#: includes/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:68
+msgid "Month"
+msgstr "Месяц"
+
+#: includes/functions/template/blog-template-functions.php:97
+msgid "There are no posts to show"
+msgstr "Нет больше сообщений для отображения"
+
+#: includes/functions/template/blog-template-functions.php:219
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: includes/functions/template/blog-template-functions.php:220
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: includes/functions/template/blog-template-functions.php:310
+msgid "Loading posts..."
+msgstr "Загружаются дополнительные..."
+
+#: includes/functions/template/blog-template-functions.php:350
+msgid "Share:"
+msgstr "Поделиться:"
+
+#: includes/functions/template/blog-template-functions.php:614
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s в %s"
 
-#: includes/functions/template/blog-template-functions.php:1173
+#: includes/functions/template/blog-template-functions.php:651
 msgid "reply"
 msgstr "комментарий"
 
-#: includes/functions/template/blog-template-functions.php:1194
+#: includes/functions/template/blog-template-functions.php:672
 #, php-format
 msgid "In reply to: %s"
 msgstr "В ответ на: %s"
 
-#: includes/functions/template/woocommerce-template-functions.php:428
+#: includes/functions/template/core-template-functions.php:220
+#: includes/laborator_filters.php:150 includes/laborator_functions.php:87
+msgid "Email"
+msgstr "e-mail"
+
+#: includes/functions/template/header-template-functions.php:436
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/functions/template/header-template-functions.php:504
+#: searchform.php:19 tpls/menu-mobile.php:59
+msgid "Search site..."
+msgstr "Поиск по сайту..."
+
+#: includes/functions/template/woocommerce-template-functions.php:340
 msgid "No more products to show"
 msgstr "Нет больше продуктов, чтобы показать"
 
-#: includes/functions/template/woocommerce-template-functions.php:838
-#: includes/functions/template/woocommerce-template-functions.php:871
-msgid "Added to cart"
-msgstr "Добавлен в корзину"
-
-#: includes/functions/template/woocommerce-template-functions.php:885
-#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:111
-#: tpls/search-results.php:97
-msgid "Previous"
-msgstr "Ранее"
-
-#: includes/functions/template/woocommerce-template-functions.php:886
-#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:114
-#: tpls/search-results.php:98
-msgid "Next"
-msgstr "Далее"
-
-#: includes/functions/template/woocommerce-template-functions.php:1117
+#: includes/functions/template/woocommerce-template-functions.php:997
 #, php-format
 msgid "%s out of 5"
 msgstr "%s из 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1210
+#: includes/functions/template/woocommerce-template-functions.php:1085
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Оценка %s из 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1224
+#: includes/functions/template/woocommerce-template-functions.php:1099
 msgid "Payment method"
 msgstr "Способ оплаты"
 
-#: includes/functions/template/woocommerce-template-functions.php:1268
+#: includes/functions/template/woocommerce-template-functions.php:1117
 msgid "Login or register"
 msgstr "Войти или Регистрация"
 
-#: includes/functions/template/woocommerce-template-functions.php:1270
+#: includes/functions/template/woocommerce-template-functions.php:1119
 msgid "Login"
 msgstr "Авторизация"
 
-#: includes/functions/template/woocommerce-template-functions.php:1274
+#: includes/functions/template/woocommerce-template-functions.php:1124
 msgid "Manage your account and see your orders"
 msgstr "Личный аккаунт и ваши заказы"
 
-#: includes/functions/template/woocommerce-template-functions.php:1356
+#: includes/functions/template/woocommerce-template-functions.php:1222
 msgid "Cart"
 msgstr "Корзина"
 
-#: includes/functions/template/woocommerce-template-functions.php:1395
+#: includes/functions/template/woocommerce-template-functions.php:1327
 msgid "Share this item:"
 msgstr "Поделиться:"
 
-#: includes/functions/template/woocommerce-template-functions.php:1472
+#: includes/functions/template/woocommerce-template-functions.php:1403
 msgid "My Orders"
 msgstr "Мои заказы"
 
-#: includes/functions/template/woocommerce-template-functions.php:1473
+#: includes/functions/template/woocommerce-template-functions.php:1404
 msgid "Your recent orders are displayed in the table below."
 msgstr "Недавние заказы отображаются в таблице ниже."
 
-#: includes/functions/template/woocommerce-template-functions.php:1488
+#: includes/functions/template/woocommerce-template-functions.php:1419
 msgid "My Downloads"
 msgstr "Мои Загрузки"
 
-#: includes/functions/template/woocommerce-template-functions.php:1489
+#: includes/functions/template/woocommerce-template-functions.php:1420
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Цифровые загрузки отображаются в таблице ниже."
 
-#: includes/functions/template/woocommerce-template-functions.php:1570
+#: includes/functions/template/woocommerce-template-functions.php:1432
 msgid "View full size"
 msgstr "Посмотреть полный размер"
 
-#: includes/functions/template/woocommerce-template-functions.php:1747
+#: includes/functions/template/woocommerce-template-functions.php:1562
 msgid "Out of stock"
 msgstr "Нет в наличии"
 
-#: includes/functions/template/woocommerce-template-functions.php:1750
+#: includes/functions/template/woocommerce-template-functions.php:1565
 msgid "Featured"
 msgstr "Рекомендуемый"
 
-#: includes/functions/template/woocommerce-template-functions.php:1753
+#: includes/functions/template/woocommerce-template-functions.php:1568
 msgid "Sale!"
-msgstr ""
+msgstr "Продажа!"
 
-#: includes/functions/template/woocommerce-template-functions.php:1836
-msgid "&laquo; Go back"
-msgstr "&laquo; Назад"
-
-#: includes/functions/template/woocommerce-template-functions.php:1851
-msgid "My account"
-msgstr "Мой аккаунт"
-
-#: includes/functions/template/woocommerce-template-functions.php:1852
-msgid "Edit your account details or change your password"
-msgstr "Редактировать свои данные или изменить пароль"
-
-#: includes/functions/template/woocommerce-template-functions.php:1864
+#: includes/functions/template/woocommerce-template-functions.php:1581
 msgid "Edit information for this address type"
 msgstr "Редактировать информацию для этого адреса типа"
 
-#: includes/functions/template/woocommerce-template-functions.php:1901
+#: includes/functions/template/woocommerce-template-functions.php:1591
 msgid "Addresses"
-msgstr ""
+msgstr "Адреса"
 
-#: includes/functions/woocommerce-functions.php:126
+#: includes/functions/template/woocommerce-template-functions.php:1605
+msgid "&laquo; Go back"
+msgstr "&laquo; Назад"
+
+#: includes/functions/template/woocommerce-template-functions.php:1620
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: includes/functions/template/woocommerce-template-functions.php:1621
+msgid "Edit your account details or change your password"
+msgstr "Редактировать свои данные или изменить пароль"
+
+#: includes/functions/woocommerce-functions.php:165
 msgid "(leave blank to leave unchanged)"
 msgstr "(не заполняйте чтобы оставить прежний)"
 
-#: includes/functions/woocommerce-functions.php:127
+#: includes/functions/woocommerce-functions.php:166
 msgid "Current password"
 msgstr "Действующий пароль"
 
-#: includes/laborator_filters.php:141 includes/laborator_functions.php:142
-msgid "Email"
-msgstr "e-mail"
+#: includes/functions/woocommerce-hook-functions.php:192
+msgid "Added to cart"
+msgstr "Добавлен в корзину"
 
-#: includes/laborator_functions.php:141
+#: includes/functions/woocommerce-hook-functions.php:213
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
+#: tpls/search-results.php:99
+msgid "Previous"
+msgstr "Ранее"
+
+#: includes/functions/woocommerce-hook-functions.php:214
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
+#: tpls/search-results.php:100
+msgid "Next"
+msgstr "Далее"
+
+#: includes/laborator_functions.php:86
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Проверьте что я только что заметил: %s"
 
-#: includes/laborator_functions.php:148
+#: includes/laborator_functions.php:93
 msgid "Print"
 msgstr "Печать"
 
-#: includes/laborator_functions.php:1010 searchform.php:16 tpls/menu-mobile.php:55
-msgid "Search site..."
-msgstr "Поиск по сайту..."
-
-#: includes/laborator_portfolio.php:575
+#: includes/laborator_portfolio.php:578
 msgid "Your browser does not support HTML5 video."
 msgstr "Ваш браузер не поддерживает HTML5-видео."
 
-#: includes/laborator_portfolio.php:893
+#: includes/laborator_portfolio.php:904
 msgid "Show More"
 msgstr "Показать больше"
 
-#: includes/laborator_portfolio.php:894
+#: includes/laborator_portfolio.php:905
 msgid "No more portfolio items to show"
 msgstr "Нет больше сообщений портфолио для отображения"
 
-#: includes/laborator_portfolio.php:1889
+#: includes/laborator_portfolio.php:1931
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: includes/libraries/post-link-plus.php:310
+#: includes/libraries/post-link-plus.php:313
 msgid "Previous Post"
 msgstr "Предыдущая запись"
 
-#: includes/libraries/post-link-plus.php:310
+#: includes/libraries/post-link-plus.php:313
 msgid "Next Post"
 msgstr "Следующая запись"
 
@@ -352,33 +327,33 @@ msgstr "Следующая запись"
 msgid "Icon"
 msgstr "Иконка"
 
-#: includes/libraries/vc/lab_contact_form/init.php:160
+#: includes/libraries/vc/lab_contact_form/init.php:161
 msgid "Captcha verification failed, please try again!"
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:187
+#: includes/libraries/vc/lab_contact_form/init.php:190
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Новая форма контакта сообщение было получено."
 
-#: includes/libraries/vc/lab_contact_form/init.php:194
+#: includes/libraries/vc/lab_contact_form/init.php:197
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Вы получили новое сообщение в контактной форме:"
 
-#: includes/libraries/vc/lab_contact_form/init.php:196
+#: includes/libraries/vc/lab_contact_form/init.php:199
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Подробнее Сообщение -----"
 
-#: includes/libraries/vc/lab_contact_form/init.php:213
+#: includes/libraries/vc/lab_contact_form/init.php:216
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Это сообщение было отправлено с IP: %s"
 
-#: includes/libraries/vc/lab_contact_form/init.php:215
+#: includes/libraries/vc/lab_contact_form/init.php:218
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -388,57 +363,84 @@ msgstr "URL сайта: %s"
 msgid "Loading products..."
 msgstr "Загрузка продуктов..."
 
-#: searchform.php:15 searchform.php:16
-msgctxt "label"
+#: searchform.php:18 searchform.php:19
 msgid "Search for:"
-msgstr "Поиск:"
+msgstr "Искать:"
 
-#: searchform.php:18 tpls/menu-mobile.php:61
+#: searchform.php:21 tpls/menu-mobile.php:65
 msgid "Go"
 msgstr "Перейти"
 
-#: tpls/header-main.php:331
-msgid "Search"
-msgstr "Поиск"
+#: templates/pages/coming-soon.php:44
+msgid "Days"
+msgstr "Дней"
 
-#: tpls/portfolio-listing-title.php:80
+#: templates/pages/coming-soon.php:45
+msgid "Day"
+msgstr "День"
+
+#: templates/pages/coming-soon.php:50
+msgid "Hours"
+msgstr "часов"
+
+#: templates/pages/coming-soon.php:51
+msgid "Hour"
+msgstr "Час"
+
+#: templates/pages/coming-soon.php:56
+msgid "Minutes"
+msgstr "Минут"
+
+#: templates/pages/coming-soon.php:57
+msgid "Minute"
+msgstr "Минута"
+
+#: templates/pages/coming-soon.php:62
+msgid "Seconds"
+msgstr "Cекунды"
+
+#: templates/pages/coming-soon.php:63
+msgid "Second"
+msgstr "Cекунда"
+
+#: tpls/portfolio-listing-title.php:100
 msgid "All"
 msgstr "Все"
 
-#: tpls/portfolio-single-5.php:79
+#: tpls/portfolio-single-5.php:81
 msgid "Click here to show project info"
 msgstr "Нажмите здесь, чтобы показать сведения о проекте"
 
-#: tpls/portfolio-single-6.php:35
+#: tpls/portfolio-single-6.php:37
 msgid "Open in Lightbox"
 msgstr "Открыть в Lightbox"
 
-#: tpls/portfolio-single-like-share.php:53
+#: tpls/portfolio-single-like-share.php:55
 msgid "Share"
 msgstr "Поделиться"
 
-#: tpls/portfolio-single-prevnext.php:64
+#: tpls/portfolio-single-prevnext.php:72
 msgid "Previous project"
 msgstr "Предыдущий проект"
 
-#: tpls/portfolio-single-prevnext.php:65
+#: tpls/portfolio-single-prevnext.php:73
 msgid "Next project"
 msgstr "Следующий проект"
 
-#: tpls/portfolio-single-prevnext.php:127
+#: tpls/portfolio-single-prevnext.php:135
 msgid "Go to portfolio archive"
 msgstr "Перейти в портфель архив"
 
-#: tpls/search-results.php:22
+#: tpls/search-results.php:24
 msgid "Click to change your search"
 msgstr "Нажмите, чтобы изменить условия поиска"
 
-#: tpls/search-results.php:28
+#: tpls/search-results.php:30
 #, php-format
 msgid "%d results for “%s”"
 msgstr "%d результаты для «%s»"
 
-#: tpls/search-results.php:31
+#: tpls/search-results.php:33
 #, php-format
 msgid "We have found one match with the word you searched."
 msgid_plural "We have found %d results with the word you searched."
@@ -446,49 +448,49 @@ msgstr[0] "Мы нашли %d матч со словом вы искали."
 msgstr[1] "Мы нашли %d результатов со словом вы искали."
 msgstr[2] "Мы нашли %d результатов со словом вы искали."
 
-#: tpls/search-results.php:33
+#: tpls/search-results.php:35
 msgid "There is nothing found that matches your search criteria."
 msgstr "Там нет ничего, что соответствует найдено вашим критериям поиска."
 
-#: tpls/search-results.php:79
+#: tpls/search-results.php:81
 #, php-format
 msgid "Continue %s"
-msgstr ""
+msgstr "Продолжить %s"
 
-#: tpls/wc-mini-cart.php:18
+#: tpls/wc-mini-cart.php:20
 msgid "Loading cart contents..."
 msgstr "Загрузка содержимого корзины…"
 
-#: tpls/wc-mini-cart.php:30
+#: tpls/wc-mini-cart.php:32
 #, php-format
 msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr "Корзина пока пуста! <a href=\"%s\">Перейти к покупкам &raquo;</a>"
 
-#: tpls/wc-mini-cart.php:67
+#: tpls/wc-mini-cart.php:72
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
-#: tpls/wc-mini-cart.php:100
+#: tpls/wc-mini-cart.php:105
 msgid "View Cart"
 msgstr "Перейти в корзину"
 
-#: tpls/wc-mini-cart.php:104
+#: tpls/wc-mini-cart.php:109
 msgid "Checkout"
 msgstr "Оформление заказа"
 
-#: tpls/wc-mini-cart.php:110
+#: tpls/wc-mini-cart.php:115
 msgid "Subtotal"
 msgstr "Подытог"
 
-#: vc_templates/lab_blog_posts.php:225
+#: vc_templates/lab_blog_posts.php:228
 msgid "Loading blog posts..."
 msgstr "Загрузка сообщений в блоге..."
 
-#: vc_templates/lab_contact_form.php:51
+#: vc_templates/lab_contact_form.php:54
 msgid "Please fill \"%\" field."
 msgstr "Пожалуйста, заполните поля \"%\"."
 
-#: vc_templates/lab_contact_form.php:51
+#: vc_templates/lab_contact_form.php:54
 msgid "You must check privacy policy checkbox in order to submit the form."
 msgstr ""
 
@@ -501,14 +503,14 @@ msgid "Kalium"
 msgstr "Kalium"
 
 #. Theme URI of the plugin/theme
-msgid "https://laborator.co/themes/kalium/"
+msgid "https://kaliumtheme.com"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
 "Start creating that amazing website that you have always wanted, only with "
-"Kalium — Connect with Laborator on:  <a href=\"https://themeforest.net/user/"
-"laborator\">Envato</a> &bull; <a href=\"https://twitter.com/thelaborator"
+"Kalium &mdash; Connect with Laborator on: <a href=\"https://themeforest.net/"
+"user/laborator\">Envato</a> &bull; <a href=\"https://twitter.com/thelaborator"
 "\">Twitter</a> &bull; <a href=\"https://www.facebook.com/laboratorcreative"
 "\">Facebook</a> &bull; <a href=\"https://www.instagram.com/laboratorcreative/"
 "\">Instagram</a>"
@@ -521,6 +523,10 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgctxt "label"
+#~ msgid "Search for:"
+#~ msgstr "Поиск:"
 
 #~ msgid "Logout"
 #~ msgstr "Выйти"

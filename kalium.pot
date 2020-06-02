@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2020-04-25 13:18+0200\n"
+"POT-Creation-Date: 2020-06-02 12:49+0200\n"
 "PO-Revision-Date: 2015-07-10 10:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
@@ -19,18 +19,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-activation.php\n"
-"X-Poedit-SearchPathExcluded-2: includes/libraries/laborator/laborator-demo-content-"
-"importer\n"
-"X-Poedit-SearchPathExcluded-3: includes/libraries/smof\n"
-"X-Poedit-SearchPathExcluded-4: includes/libraries/BFI_Thumb.php\n"
-"X-Poedit-SearchPathExcluded-5: style.css\n"
-"X-Poedit-SearchPathExcluded-6: woocommerce\n"
+"X-Poedit-SearchPathExcluded-2: includes/libraries/smof\n"
+"X-Poedit-SearchPathExcluded-3: style.css\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce\n"
+"X-Poedit-SearchPathExcluded-5: includes/libraries/laborator/importer/includes/"
+"plugins\n"
+"X-Poedit-SearchPathExcluded-6: theme-demo\n"
+"X-Poedit-SearchPathExcluded-7: includes/libraries/wpml-embedder\n"
 
-#: 404.php:25
+#: 404.php:30
 msgid "Not found!"
 msgstr ""
 
-#: 404.php:26
+#: 404.php:31
 #, php-format
 msgid ""
 "We’re sorry, the page you have looked for does not exist in our database! <br /> "
@@ -62,197 +63,197 @@ msgstr ""
 msgid "Next %s"
 msgstr ""
 
-#: comments.php:66
+#: comments.php:67
 msgid "Leave a reply"
 msgstr ""
 
-#: comments.php:66
+#: comments.php:67
 msgid "Share your thoughts"
 msgstr ""
 
-#: comments.php:67
+#: comments.php:68
 #, php-format
 msgid "Reply to %s"
 msgstr ""
 
-#: comments.php:72
+#: comments.php:73
 msgid "Comment"
 msgstr ""
 
-#: includes/functions/blog-hook-functions.php:355
-msgid "Category"
-msgstr ""
-
-#: includes/functions/blog-hook-functions.php:360
-msgid "Tag"
-msgstr ""
-
-#: includes/functions/blog-hook-functions.php:366
-msgid "Author"
-msgstr ""
-
-#: includes/functions/blog-hook-functions.php:370
-msgid "Year"
-msgstr ""
-
-#: includes/functions/blog-hook-functions.php:374
-#: includes/functions/blog-hook-functions.php:378
-msgid "Month"
-msgstr ""
-
-#: includes/functions/blog-hook-functions.php:517
-#: includes/functions/template/woocommerce-template-functions.php:334
+#: includes/functions/blog-hook-functions.php:427
+#: includes/functions/template/woocommerce-template-functions.php:339
 msgid "Show more"
 msgstr ""
 
-#: includes/functions/blog-hook-functions.php:518
+#: includes/functions/blog-hook-functions.php:428
 msgid "All posts are shown"
 msgstr ""
 
-#: includes/functions/blog-hook-functions.php:894
+#: includes/functions/blog-hook-functions.php:764
 msgid "Older Post"
 msgstr ""
 
-#: includes/functions/blog-hook-functions.php:901
+#: includes/functions/blog-hook-functions.php:771
 msgid "Newer Post"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:22
+#: includes/functions/template/blog-template-functions.php:45
+msgid "Category"
+msgstr ""
+
+#: includes/functions/template/blog-template-functions.php:50
+msgid "Tag"
+msgstr ""
+
+#: includes/functions/template/blog-template-functions.php:56
+msgid "Author"
+msgstr ""
+
+#: includes/functions/template/blog-template-functions.php:60
+msgid "Year"
+msgstr ""
+
+#: includes/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:68
+msgid "Month"
+msgstr ""
+
+#: includes/functions/template/blog-template-functions.php:97
 msgid "There are no posts to show"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:114
+#: includes/functions/template/blog-template-functions.php:219
 msgid "Previous page"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:115
+#: includes/functions/template/blog-template-functions.php:220
 msgid "Next page"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:205
+#: includes/functions/template/blog-template-functions.php:310
 msgid "Loading posts..."
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:245
+#: includes/functions/template/blog-template-functions.php:350
 msgid "Share:"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:509
+#: includes/functions/template/blog-template-functions.php:614
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:546
+#: includes/functions/template/blog-template-functions.php:651
 msgid "reply"
 msgstr ""
 
-#: includes/functions/template/blog-template-functions.php:567
+#: includes/functions/template/blog-template-functions.php:672
 #, php-format
 msgid "In reply to: %s"
 msgstr ""
 
-#: includes/functions/template/core-template-functions.php:216
+#: includes/functions/template/core-template-functions.php:220
 #: includes/laborator_filters.php:150 includes/laborator_functions.php:87
 msgid "Email"
 msgstr ""
 
-#: includes/functions/template/header-template-functions.php:735
+#: includes/functions/template/header-template-functions.php:436
 msgid "Search"
 msgstr ""
 
-#: includes/functions/template/header-template-functions.php:803 searchform.php:20
+#: includes/functions/template/header-template-functions.php:504 searchform.php:19
 #: tpls/menu-mobile.php:59
 msgid "Search site..."
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:335
+#: includes/functions/template/woocommerce-template-functions.php:340
 msgid "No more products to show"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:988
+#: includes/functions/template/woocommerce-template-functions.php:997
 #, php-format
 msgid "%s out of 5"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1076
+#: includes/functions/template/woocommerce-template-functions.php:1085
 #, php-format
 msgid "Rated %s out of 5"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1090
+#: includes/functions/template/woocommerce-template-functions.php:1099
 msgid "Payment method"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1108
+#: includes/functions/template/woocommerce-template-functions.php:1117
 msgid "Login or register"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1110
+#: includes/functions/template/woocommerce-template-functions.php:1119
 msgid "Login"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1115
+#: includes/functions/template/woocommerce-template-functions.php:1124
 msgid "Manage your account and see your orders"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1213
+#: includes/functions/template/woocommerce-template-functions.php:1222
 msgid "Cart"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1318
+#: includes/functions/template/woocommerce-template-functions.php:1327
 msgid "Share this item:"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1394
+#: includes/functions/template/woocommerce-template-functions.php:1403
 msgid "My Orders"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1395
+#: includes/functions/template/woocommerce-template-functions.php:1404
 msgid "Your recent orders are displayed in the table below."
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1410
+#: includes/functions/template/woocommerce-template-functions.php:1419
 msgid "My Downloads"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1411
+#: includes/functions/template/woocommerce-template-functions.php:1420
 msgid "Your digital downloads are displayed in the table below."
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1423
+#: includes/functions/template/woocommerce-template-functions.php:1432
 msgid "View full size"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1553
+#: includes/functions/template/woocommerce-template-functions.php:1562
 msgid "Out of stock"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1556
+#: includes/functions/template/woocommerce-template-functions.php:1565
 msgid "Featured"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1559
+#: includes/functions/template/woocommerce-template-functions.php:1568
 msgid "Sale!"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1572
+#: includes/functions/template/woocommerce-template-functions.php:1581
 msgid "Edit information for this address type"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1582
+#: includes/functions/template/woocommerce-template-functions.php:1591
 msgid "Addresses"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1596
+#: includes/functions/template/woocommerce-template-functions.php:1605
 msgid "&laquo; Go back"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1611
+#: includes/functions/template/woocommerce-template-functions.php:1620
 msgid "My account"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1612
+#: includes/functions/template/woocommerce-template-functions.php:1621
 msgid "Edit your account details or change your password"
 msgstr ""
 
@@ -293,358 +294,18 @@ msgstr ""
 msgid "Your browser does not support HTML5 video."
 msgstr ""
 
-#: includes/laborator_portfolio.php:906
+#: includes/laborator_portfolio.php:904
 msgid "Show More"
 msgstr ""
 
-#: includes/laborator_portfolio.php:907
+#: includes/laborator_portfolio.php:905
 msgid "No more portfolio items to show"
 msgstr ""
 
-#: includes/laborator_portfolio.php:1930
+#: includes/laborator_portfolio.php:1931
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/admin.php:65
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/admin.php:99
-#: theme-demo/widget-importer-exporter/includes/admin.php:65
-#: theme-demo/widget-importer-exporter/includes/admin.php:99
-msgid "Import/Export"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:46
-#: theme-demo/widget-importer-exporter/includes/import.php:46
-msgid "You must upload a <b>.wie</b> file generated by this plugin."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:101
-#: theme-demo/widget-importer-exporter/includes/import.php:101
-msgid "Import file could not be found. Please try again."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:140
-#: theme-demo/widget-importer-exporter/includes/import.php:140
-msgid "Import data could not be read. Please try a different file."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:184
-#: theme-demo/widget-importer-exporter/includes/import.php:184
-msgid "Widget area does not exist in theme (using Inactive)"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:207
-#: theme-demo/widget-importer-exporter/includes/import.php:207
-msgid "Site does not support widget"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:245
-#: theme-demo/widget-importer-exporter/includes/import.php:245
-msgid "Widget already exists"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:323
-#: theme-demo/widget-importer-exporter/includes/import.php:323
-msgid "Imported"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:326
-#: theme-demo/widget-importer-exporter/includes/import.php:326
-msgid "Imported to Inactive"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/import.php:333
-#: theme-demo/widget-importer-exporter/includes/import.php:333
-msgid "No Title"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:27
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:28
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:48
-#: theme-demo/widget-importer-exporter/includes/page.php:27
-#: theme-demo/widget-importer-exporter/includes/page.php:28
-#: theme-demo/widget-importer-exporter/includes/page.php:48
-msgid "Widget Importer & Exporter"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:64
-#: theme-demo/widget-importer-exporter/includes/page.php:64
-msgctxt "heading"
-msgid "Import Widgets"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:71
-#: theme-demo/widget-importer-exporter/includes/page.php:71
-msgid "Please select a <b>.wie</b> file generated by this plugin."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:84
-#: theme-demo/widget-importer-exporter/includes/page.php:84
-msgctxt "button"
-msgid "Import Widgets"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:94
-#: theme-demo/widget-importer-exporter/includes/page.php:94
-msgctxt "heading"
-msgid "Export Widgets"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:99
-#: theme-demo/widget-importer-exporter/includes/page.php:99
-msgid "Click below to generate a <b>.wie</b> file for all active widgets."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:110
-#: theme-demo/widget-importer-exporter/includes/page.php:110
-msgctxt "button"
-msgid "Export Widgets"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:154
-#: theme-demo/widget-importer-exporter/includes/page.php:154
-msgctxt "heading"
-msgid "Import Results"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/widget-importer-exporter/includes/page.php:161
-#: theme-demo/widget-importer-exporter/includes/page.php:161
-#, php-format
-msgid ""
-"You can manage your <a href=\"%1$s\">Widgets</a> or <a href=\"%2$s\">Go Back</a>."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:106
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:115
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:166
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:170
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:179
-msgid "Sorry, there has been an error."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:107
-msgid "The file does not exist, please try again."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:150
-msgid "All done."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:150
-msgid "Have fun!"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:151
-msgid "Remember to update the passwords and roles of imported users."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:171
-#, php-format
-msgid ""
-"The export file could not be found at <code>%s</code>. It is likely that this was "
-"caused by a permissions problem."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:187
-#, php-format
-msgid ""
-"This WXR file (version %s) may not be supported by this version of the importer. "
-"Please consider updating."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:212
-#, php-format
-msgid ""
-"Failed to import author %s. Their posts will be attributed to the current user."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:238
-msgid "Assign Authors"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:239
-msgid ""
-"To make it simpler for you to edit and save the imported content, you may want to "
-"reassign the author of the imported item to an existing user of this site, such as "
-"your primary administrator account."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:241
-#, php-format
-msgid ""
-"If a new user is created by WordPress, a new password will be randomly generated "
-"and the new user&#8217;s role will be set as %s. Manually changing the new "
-"user&#8217;s details will be necessary."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:251
-msgid "Import Attachments"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:254
-msgid "Download and import file attachments"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:258
-msgid "Submit"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:271
-msgid "Import author:"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:283
-msgid "or create new user with login name:"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:286
-msgid "as a new user:"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:296
-msgid "assign posts to an existing user:"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:298
-msgid "or assign posts to an existing user:"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:306
-msgid "- Select -"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:360
-#, php-format
-msgid ""
-"Failed to create new user for %s. Their posts will be attributed to the current "
-"user."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:412
-#, php-format
-msgid "Failed to import category %s"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:457
-#, php-format
-msgid "Failed to import post tag %s"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:512
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:738
-#, php-format
-msgid "Failed to import %s %s"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:605
-#, php-format
-msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:642
-#, php-format
-msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:704
-#, php-format
-msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:878
-msgid "Menu item skipped due to missing menu slug"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:885
-#, php-format
-msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:948
-msgid "Fetching attachments is not enabled"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:961
-msgid "Invalid file type"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1000
-msgid "Could not create temporary file."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1019
-#, php-format
-msgid "Request failed due to an error: %1$s (%2$s)"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1035
-#, php-format
-msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1047
-msgid "Remote server did not respond"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1054
-msgid "Zero size file downloaded"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1059
-msgid "Downloaded file has incorrect size"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1065
-#, php-format
-msgid "Remote file is too large, limit is %s"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1097
-msgid "Sorry, this file type is not permitted for security reasons."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1112
-msgid "The uploaded file could not be moved"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1224
-msgid "Import WordPress"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1231
-#, php-format
-msgid ""
-"A new version of this importer is available. Please update to version %s to ensure "
-"compatibility with newer export files."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1246
-msgid ""
-"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the "
-"posts, pages, comments, custom fields, categories, and tags into this site."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/class-wp-import.php:1247
-msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser-regex.php:96
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:41
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:46
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser-xml.php:48
-msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:29
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:37
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser.php:42
-msgid "There was an error when reading this WXR file"
-msgstr ""
-
-#: includes/libraries/laborator/importer/includes/plugins/wordpress-importer/parsers/class-wxr-parser.php:43
-msgid ""
-"Details are shown above. The importer will now try again with a different parser..."
 msgstr ""
 
 #: includes/libraries/post-link-plus.php:313
@@ -663,29 +324,29 @@ msgstr ""
 msgid "Captcha verification failed, please try again!"
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:189
+#: includes/libraries/vc/lab_contact_form/init.php:190
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:196
+#: includes/libraries/vc/lab_contact_form/init.php:197
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:198
+#: includes/libraries/vc/lab_contact_form/init.php:199
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:215
+#: includes/libraries/vc/lab_contact_form/init.php:216
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:217
+#: includes/libraries/vc/lab_contact_form/init.php:218
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -695,841 +356,11 @@ msgstr ""
 msgid "Loading products..."
 msgstr ""
 
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:12
-#, php-format
-msgid ""
-"You are using an unregistered version of %s and are not receiving compatibility "
-"and security updates"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:14
-#, php-format
-msgid ""
-"%s plugin must be registered in order to receive stability and security updates. "
-"Without these updates, the plugin may become incompatible with new versions of "
-"WordPress, which include security patches."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:23
-#, php-format
-msgid "You are using an expired %s account."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:25
-#, php-format
-msgid ""
-"Your site is using an expired %s account, which means you won't receive updates. "
-"This can lead to stability and security issues."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:34
-#, php-format
-msgid "Remember to remove %s from this website"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:36
-#, php-format
-msgid ""
-"This site is using the %s plugin, which has not been paid for. After receiving a "
-"refund, you should remove this plugin from your sites. Using unregistered plugins "
-"means you are not receiving stability and security updates and will ultimately "
-"lead to problems running the site."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:72
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:505
-msgid "Register"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:73
-msgid "This is a development / staging site"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:84
-msgid "Extend your subscription"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:85
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:99
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-refunded.php:11
-msgid "Check my order status"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:86
-msgid "Got renewal already?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:100
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-refunded.php:10
-msgid "Bought again?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/admin-notices/notices/Texts.php:111
-msgid "Dismiss"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:98
-msgid ""
-"Downloading is not possible. WordPress cannot create required folders because of "
-"the\n"
-"                                        256 characters limitation of the current "
-"Windows environment."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:255
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:2995
-msgid "Update Plugin"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:256
-msgid "Return to the updates page"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:292
-msgid "OTGS Installer"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:297
-#, php-format
-msgid ""
-"%s, responsible for receiving automated updates for WPML and Toolset, requires the "
-"following PHP component(s) in order to function:"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:303
-msgid "Minimum WPML requirements"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-dependencies.php:304
-#, php-format
-msgid "Learn more: %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-installer-theme.php:900
-#, php-format
-msgid "To install and update %s, please %sregister%s %s for this site."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-plugins-page-notice.php:90
-#, php-format
-msgid "You are using an expired account of %s. %sExtend your subscription%s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-plugins-page-notice.php:94
-#, php-format
-msgid "Remember to remove %s from this website. %sCheck my order status%s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-plugins-page-notice.php:99
-#, php-format
-msgid ""
-"You are using an unregistered version of %s and are not receiving compatibility "
-"and security updates. %sRegister now%s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-plugins-page-notice.php:123
-#, php-format
-msgid "You are using the complementary %1$s. For the %2$s, %3$s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-plugins-page-notice.php:124
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/tests/phpunit/tests/test-otgs-installer-plugins-page-notice.php:173
-msgid "complete set of features"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-plugins-page-notice.php:124
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/tests/phpunit/tests/test-otgs-installer-plugins-page-notice.php:173
-msgid "upgrade to Toolset"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-wp-share-local-components-setting-hooks.php:97
-msgid "Reporting to"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-wp-share-local-components-setting-hooks.php:98
-msgid "Report to"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-wp-share-local-components-setting-hooks.php:99
-msgid ""
-"Send theme and plugins information, in order to get faster support and "
-"compatibility alerts"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-wp-share-local-components-setting-hooks.php:101
-msgid "Don't send this information and skip compatibility alerts"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-wp-share-local-components-setting-hooks.php:103
-msgid "which theme and plugins you are using."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-otgs-installer-wp-share-local-components-setting-hooks.php:142
-msgid "Privacy and data usage policy"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer-channels.php:40
-msgid "Development"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer-channels.php:42
-msgid "Beta"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer-channels.php:44
-msgid "Production"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:167
-#, php-format
-msgid "Installing %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:168
-#, php-format
-msgid "Updating %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:169
-#, php-format
-msgid "Activating %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:323
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:324
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1099
-msgid "Installer"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:494
-msgid "Upgrade"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:499
-msgid "Registered"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:716
-#, php-format
-msgid ""
-"You are using an invalid site key defined as the constant %s (most likely in wp-"
-"config.php).\n"
-"                                                Please remove it or use the "
-"correct value in order to be able to register correctly."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:838
-msgid "Commercial"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:995
-#, php-format
-msgid ""
-"Installer cannot display the products information because the automatic updating "
-"for %s was explicitly disabled with the configuration below (usually in wp-config."
-"php):"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:997
-#, php-format
-msgid ""
-"In order to see the products information, please run the %smanual updates check%s "
-"to initialize the products list or (temporarily) remove the above code."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1024
-msgid ""
-"Installer cannot contact our updates server to get information about the available "
-"products and check for new versions. If you are seeing this message for the first "
-"time, you can ignore it, as it may be a temporary communication problem. If the "
-"problem persists and your WordPress admin is slowing down, you can disable "
-"automated version checks. Add the following line to your wp-config.php file:"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1047
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1051
-msgid ""
-"Information about new versions is invalid. It may be a temporary communication "
-"problem, please check for updates again."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1091
-msgid "Sorry, you are not allowed to manage Installer for this site."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1136
-msgid "No repositories defined."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1421
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/site-key/class-otgs-installer-site-key-ajax.php:56
-msgid "Invalid site key for the current site."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1422
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/site-key/class-otgs-installer-site-key-ajax.php:56
-msgid "Please note that the site key is case sensitive."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1428
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/site-key/class-otgs-installer-site-key-ajax.php:166
-#, php-format
-msgid ""
-"%s cannot access %s to register. Try again to see if it's a temporary problem. If "
-"the problem continues, make sure that this site has access to the Internet. You "
-"can still use the plugin without registration, but you will not receive automated "
-"updates."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1701
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1763
-msgid ""
-"You will have to renew your subscription in order to continue getting the updates "
-"and support."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1715
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1770
-#, php-format
-msgid "Your subscription expires in %d day."
-msgid_plural "Your subscription expires in %d days."
-msgstr[0] ""
-msgstr[1] ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:1851
-#, php-format
-msgid "%sRenew here%s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:2214
-#, php-format
-msgid "Connection failed! Please refresh the page and try again. (%s)"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:2217
-msgid ""
-"Your subscription appears to no longer be valid. Please try to register again "
-"using a valid site key."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:2895
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:2971
-#, php-format
-msgid ""
-"%s cannot update because your site's registration is not valid. Please %sregister "
-"%s%s again for this site first."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/class-wp-installer.php:2996
-msgid "Return to the plugins page"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/products/OTGS_Installer_Products_Parser.php:88
-#, php-format
-msgid ""
-"Information about versions of %s are invalid. It may be a temporary communication "
-"problem, please check for updates again."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/site-key/class-otgs-installer-site-key-ajax.php:37
-msgid "Invalid request!"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/site-key/class-otgs-installer-site-key-ajax.php:112
-msgid ""
-"Invalid site key for the current site. If the error persists, try to un-register "
-"first and then register again with the same site key."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-hooks.php:20
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:39
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:43
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:56
-msgid "Installer Support"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:40
-#, php-format
-msgid "For retrieving Installer debug information use the %s page."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:58
-msgid "Installer Log"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:59
-msgid "Request URL"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:60
-msgid "Request Arguments"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:61
-msgid "Response"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:62
-msgid "Component"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:63
-msgid "Time"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:64
-msgid "Log is empty"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:67
-msgid "Installer System Status"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:68
-msgid "Check Now"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:71
-msgid "Required PHP Libraries"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:74
-msgid "All Installer Instances"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:75
-msgid "Path"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:76
-msgid "Version"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:77
-msgid "High priority"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:78
-msgid "Delegated"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:86
-msgid "WPML API server"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/includes/support/class-otgs-installer-support-template.php:91
-msgid "Toolset API server"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:3
-msgid "Updates channel:"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:12
-msgid ""
-"To select different update channels (beta, development) you must update your "
-"existing products to their most recent stable versions."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:15
-msgid ""
-"Updating the plugins on your site. Please don't close this page or navigate away."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:25
-#, php-format
-msgid ""
-"Something went wrong and we could not install all updates from the %s channel. "
-"Click here to %stry again%s. If the errors persist, please switch back to the "
-"Production channel and contact the %s%s support%s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:33
-#, php-format
-msgid ""
-"There was a problem switching to the %s channel. You can %sretry%s. If the problem "
-"continues, please %sdownload %s%s and install again manually"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:47
-msgid "Cancel"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:48
-msgid "Switch"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:51
-msgid ""
-"The plugins will update to the most recent version in the channel that you "
-"selected."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:55
-msgid "Remember my preference."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/channel-selector.php:62
-#, php-format
-msgid ""
-"You are using a potentially less stable channel for %s. If you didn't enable this "
-"on purpose, you should switch to the 'Production' channel."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:8
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:9
-msgid "Plugin"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:9
-msgid "Available"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:10
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:10
-msgid "Installed"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:11
-msgid "Downloading"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:12
-msgid "Activate"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:52
-msgid "downloading..."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:53
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:67
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:68
-msgid "failed!"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:53
-msgid "downloaded"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:56
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:71
-msgid "activating"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:57
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:72
-msgid "activated"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:65
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:93
-#, php-format
-msgid ""
-"Downloading is not possible because WordPress cannot write into the plugins "
-"folder. %sHow to fix%s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:72
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:100
-msgid "Download"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:74
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:102
-msgid "Activate after download"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:77
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:106
-msgid "Operation complete!"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list-compact.php:79
-msgid ""
-"Download failed!\n"
-"\n"
-"Click OK to revalidate your subscription or CANCEL to try again."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:11
-msgid "Current"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:12
-msgid "Released"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:49
-msgid "(embedded)"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:62
-msgid "Release notes"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:65
-msgid "installing..."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:66
-msgid "updating..."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:67
-msgid "installed"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:68
-msgid "updated"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/downloads-list.php:108
-msgid ""
-"Download failed!\n"
-"\n"
-"Please refresh the page and try again."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:5
-msgid "Incorrect setup"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:25
-msgid "Invalid product"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:36
-msgid "Unknown repository"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:44
-#, php-format
-msgid " Your current site key (%s) does not match the selected product (%s)."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:65
-#, php-format
-msgid "Buy %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:69
-#, php-format
-msgid "Already bought %s?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:74
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:20
-#, php-format
-msgid ""
-"Site-key was set by %s, most likely in wp-config.php. Please remove the constant "
-"before attempting to register."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:77
-msgid "Enter site key"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:85
-msgid "Add"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:94
-msgid "Subscription is expired."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:103
-#, php-format
-msgid "Renew %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:114
-msgid "Are you sure you want to remove this site key?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:119
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-registered-buttons.php:12
-#, php-format
-msgid ""
-"Site-key was set by %s, most likely in wp-config.php. Please remove the constant "
-"before attempting to unregister."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:122
-#, php-format
-msgid "Remove current site key (%s)"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/products-compact.php:138
-#, php-format
-msgid "%s support on wpml.org"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:16
-#, php-format
-msgid "You are using an expired account of %s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:17
-msgid ""
-"It means you will not receive updates. This can lead to stability and even "
-"security issues."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:18
-#, php-format
-msgid "Do you have an account on %s?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:19
-msgid "Great! You just need to extend your subscription."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:20
-#, php-format
-msgid "You have a %s account. You just need to extend your subscription."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:21
-msgid "Extend Subscription"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:22
-#, php-format
-msgid "OK. You need to set up renewal for %s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:23
-#, php-format
-msgid "You do not have a %s account yet. You need to set up a renewal for %s."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:24
-#, php-format
-msgid "Set Up Renewal For %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:25
-msgid "No worries. We can check that for you."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:26
-msgid "Check"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:27
-msgid "Your Email Address"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:49
-msgid "Yes"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:53
-msgid "No"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-expired.php:56
-msgid "I do not remember"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-listing.php:101
-msgid "Click to see individual components options."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-listing.php:101
-msgid "Individual components"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-listing.php:143
-#, php-format
-msgid ""
-"This page lets you install plugins and update existing plugins. To remove any of "
-"these plugins, go to the %splugins%s page and if you have the permission to remove "
-"plugins you should be able to do this."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-refunded.php:8
-#, php-format
-msgid "Remember to remove %s from this website."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-refunded.php:9
-#, php-format
-msgid ""
-"This site is using %s plugin, which is not paid for. After receiving a refund, you "
-"should remove this plugin from your sites. Using unregistered plugins means that "
-"you are not receiving stability and security updates and will ultimately lead to "
-"problems running the site."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:14
-#, php-format
-msgid "Already purchased %s?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:23
-#, php-format
-msgid "Register %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:38
-#, php-format
-msgid ""
-"Get your site-key for %1$s. If you already have a key, get it from %2$s. "
-"Otherwise, %3$s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:42
-msgid "Insert your key and activate automatic updates:"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:50
-msgid "OK"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:53
-msgid "Cancel registration"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-register.php:98
-msgid "your account"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-registered-buttons.php:17
-msgid "Are you sure you want to unregister?"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-registered-buttons.php:22
-#, php-format
-msgid "Unregister %s from this site"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-registered-buttons.php:30
-msgid "Check for updates"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-registered.php:10
-#, php-format
-msgid "%s is registered on this site. You will receive automatic updates until %s"
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/templates/repository-registered.php:11
-#, php-format
-msgid ""
-"%s is registered on this site. Your Lifetime account gives you updates for life."
-msgstr ""
-
-#: includes/libraries/wpml-embedder/vendor/otgs/installer/tests/phpunit/tests/test-otgs-installer-plugins-page-notice.php:172
-#, php-format
-msgid "You are using the complementary %s. For the %s, %s."
-msgstr ""
-
-#: searchform.php:19 searchform.php:20
+#: searchform.php:18 searchform.php:19
 msgid "Search for:"
 msgstr ""
 
-#: searchform.php:22 tpls/menu-mobile.php:65
+#: searchform.php:21 tpls/menu-mobile.php:65
 msgid "Go"
 msgstr ""
 
@@ -1565,7 +396,7 @@ msgstr ""
 msgid "Second"
 msgstr ""
 
-#: tpls/portfolio-listing-title.php:96
+#: tpls/portfolio-listing-title.php:100
 msgid "All"
 msgstr ""
 
@@ -1581,15 +412,15 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-#: tpls/portfolio-single-prevnext.php:65
+#: tpls/portfolio-single-prevnext.php:72
 msgid "Previous project"
 msgstr ""
 
-#: tpls/portfolio-single-prevnext.php:66
+#: tpls/portfolio-single-prevnext.php:73
 msgid "Next project"
 msgstr ""
 
-#: tpls/portfolio-single-prevnext.php:128
+#: tpls/portfolio-single-prevnext.php:135
 msgid "Go to portfolio archive"
 msgstr ""
 
@@ -1627,23 +458,23 @@ msgstr ""
 msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:69
+#: tpls/wc-mini-cart.php:72
 msgid "Quantity"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:102
+#: tpls/wc-mini-cart.php:105
 msgid "View Cart"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:106
+#: tpls/wc-mini-cart.php:109
 msgid "Checkout"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:112
+#: tpls/wc-mini-cart.php:115
 msgid "Subtotal"
 msgstr ""
 
-#: vc_templates/lab_blog_posts.php:225
+#: vc_templates/lab_blog_posts.php:228
 msgid "Loading blog posts..."
 msgstr ""
 

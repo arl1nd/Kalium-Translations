@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2018-05-10 09:22+0200\n"
-"PO-Revision-Date: 2018-05-10 09:22+0200\n"
+"POT-Creation-Date: 2020-06-02 12:32+0200\n"
+"PO-Revision-Date: 2020-06-02 12:32+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: fr_FR\n"
@@ -17,22 +17,24 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 2.4\n"
+"X-Translation-Version: 3.0.2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-activation.php\n"
-"X-Poedit-SearchPathExcluded-2: includes/libraries/laborator/laborator-demo-content-"
-"importer\n"
-"X-Poedit-SearchPathExcluded-3: includes/libraries/smof\n"
-"X-Poedit-SearchPathExcluded-4: includes/libraries/BFI_Thumb.php\n"
-"X-Poedit-SearchPathExcluded-5: style.css\n"
-"X-Poedit-SearchPathExcluded-6: woocommerce\n"
+"X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-"
+"activation.php\n"
+"X-Poedit-SearchPathExcluded-2: includes/libraries/smof\n"
+"X-Poedit-SearchPathExcluded-3: style.css\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce\n"
+"X-Poedit-SearchPathExcluded-5: includes/libraries/laborator/importer/"
+"includes/plugins\n"
+"X-Poedit-SearchPathExcluded-6: theme-demo\n"
+"X-Poedit-SearchPathExcluded-7: includes/libraries/wpml-embedder\n"
 
-#: 404.php:25
+#: 404.php:30
 msgid "Not found!"
 msgstr "Non trouvé!"
 
-#: 404.php:26
+#: 404.php:31
 #, php-format
 msgid ""
 "We’re sorry, the page you have looked for does not exist in our database! "
@@ -41,38 +43,6 @@ msgstr ""
 "Nous sommes désolés, la page que vous avez cherché n'existe pas dans notre "
 "base de données! <br /> Peut-être que vous souhaitez consulter notre <a href="
 "\"%s\"> page d'accueil </a>?"
-
-#: coming-soon-mode.php:91
-msgid "Days"
-msgstr "Jours"
-
-#: coming-soon-mode.php:91
-msgid "Day"
-msgstr "Jour"
-
-#: coming-soon-mode.php:95
-msgid "Hours"
-msgstr "Heures"
-
-#: coming-soon-mode.php:95
-msgid "Hour"
-msgstr "Heure"
-
-#: coming-soon-mode.php:99
-msgid "Minutes"
-msgstr "Minutes"
-
-#: coming-soon-mode.php:99
-msgid "Minute"
-msgstr "Minute"
-
-#: coming-soon-mode.php:103
-msgid "Seconds"
-msgstr "Secondes"
-
-#: coming-soon-mode.php:103
-msgid "Second"
-msgstr "Second"
 
 #: comments.php:22
 #, php-format
@@ -89,261 +59,267 @@ msgstr "Participez à la discussion et dites-nous votre opinion."
 msgid "Be the first to comment on this article."
 msgstr "Soyez le premier à commenter cet article."
 
-#: comments.php:44
+#: comments.php:40
 #, php-format
 msgid "%s Previous"
 msgstr "%s Précédent"
 
-#: comments.php:45
+#: comments.php:41
 #, php-format
 msgid "Next %s"
 msgstr "Prochain %s"
 
-#: comments.php:78
+#: comments.php:67
 msgid "Leave a reply"
 msgstr "Publier une réponse"
 
-#: comments.php:78
+#: comments.php:67
 msgid "Share your thoughts"
 msgstr "Donnez votre avis"
 
-#: comments.php:79
+#: comments.php:68
 #, php-format
 msgid "Reply to %s"
 msgstr "Répondre à %s"
 
-#: comments.php:84
+#: comments.php:73
 msgid "Comment"
 msgstr "Commentaire"
 
-#: includes/functions/template/blog-template-functions.php:58
-msgid "Category"
-msgstr "Catégorie"
-
-#: includes/functions/template/blog-template-functions.php:64
-msgid "Tag"
-msgstr "Étiquette"
-
-#: includes/functions/template/blog-template-functions.php:69
-msgid "Author"
-msgstr "Auteur"
-
-#: includes/functions/template/blog-template-functions.php:74
-msgid "Year"
-msgstr "Année"
-
-#: includes/functions/template/blog-template-functions.php:79
-#: includes/functions/template/blog-template-functions.php:84
-msgid "Month"
-msgstr "Mois"
-
-#: includes/functions/template/blog-template-functions.php:184
-msgid "There are no posts to show"
-msgstr "Pas plus d’articles à afficher"
-
-#: includes/functions/template/blog-template-functions.php:235
-#: includes/functions/template/woocommerce-template-functions.php:436
+#: includes/functions/blog-hook-functions.php:427
+#: includes/functions/template/woocommerce-template-functions.php:339
 msgid "Show more"
 msgstr "Montre plus"
 
-#: includes/functions/template/blog-template-functions.php:236
+#: includes/functions/blog-hook-functions.php:428
 msgid "All posts are shown"
 msgstr "Tous les articles sont affichés"
 
-#: includes/functions/template/blog-template-functions.php:554
-msgid "Previous page"
-msgstr "Précédent"
-
-#: includes/functions/template/blog-template-functions.php:555
-msgid "Next page"
-msgstr "Suivante"
-
-#: includes/functions/template/blog-template-functions.php:646
-msgid "Loading posts..."
-msgstr "Chargement en cours…"
-
-#: includes/functions/template/blog-template-functions.php:771
-msgid "Share:"
-msgstr "Partager:"
-
-#: includes/functions/template/blog-template-functions.php:1093
+#: includes/functions/blog-hook-functions.php:764
 msgid "Older Post"
 msgstr "Article plus ancien"
 
-#: includes/functions/template/blog-template-functions.php:1100
+#: includes/functions/blog-hook-functions.php:771
 msgid "Newer Post"
 msgstr "Article plus récent"
 
-#: includes/functions/template/blog-template-functions.php:1137
+#: includes/functions/template/blog-template-functions.php:45
+msgid "Category"
+msgstr "Catégorie"
+
+#: includes/functions/template/blog-template-functions.php:50
+msgid "Tag"
+msgstr "Étiquette"
+
+#: includes/functions/template/blog-template-functions.php:56
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/functions/template/blog-template-functions.php:60
+msgid "Year"
+msgstr "Année"
+
+#: includes/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:68
+msgid "Month"
+msgstr "Mois"
+
+#: includes/functions/template/blog-template-functions.php:97
+msgid "There are no posts to show"
+msgstr "Pas plus d’articles à afficher"
+
+#: includes/functions/template/blog-template-functions.php:219
+msgid "Previous page"
+msgstr "Précédent"
+
+#: includes/functions/template/blog-template-functions.php:220
+msgid "Next page"
+msgstr "Suivante"
+
+#: includes/functions/template/blog-template-functions.php:310
+msgid "Loading posts..."
+msgstr "Chargement en cours…"
+
+#: includes/functions/template/blog-template-functions.php:350
+msgid "Share:"
+msgstr "Partager:"
+
+#: includes/functions/template/blog-template-functions.php:614
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s à %s"
 
-#: includes/functions/template/blog-template-functions.php:1174
+#: includes/functions/template/blog-template-functions.php:651
 msgid "reply"
 msgstr "répondre"
 
-#: includes/functions/template/blog-template-functions.php:1195
+#: includes/functions/template/blog-template-functions.php:672
 #, php-format
 msgid "In reply to: %s"
 msgstr "En réponse à: %s"
 
-#: includes/functions/template/woocommerce-template-functions.php:437
+#: includes/functions/template/core-template-functions.php:220
+#: includes/laborator_filters.php:150 includes/laborator_functions.php:87
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions/template/header-template-functions.php:436
+msgid "Search"
+msgstr "Recherche"
+
+#: includes/functions/template/header-template-functions.php:504
+#: searchform.php:19 tpls/menu-mobile.php:59
+msgid "Search site..."
+msgstr "Rechercher…"
+
+#: includes/functions/template/woocommerce-template-functions.php:340
 msgid "No more products to show"
 msgstr "Pas plus de produits à montrer"
 
-#: includes/functions/template/woocommerce-template-functions.php:843
-msgid "Added to cart"
-msgstr "Ajouté au panier"
-
-#: includes/functions/template/woocommerce-template-functions.php:864
-#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:109
-#: tpls/search-results.php:76 tpls/search-results.php:90
-msgid "Previous"
-msgstr "Précédent"
-
-#: includes/functions/template/woocommerce-template-functions.php:865
-#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:112
-#: tpls/search-results.php:79 tpls/search-results.php:91
-msgid "Next"
-msgstr "Prochain"
-
-#: includes/functions/template/woocommerce-template-functions.php:1132
+#: includes/functions/template/woocommerce-template-functions.php:997
 #, php-format
 msgid "%s out of 5"
 msgstr "%s sur 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1245
+#: includes/functions/template/woocommerce-template-functions.php:1085
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Note %s sur 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1259
+#: includes/functions/template/woocommerce-template-functions.php:1099
 msgid "Payment method"
 msgstr "Moyen de paiement"
 
-#: includes/functions/template/woocommerce-template-functions.php:1303
+#: includes/functions/template/woocommerce-template-functions.php:1117
 msgid "Login or register"
 msgstr "Connexion ou Inscription"
 
-#: includes/functions/template/woocommerce-template-functions.php:1305
+#: includes/functions/template/woocommerce-template-functions.php:1119
 msgid "Login"
 msgstr "Connexion"
 
-#: includes/functions/template/woocommerce-template-functions.php:1309
+#: includes/functions/template/woocommerce-template-functions.php:1124
 msgid "Manage your account and see your orders"
 msgstr "Gérez votre compte et de voir vos commandes"
 
-#: includes/functions/template/woocommerce-template-functions.php:1389
+#: includes/functions/template/woocommerce-template-functions.php:1222
 msgid "Cart"
 msgstr "Panier"
 
-#: includes/functions/template/woocommerce-template-functions.php:1429
+#: includes/functions/template/woocommerce-template-functions.php:1327
 msgid "Share this item:"
 msgstr "Partager ce contenu:"
 
-#: includes/functions/template/woocommerce-template-functions.php:1479
-msgid "Logout"
-msgstr "Déconnexion"
-
-#: includes/functions/template/woocommerce-template-functions.php:1507
+#: includes/functions/template/woocommerce-template-functions.php:1403
 msgid "My Orders"
 msgstr "Mes commandes"
 
-#: includes/functions/template/woocommerce-template-functions.php:1508
+#: includes/functions/template/woocommerce-template-functions.php:1404
 msgid "Your recent orders are displayed in the table below."
 msgstr "Vos dernières commandes sont affichées dans le tableau ci-dessous."
 
-#: includes/functions/template/woocommerce-template-functions.php:1523
+#: includes/functions/template/woocommerce-template-functions.php:1419
 msgid "My Downloads"
 msgstr "Mes téléchargements"
 
-#: includes/functions/template/woocommerce-template-functions.php:1524
+#: includes/functions/template/woocommerce-template-functions.php:1420
 msgid "Your digital downloads are displayed in the table below."
 msgstr ""
 "Vos téléchargements numériques sont affichés dans le tableau ci-dessous."
 
-#: includes/functions/template/woocommerce-template-functions.php:1606
+#: includes/functions/template/woocommerce-template-functions.php:1432
 msgid "View full size"
 msgstr "Voir en taille réelle"
 
-#: includes/functions/template/woocommerce-template-functions.php:1781
+#: includes/functions/template/woocommerce-template-functions.php:1562
 msgid "Out of stock"
 msgstr "En rupture de stock"
 
-#: includes/functions/template/woocommerce-template-functions.php:1786
+#: includes/functions/template/woocommerce-template-functions.php:1565
 msgid "Featured"
 msgstr "Mis en avant"
 
-#: includes/functions/template/woocommerce-template-functions.php:1791
+#: includes/functions/template/woocommerce-template-functions.php:1568
 msgid "Sale!"
 msgstr ""
 
-#: includes/functions/woocommerce-functions.php:127
-msgid "&laquo; Go back"
-msgstr "&laquo; Revenir en arrière"
-
-#: includes/functions/woocommerce-functions.php:128
+#: includes/functions/template/woocommerce-template-functions.php:1581
 msgid "Edit information for this address type"
 msgstr "Modifier les informations de ce type d’adresse"
 
-#: includes/functions/woocommerce-functions.php:129
+#: includes/functions/template/woocommerce-template-functions.php:1591
+msgid "Addresses"
+msgstr ""
+
+#: includes/functions/template/woocommerce-template-functions.php:1605
+msgid "&laquo; Go back"
+msgstr "&laquo; Revenir en arrière"
+
+#: includes/functions/template/woocommerce-template-functions.php:1620
 msgid "My account"
 msgstr "Mon compte"
 
-#: includes/functions/woocommerce-functions.php:130
+#: includes/functions/template/woocommerce-template-functions.php:1621
 msgid "Edit your account details or change your password"
 msgstr "Modifier vos informations de compte ou changer votre mot de passe"
 
-#: includes/functions/woocommerce-functions.php:131
+#: includes/functions/woocommerce-functions.php:165
 msgid "(leave blank to leave unchanged)"
 msgstr "(laisser vide pour conserver l’actuel)"
 
-#: includes/functions/woocommerce-functions.php:132
+#: includes/functions/woocommerce-functions.php:166
 msgid "Current password"
 msgstr "Mot de passe actuel"
 
-#: includes/laborator_filters.php:135 includes/laborator_functions.php:140
-msgid "Email"
-msgstr "Email"
+#: includes/functions/woocommerce-hook-functions.php:192
+msgid "Added to cart"
+msgstr "Ajouté au panier"
 
-#: includes/laborator_functions.php:139
+#: includes/functions/woocommerce-hook-functions.php:213
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
+#: tpls/search-results.php:99
+msgid "Previous"
+msgstr "Précédent"
+
+#: includes/functions/woocommerce-hook-functions.php:214
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
+#: tpls/search-results.php:100
+msgid "Next"
+msgstr "Prochain"
+
+#: includes/laborator_functions.php:86
 #, php-format
 msgid "Check out what I just spotted: %s"
 msgstr "Regardez ce que je viens repéré: %s"
 
-#: includes/laborator_functions.php:146
+#: includes/laborator_functions.php:93
 msgid "Print"
 msgstr "Imprimer"
 
-#: includes/laborator_functions.php:938 searchform.php:16 tpls/menu-mobile.php:52
-msgid "Search site..."
-msgstr "Rechercher…"
-
-#: includes/laborator_portfolio.php:568
+#: includes/laborator_portfolio.php:578
 msgid "Your browser does not support HTML5 video."
 msgstr "Votre navigateur n’est pas compatible avec HTML5 vidéo."
 
-#: includes/laborator_portfolio.php:880
+#: includes/laborator_portfolio.php:904
 msgid "Show More"
 msgstr "Montre plus"
 
-#: includes/laborator_portfolio.php:881
+#: includes/laborator_portfolio.php:905
 msgid "No more portfolio items to show"
 msgstr "Pas plus d'articles de portefeuille pour montrer"
 
-#: includes/laborator_portfolio.php:1862
+#: includes/laborator_portfolio.php:1931
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
 msgstr "%s:"
 
-#: includes/libraries/post-link-plus.php:310
+#: includes/libraries/post-link-plus.php:313
 msgid "Previous Post"
 msgstr "Article précédent"
 
-#: includes/libraries/post-link-plus.php:310
+#: includes/libraries/post-link-plus.php:313
 msgid "Next Post"
 msgstr "Article suivant"
 
@@ -351,33 +327,33 @@ msgstr "Article suivant"
 msgid "Icon"
 msgstr "Icône"
 
-#: includes/libraries/vc/lab_contact_form/init.php:160
+#: includes/libraries/vc/lab_contact_form/init.php:161
 msgid "Captcha verification failed, please try again!"
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:187
+#: includes/libraries/vc/lab_contact_form/init.php:190
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Nouveau message du formulaire de contact a été reçu."
 
-#: includes/libraries/vc/lab_contact_form/init.php:194
+#: includes/libraries/vc/lab_contact_form/init.php:197
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Vous avez reçu un nouveau message via le formulaire de contact."
 
-#: includes/libraries/vc/lab_contact_form/init.php:196
+#: includes/libraries/vc/lab_contact_form/init.php:199
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Détails du message -----"
 
-#: includes/libraries/vc/lab_contact_form/init.php:213
+#: includes/libraries/vc/lab_contact_form/init.php:216
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Ce message a été envoyé de l’adresse IP: %s"
 
-#: includes/libraries/vc/lab_contact_form/init.php:215
+#: includes/libraries/vc/lab_contact_form/init.php:218
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -387,57 +363,84 @@ msgstr "URL du site: %s"
 msgid "Loading products..."
 msgstr "Chargement des produits…"
 
-#: searchform.php:15 searchform.php:16
-msgctxt "label"
+#: searchform.php:18 searchform.php:19
 msgid "Search for:"
-msgstr "Rechercher:"
+msgstr ""
 
-#: searchform.php:18 tpls/menu-mobile.php:58
+#: searchform.php:21 tpls/menu-mobile.php:65
 msgid "Go"
 msgstr "Soumettre"
 
-#: tpls/header-main.php:331
-msgid "Search"
-msgstr "Recherche"
+#: templates/pages/coming-soon.php:44
+msgid "Days"
+msgstr "Jours"
 
-#: tpls/portfolio-listing-title.php:73
+#: templates/pages/coming-soon.php:45
+msgid "Day"
+msgstr "Jour"
+
+#: templates/pages/coming-soon.php:50
+msgid "Hours"
+msgstr "Heures"
+
+#: templates/pages/coming-soon.php:51
+msgid "Hour"
+msgstr "Heure"
+
+#: templates/pages/coming-soon.php:56
+msgid "Minutes"
+msgstr "Minutes"
+
+#: templates/pages/coming-soon.php:57
+msgid "Minute"
+msgstr "Minute"
+
+#: templates/pages/coming-soon.php:62
+msgid "Seconds"
+msgstr "Secondes"
+
+#: templates/pages/coming-soon.php:63
+msgid "Second"
+msgstr "Second"
+
+#: tpls/portfolio-listing-title.php:100
 msgid "All"
 msgstr "Tout"
 
-#: tpls/portfolio-single-5.php:79
+#: tpls/portfolio-single-5.php:81
 msgid "Click here to show project info"
 msgstr "Cliquez ici pour afficher informations du projet"
 
-#: tpls/portfolio-single-6.php:35
+#: tpls/portfolio-single-6.php:37
 msgid "Open in Lightbox"
 msgstr "Ouvrir dans une lightbox"
 
-#: tpls/portfolio-single-like-share.php:53
+#: tpls/portfolio-single-like-share.php:55
 msgid "Share"
 msgstr "Partager"
 
-#: tpls/portfolio-single-prevnext.php:64
+#: tpls/portfolio-single-prevnext.php:72
 msgid "Previous project"
 msgstr "Projet précédent"
 
-#: tpls/portfolio-single-prevnext.php:65
+#: tpls/portfolio-single-prevnext.php:73
 msgid "Next project"
 msgstr "Projet suivant"
 
-#: tpls/portfolio-single-prevnext.php:127
+#: tpls/portfolio-single-prevnext.php:135
 msgid "Go to portfolio archive"
 msgstr "Voir tous les articles"
 
-#: tpls/search-results.php:21
+#: tpls/search-results.php:24
 msgid "Click to change your search"
 msgstr "Cliquez pour modifier votre recherche"
 
-#: tpls/search-results.php:27
+#: tpls/search-results.php:30
 #, php-format
 msgid "%d results for “%s”"
 msgstr "%d résultats pour “%s”"
 
-#: tpls/search-results.php:30
+#: tpls/search-results.php:33
 #, php-format
 msgid "We have found one match with the word you searched."
 msgid_plural "We have found %d results with the word you searched."
@@ -446,49 +449,50 @@ msgstr[0] ""
 msgstr[1] ""
 "Nous avons trouvé %d correspondance avec le mot que vous avez cherché."
 
-#: tpls/search-results.php:32
+#: tpls/search-results.php:35
 msgid "There is nothing found that matches your search criteria."
 msgstr "Il n’y a rien qui correspond à vos critères de recherche."
 
-#: tpls/search-results.php:65
-msgid "Continue &#65515;"
-msgstr "Continuer &#65515;"
+#: tpls/search-results.php:81
+#, php-format
+msgid "Continue %s"
+msgstr "Continuer %s"
 
-#: tpls/wc-mini-cart.php:18
+#: tpls/wc-mini-cart.php:20
 msgid "Loading cart contents..."
 msgstr "Chargement du contenu du panier…"
 
-#: tpls/wc-mini-cart.php:30
+#: tpls/wc-mini-cart.php:32
 #, php-format
 msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
 msgstr ""
 "Votre panier est vide! <a href=\"%s\">Aller sur la boutique &raquo;</a>"
 
-#: tpls/wc-mini-cart.php:67
+#: tpls/wc-mini-cart.php:72
 msgid "Quantity"
 msgstr ""
 
-#: tpls/wc-mini-cart.php:100
+#: tpls/wc-mini-cart.php:105
 msgid "View Cart"
 msgstr "Voir panier"
 
-#: tpls/wc-mini-cart.php:104
+#: tpls/wc-mini-cart.php:109
 msgid "Checkout"
 msgstr "Régler"
 
-#: tpls/wc-mini-cart.php:110
+#: tpls/wc-mini-cart.php:115
 msgid "Subtotal"
 msgstr "Sous-total"
 
-#: vc_templates/lab_blog_posts.php:220
+#: vc_templates/lab_blog_posts.php:228
 msgid "Loading blog posts..."
 msgstr "Chargement billets de blog …"
 
-#: vc_templates/lab_contact_form.php:51
+#: vc_templates/lab_contact_form.php:54
 msgid "Please fill \"%\" field."
 msgstr "Veuillez remplir le champ \"%\"."
 
-#: vc_templates/lab_contact_form.php:51
+#: vc_templates/lab_contact_form.php:54
 msgid "You must check privacy policy checkbox in order to submit the form."
 msgstr ""
 
@@ -501,16 +505,17 @@ msgid "Kalium"
 msgstr "Kalium"
 
 #. Theme URI of the plugin/theme
-msgid "https://laborator.co/themes/kalium/"
+msgid "https://kaliumtheme.com"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
 "Start creating that amazing website that you have always wanted, only with "
-"Kalium — Connect with Laborator:  <a href=\"https://themeforest.net/user/"
-"laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
-"\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
-"\">Facebook</a>."
+"Kalium &mdash; Connect with Laborator on: <a href=\"https://themeforest.net/"
+"user/laborator\">Envato</a> &bull; <a href=\"https://twitter.com/thelaborator"
+"\">Twitter</a> &bull; <a href=\"https://www.facebook.com/laboratorcreative"
+"\">Facebook</a> &bull; <a href=\"https://www.instagram.com/laboratorcreative/"
+"\">Instagram</a>"
 msgstr ""
 
 #. Author of the plugin/theme
@@ -520,6 +525,16 @@ msgstr "Laborator"
 #. Author URI of the plugin/theme
 msgid "https://laborator.co/"
 msgstr ""
+
+#~ msgid "Logout"
+#~ msgstr "Déconnexion"
+
+#~ msgctxt "label"
+#~ msgid "Search for:"
+#~ msgstr "Rechercher:"
+
+#~ msgid "Continue &#65515;"
+#~ msgstr "Continuer &#65515;"
 
 #~ msgid "No more posts to show"
 #~ msgstr "Pas plus d’articles à afficher"
