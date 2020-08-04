@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2020-06-02 12:32+0200\n"
-"PO-Revision-Date: 2020-06-02 12:32+0200\n"
+"POT-Creation-Date: 2020-08-04 10:11+0200\n"
+"PO-Revision-Date: 2020-08-04 10:11+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: fr_FR\n"
@@ -86,75 +86,75 @@ msgstr "Répondre à %s"
 msgid "Comment"
 msgstr "Commentaire"
 
-#: includes/functions/blog-hook-functions.php:427
+#: includes/functions/blog-hook-functions.php:435
 #: includes/functions/template/woocommerce-template-functions.php:339
 msgid "Show more"
 msgstr "Montre plus"
 
-#: includes/functions/blog-hook-functions.php:428
+#: includes/functions/blog-hook-functions.php:436
 msgid "All posts are shown"
 msgstr "Tous les articles sont affichés"
 
-#: includes/functions/blog-hook-functions.php:764
+#: includes/functions/blog-hook-functions.php:772
 msgid "Older Post"
 msgstr "Article plus ancien"
 
-#: includes/functions/blog-hook-functions.php:771
+#: includes/functions/blog-hook-functions.php:779
 msgid "Newer Post"
 msgstr "Article plus récent"
 
-#: includes/functions/template/blog-template-functions.php:45
+#: includes/functions/template/blog-template-functions.php:49
 msgid "Category"
 msgstr "Catégorie"
 
-#: includes/functions/template/blog-template-functions.php:50
+#: includes/functions/template/blog-template-functions.php:54
 msgid "Tag"
 msgstr "Étiquette"
 
-#: includes/functions/template/blog-template-functions.php:56
+#: includes/functions/template/blog-template-functions.php:60
 msgid "Author"
 msgstr "Auteur"
 
-#: includes/functions/template/blog-template-functions.php:60
+#: includes/functions/template/blog-template-functions.php:64
 msgid "Year"
 msgstr "Année"
 
-#: includes/functions/template/blog-template-functions.php:64
 #: includes/functions/template/blog-template-functions.php:68
+#: includes/functions/template/blog-template-functions.php:72
 msgid "Month"
 msgstr "Mois"
 
-#: includes/functions/template/blog-template-functions.php:97
+#: includes/functions/template/blog-template-functions.php:101
 msgid "There are no posts to show"
 msgstr "Pas plus d’articles à afficher"
 
-#: includes/functions/template/blog-template-functions.php:219
+#: includes/functions/template/blog-template-functions.php:223
 msgid "Previous page"
 msgstr "Précédent"
 
-#: includes/functions/template/blog-template-functions.php:220
+#: includes/functions/template/blog-template-functions.php:224
 msgid "Next page"
 msgstr "Suivante"
 
-#: includes/functions/template/blog-template-functions.php:310
+#: includes/functions/template/blog-template-functions.php:314
 msgid "Loading posts..."
 msgstr "Chargement en cours…"
 
-#: includes/functions/template/blog-template-functions.php:350
+#: includes/functions/template/blog-template-functions.php:354
 msgid "Share:"
 msgstr "Partager:"
 
-#: includes/functions/template/blog-template-functions.php:614
+#: includes/functions/template/blog-template-functions.php:618
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s à %s"
 
-#: includes/functions/template/blog-template-functions.php:651
+#: includes/functions/template/blog-template-functions.php:655
 msgid "reply"
 msgstr "répondre"
 
-#: includes/functions/template/blog-template-functions.php:672
+#: includes/functions/template/blog-template-functions.php:676
 #, php-format
 msgid "In reply to: %s"
 msgstr "En réponse à: %s"
@@ -164,11 +164,11 @@ msgstr "En réponse à: %s"
 msgid "Email"
 msgstr "Email"
 
-#: includes/functions/template/header-template-functions.php:436
+#: includes/functions/template/header-template-functions.php:456
 msgid "Search"
 msgstr "Recherche"
 
-#: includes/functions/template/header-template-functions.php:504
+#: includes/functions/template/header-template-functions.php:524
 #: searchform.php:19 tpls/menu-mobile.php:59
 msgid "Search site..."
 msgstr "Rechercher…"
@@ -484,7 +484,7 @@ msgstr "Régler"
 msgid "Subtotal"
 msgstr "Sous-total"
 
-#: vc_templates/lab_blog_posts.php:228
+#: vc_templates/lab_blog_posts.php:236
 msgid "Loading blog posts..."
 msgstr "Chargement billets de blog …"
 

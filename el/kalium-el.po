@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2020-06-02 12:18+0200\n"
-"PO-Revision-Date: 2020-06-02 12:30+0200\n"
+"POT-Creation-Date: 2020-08-04 10:11+0200\n"
+"PO-Revision-Date: 2020-08-04 10:11+0200\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: el\n"
@@ -86,75 +86,75 @@ msgstr "Απάντηση στο %s"
 msgid "Comment"
 msgstr "Σχόλιο"
 
-#: includes/functions/blog-hook-functions.php:427
+#: includes/functions/blog-hook-functions.php:435
 #: includes/functions/template/woocommerce-template-functions.php:339
 msgid "Show more"
 msgstr "Εμφάνιση περισσότερων"
 
-#: includes/functions/blog-hook-functions.php:428
+#: includes/functions/blog-hook-functions.php:436
 msgid "All posts are shown"
 msgstr "Εμφανίζονται όλες οι αναρτήσεις"
 
-#: includes/functions/blog-hook-functions.php:764
+#: includes/functions/blog-hook-functions.php:772
 msgid "Older Post"
 msgstr "Παλαιότερη Aνάρτηση"
 
-#: includes/functions/blog-hook-functions.php:771
+#: includes/functions/blog-hook-functions.php:779
 msgid "Newer Post"
 msgstr "Νεότερη ανάρτηση"
 
-#: includes/functions/template/blog-template-functions.php:45
+#: includes/functions/template/blog-template-functions.php:49
 msgid "Category"
 msgstr "Κατηγορία"
 
-#: includes/functions/template/blog-template-functions.php:50
+#: includes/functions/template/blog-template-functions.php:54
 msgid "Tag"
 msgstr "Ετικέτα"
 
-#: includes/functions/template/blog-template-functions.php:56
+#: includes/functions/template/blog-template-functions.php:60
 msgid "Author"
 msgstr "Συντάκτης"
 
-#: includes/functions/template/blog-template-functions.php:60
+#: includes/functions/template/blog-template-functions.php:64
 msgid "Year"
 msgstr "Έτος"
 
-#: includes/functions/template/blog-template-functions.php:64
 #: includes/functions/template/blog-template-functions.php:68
+#: includes/functions/template/blog-template-functions.php:72
 msgid "Month"
 msgstr "Μήνας"
 
-#: includes/functions/template/blog-template-functions.php:97
+#: includes/functions/template/blog-template-functions.php:101
 msgid "There are no posts to show"
 msgstr "Δεν υπάρχουν δημοσιεύσεις που να εμφανίζονται"
 
-#: includes/functions/template/blog-template-functions.php:219
+#: includes/functions/template/blog-template-functions.php:223
 msgid "Previous page"
 msgstr "Προηγούμενη σελίδα"
 
-#: includes/functions/template/blog-template-functions.php:220
+#: includes/functions/template/blog-template-functions.php:224
 msgid "Next page"
 msgstr "Επόμενη σελίδα"
 
-#: includes/functions/template/blog-template-functions.php:310
+#: includes/functions/template/blog-template-functions.php:314
 msgid "Loading posts..."
 msgstr "Φόρτωση θέσεις..."
 
-#: includes/functions/template/blog-template-functions.php:350
+#: includes/functions/template/blog-template-functions.php:354
 msgid "Share:"
 msgstr "Μερίδιο:"
 
-#: includes/functions/template/blog-template-functions.php:614
+#: includes/functions/template/blog-template-functions.php:618
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s στις %s"
 
-#: includes/functions/template/blog-template-functions.php:651
+#: includes/functions/template/blog-template-functions.php:655
 msgid "reply"
 msgstr "Απάντηση"
 
-#: includes/functions/template/blog-template-functions.php:672
+#: includes/functions/template/blog-template-functions.php:676
 #, php-format
 msgid "In reply to: %s"
 msgstr "Απάντηση στο θέμα: %s"
@@ -164,11 +164,11 @@ msgstr "Απάντηση στο θέμα: %s"
 msgid "Email"
 msgstr "Email"
 
-#: includes/functions/template/header-template-functions.php:436
+#: includes/functions/template/header-template-functions.php:456
 msgid "Search"
 msgstr "Αναζήτηση"
 
-#: includes/functions/template/header-template-functions.php:504
+#: includes/functions/template/header-template-functions.php:524
 #: searchform.php:19 tpls/menu-mobile.php:59
 msgid "Search site..."
 msgstr "Αναζήτηση..."
@@ -483,7 +483,7 @@ msgstr "Ολοκλήρωση παραγγελίας"
 msgid "Subtotal"
 msgstr "Υποσύνολο"
 
-#: vc_templates/lab_blog_posts.php:228
+#: vc_templates/lab_blog_posts.php:236
 msgid "Loading blog posts..."
 msgstr "Φόρτωση θέσεις..."
 
