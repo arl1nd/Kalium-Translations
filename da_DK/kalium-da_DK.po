@@ -41,7 +41,7 @@ msgid ""
 "<br /> Perhaps you would like to go to our <a href=\"%s\">home page</a>?"
 msgstr ""
 "Vi beklager, men den side, du har ledt efter findes ikke i vores database! "
-"<br /> Måske du gerne vil gå til vores <a href=\"%s\">forsiden</a>?"
+"<br /> Måske du gerne vil gå til vores <a href=\"%s\">forside</a>?"
 
 #: comments.php:22
 #, php-format
@@ -52,7 +52,7 @@ msgstr[1] "%d Kommentarer"
 
 #: comments.php:23
 msgid "Join the discussion and tell us your opinion."
-msgstr "Deltag i diskussionen og fortælle os din mening."
+msgstr "Deltag i diskussionen og fortæl os din mening."
 
 #: comments.php:23
 msgid "Be the first to comment on this article."
@@ -212,11 +212,11 @@ msgstr "Del dette produkt:"
 
 #: includes/functions/template/woocommerce-template-functions.php:1403
 msgid "My Orders"
-msgstr "Mine Ordre"
+msgstr "Mine Ordrer"
 
 #: includes/functions/template/woocommerce-template-functions.php:1404
 msgid "Your recent orders are displayed in the table below."
-msgstr "Din seneste ordrer vises i tabellen herunder."
+msgstr "Din seneste ordre vises i tabellen herunder."
 
 #: includes/functions/template/woocommerce-template-functions.php:1419
 msgid "My Downloads"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: includes/functions/template/woocommerce-template-functions.php:1581
 msgid "Edit information for this address type"
-msgstr "Redigere oplysninger til denne adressetype"
+msgstr "Rediger oplysninger til denne adressetype"
 
 #: includes/functions/template/woocommerce-template-functions.php:1591
 msgid "Addresses"
@@ -260,7 +260,7 @@ msgstr "Min konto"
 
 #: includes/functions/template/woocommerce-template-functions.php:1621
 msgid "Edit your account details or change your password"
-msgstr "Redigere dine kontooplysninger eller ændre din kodeord"
+msgstr "Rediger dine kontooplysninger eller skift dit kodeord"
 
 #: includes/functions/woocommerce-functions.php:165
 msgid "(leave blank to leave unchanged)"
@@ -289,7 +289,7 @@ msgstr "Næste"
 #: includes/laborator_functions.php:86
 #, php-format
 msgid "Check out what I just spotted: %s"
-msgstr "Tjek hvad jeg lige opdaget: %s"
+msgstr "Tjek hvad jeg lige har opdaget: %s"
 
 #: includes/laborator_functions.php:93
 msgid "Print"
@@ -338,7 +338,7 @@ msgstr "[%s] Ny kontakt Form meddelelse er blevet modtaget."
 #: includes/libraries/vc/lab_contact_form/init.php:197
 msgctxt "contact form"
 msgid "You have received new contact form message."
-msgstr "Du har modtaget nye kontaktformular besked."
+msgstr "Du har modtaget ny kontaktformular besked."
 
 #: includes/libraries/vc/lab_contact_form/init.php:199
 msgctxt "contact form"
@@ -481,7 +481,7 @@ msgstr "Subtotal"
 
 #: vc_templates/lab_blog_posts.php:236
 msgid "Loading blog posts..."
-msgstr "Lastning blogindlæg..."
+msgstr "Henter blogindlæg..."
 
 #: vc_templates/lab_contact_form.php:54
 msgid "Please fill \"%\" field."
@@ -598,7 +598,7 @@ msgstr ""
 #~ msgstr "Nuværende Kodeord"
 
 #~ msgid "New Password"
-#~ msgstr "Ny Kodeord"
+#~ msgstr "Nyt Kodeord"
 
 #~ msgid "http://laborator.co/"
 #~ msgstr "http://laborator.co/"
