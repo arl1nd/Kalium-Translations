@@ -7,7 +7,7 @@ This is the official GIT repository for language translations of Kalium theme.
 <br>
 Official Websites:
 
-https://www.kaliumtheme.com/
+https://kaliumtheme.com/
 
 https://laborator.co/
 
