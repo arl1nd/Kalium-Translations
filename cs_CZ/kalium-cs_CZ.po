@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2020-08-04 10:11+0200\n"
-"PO-Revision-Date: 2020-08-04 10:11+0200\n"
+"POT-Creation-Date: 2022-02-21 15:53+0100\n"
+"PO-Revision-Date: 2022-02-21 15:53+0100\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Translation-Version: 3.0.2\n"
+"X-Translation-Version: 3.4.5\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-"
@@ -86,180 +86,204 @@ msgstr "Odpovědět: %s"
 msgid "Comment"
 msgstr "Odeslat"
 
-#: includes/functions/blog-hook-functions.php:435
-#: includes/functions/template/woocommerce-template-functions.php:339
+#: includes/functions/blog-hook-functions.php:437
+#: includes/functions/template/woocommerce-template-functions.php:343
 msgid "Show more"
 msgstr "Ukázat více"
 
-#: includes/functions/blog-hook-functions.php:436
+#: includes/functions/blog-hook-functions.php:438
 msgid "All posts are shown"
 msgstr "Zobrazují se všechny příspěvky"
 
-#: includes/functions/blog-hook-functions.php:772
+#: includes/functions/blog-hook-functions.php:769
 msgid "Older Post"
 msgstr "Starší příspěvek"
 
-#: includes/functions/blog-hook-functions.php:779
+#: includes/functions/blog-hook-functions.php:776
 msgid "Newer Post"
 msgstr "Novější příspěvek"
+
+#: includes/functions/other-functions.php:247
+msgid "Print"
+msgstr "Tisk"
+
+#: includes/functions/other-functions.php:253
+#: includes/functions/template/core-template-functions.php:221
+#: includes/laborator_filters.php:150
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions/other-functions.php:270
+#, php-format
+msgid "Check out what I just spotted: %s"
+msgstr "Podívejte se, co jsem si všiml: %s"
 
 #: includes/functions/template/blog-template-functions.php:49
 msgid "Category"
 msgstr "Kategorie"
 
-#: includes/functions/template/blog-template-functions.php:54
+#: includes/functions/template/blog-template-functions.php:58
 msgid "Tag"
 msgstr "Štítek"
 
-#: includes/functions/template/blog-template-functions.php:60
+#: includes/functions/template/blog-template-functions.php:64
 msgid "Author"
 msgstr "Autor"
 
-#: includes/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:68
 msgid "Year"
 msgstr "Rok"
 
-#: includes/functions/template/blog-template-functions.php:68
 #: includes/functions/template/blog-template-functions.php:72
+#: includes/functions/template/blog-template-functions.php:76
 msgid "Month"
 msgstr "Měsíc"
 
-#: includes/functions/template/blog-template-functions.php:101
+#: includes/functions/template/blog-template-functions.php:105
 msgid "There are no posts to show"
 msgstr "Nejsou žádné příspěvky k zobrazení"
 
-#: includes/functions/template/blog-template-functions.php:223
+#: includes/functions/template/blog-template-functions.php:227
 msgid "Previous page"
 msgstr "Předchozí stránka"
 
-#: includes/functions/template/blog-template-functions.php:224
+#: includes/functions/template/blog-template-functions.php:228
 msgid "Next page"
 msgstr "Následující stránka"
 
-#: includes/functions/template/blog-template-functions.php:314
+#: includes/functions/template/blog-template-functions.php:318
 msgid "Loading posts..."
 msgstr "Načítání příspěvků…"
 
-#: includes/functions/template/blog-template-functions.php:354
+#: includes/functions/template/blog-template-functions.php:357
 msgid "Share:"
 msgstr "Sdílejte:"
 
-#: includes/functions/template/blog-template-functions.php:618
+#: includes/functions/template/blog-template-functions.php:623
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s o %s"
 
-#: includes/functions/template/blog-template-functions.php:655
+#: includes/functions/template/blog-template-functions.php:660
 msgid "reply"
 msgstr "odpovědět"
 
-#: includes/functions/template/blog-template-functions.php:676
+#: includes/functions/template/blog-template-functions.php:681
 #, php-format
 msgid "In reply to: %s"
 msgstr "V odpovědi na: %s"
 
-#: includes/functions/template/core-template-functions.php:220
-#: includes/laborator_filters.php:150 includes/laborator_functions.php:87
-msgid "Email"
-msgstr "Email"
+#: includes/functions/template/core-template-functions.php:1022
+#: includes/functions/woocommerce-hook-functions.php:236
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
+#: tpls/search-results.php:100
+msgid "Previous"
+msgstr "Předchozí"
 
-#: includes/functions/template/header-template-functions.php:456
+#: includes/functions/template/core-template-functions.php:1023
+#: includes/functions/woocommerce-hook-functions.php:237
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
+#: tpls/search-results.php:101
+msgid "Next"
+msgstr "Další"
+
+#: includes/functions/template/header-template-functions.php:461
 msgid "Search"
 msgstr "Hledat"
 
-#: includes/functions/template/header-template-functions.php:524
+#: includes/functions/template/header-template-functions.php:528
 #: searchform.php:19 tpls/menu-mobile.php:59
 msgid "Search site..."
 msgstr "Hledat…"
 
-#: includes/functions/template/woocommerce-template-functions.php:340
+#: includes/functions/template/woocommerce-template-functions.php:344
 msgid "No more products to show"
 msgstr "Žádné další zboží"
 
-#: includes/functions/template/woocommerce-template-functions.php:997
+#: includes/functions/template/woocommerce-template-functions.php:1005
 #, php-format
 msgid "%s out of 5"
 msgstr "%s z 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1085
+#: includes/functions/template/woocommerce-template-functions.php:1091
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Hodnocení %s z 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1099
+#: includes/functions/template/woocommerce-template-functions.php:1108
 msgid "Payment method"
 msgstr "Platební metoda"
 
-#: includes/functions/template/woocommerce-template-functions.php:1117
+#: includes/functions/template/woocommerce-template-functions.php:1126
 msgid "Login or register"
 msgstr "Přihlášení nebo registrace"
 
-#: includes/functions/template/woocommerce-template-functions.php:1119
+#: includes/functions/template/woocommerce-template-functions.php:1128
 msgid "Login"
 msgstr "Přihlášení"
 
-#: includes/functions/template/woocommerce-template-functions.php:1124
+#: includes/functions/template/woocommerce-template-functions.php:1133
 msgid "Manage your account and see your orders"
 msgstr "Spravovat svůj účet a vidět své objednávky"
 
-#: includes/functions/template/woocommerce-template-functions.php:1222
+#: includes/functions/template/woocommerce-template-functions.php:1230
 msgid "Cart"
 msgstr "Košík"
 
-#: includes/functions/template/woocommerce-template-functions.php:1327
+#: includes/functions/template/woocommerce-template-functions.php:1335
 msgid "Share this item:"
 msgstr "Sdílet tuto položku:"
 
-#: includes/functions/template/woocommerce-template-functions.php:1403
+#: includes/functions/template/woocommerce-template-functions.php:1413
 msgid "My Orders"
 msgstr "Moje objednávky"
 
-#: includes/functions/template/woocommerce-template-functions.php:1404
+#: includes/functions/template/woocommerce-template-functions.php:1414
 msgid "Your recent orders are displayed in the table below."
 msgstr "Vaše poslední objednávky jsou zobrazeny v následující tabulce."
 
-#: includes/functions/template/woocommerce-template-functions.php:1419
+#: includes/functions/template/woocommerce-template-functions.php:1429
 msgid "My Downloads"
 msgstr "Ke stažení"
 
-#: includes/functions/template/woocommerce-template-functions.php:1420
+#: includes/functions/template/woocommerce-template-functions.php:1430
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Soubory ke stažení jsou zobrazeny v následující tabulce."
 
-#: includes/functions/template/woocommerce-template-functions.php:1432
+#: includes/functions/template/woocommerce-template-functions.php:1442
 msgid "View full size"
 msgstr "Zobrazit v plné velikosti"
 
-#: includes/functions/template/woocommerce-template-functions.php:1562
+#: includes/functions/template/woocommerce-template-functions.php:1572
 msgid "Out of stock"
 msgstr "Není skladem"
 
-#: includes/functions/template/woocommerce-template-functions.php:1565
+#: includes/functions/template/woocommerce-template-functions.php:1575
 msgid "Featured"
 msgstr "Speciální nabídka"
 
-#: includes/functions/template/woocommerce-template-functions.php:1568
+#: includes/functions/template/woocommerce-template-functions.php:1578
 msgid "Sale!"
 msgstr "Akce!"
 
-#: includes/functions/template/woocommerce-template-functions.php:1581
+#: includes/functions/template/woocommerce-template-functions.php:1591
 msgid "Edit information for this address type"
 msgstr "Upravit informace pro tento adresy"
 
-#: includes/functions/template/woocommerce-template-functions.php:1591
+#: includes/functions/template/woocommerce-template-functions.php:1601
 msgid "Addresses"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1605
+#: includes/functions/template/woocommerce-template-functions.php:1615
 msgid "&laquo; Go back"
 msgstr "&laquo; Zpět"
 
-#: includes/functions/template/woocommerce-template-functions.php:1620
+#: includes/functions/template/woocommerce-template-functions.php:1630
 msgid "My account"
 msgstr "Můj účet"
 
-#: includes/functions/template/woocommerce-template-functions.php:1621
+#: includes/functions/template/woocommerce-template-functions.php:1631
 msgid "Edit your account details or change your password"
 msgstr "Úpravy podrobností účtu nebo změna hesla"
 
@@ -271,44 +295,23 @@ msgstr "(ponechejte prázdné, pokud ho nechcete změnit)"
 msgid "Current password"
 msgstr "Aktuální heslo"
 
-#: includes/functions/woocommerce-hook-functions.php:192
+#: includes/functions/woocommerce-hook-functions.php:215
 msgid "Added to cart"
 msgstr "Přidáno do košíku"
 
-#: includes/functions/woocommerce-hook-functions.php:213
-#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
-#: tpls/search-results.php:99
-msgid "Previous"
-msgstr "Předchozí"
-
-#: includes/functions/woocommerce-hook-functions.php:214
-#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
-#: tpls/search-results.php:100
-msgid "Next"
-msgstr "Další"
-
-#: includes/laborator_functions.php:86
-#, php-format
-msgid "Check out what I just spotted: %s"
-msgstr "Podívejte se, co jsem si všiml: %s"
-
-#: includes/laborator_functions.php:93
-msgid "Print"
-msgstr "Tisk"
-
-#: includes/laborator_portfolio.php:578
+#: includes/laborator_portfolio.php:555
 msgid "Your browser does not support HTML5 video."
 msgstr "Váš prohlížeč nepodporuje HTML5 video."
 
-#: includes/laborator_portfolio.php:904
+#: includes/laborator_portfolio.php:882
 msgid "Show More"
 msgstr "Ukázat Více"
 
-#: includes/laborator_portfolio.php:905
+#: includes/laborator_portfolio.php:883
 msgid "No more portfolio items to show"
 msgstr "Žádné další ukázky z portfolia"
 
-#: includes/laborator_portfolio.php:1931
+#: includes/laborator_portfolio.php:1916
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -326,33 +329,33 @@ msgstr "Následující příspěvek"
 msgid "Icon"
 msgstr "Ikona"
 
-#: includes/libraries/vc/lab_contact_form/init.php:161
+#: includes/libraries/vc/lab_contact_form/init.php:180
 msgid "Captcha verification failed, please try again!"
 msgstr "Captcha ověření selhalo. Prosím zkuste znovu!"
 
-#: includes/libraries/vc/lab_contact_form/init.php:190
+#: includes/libraries/vc/lab_contact_form/init.php:213
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Nová zpráva z kontaktního formuláře."
 
-#: includes/libraries/vc/lab_contact_form/init.php:197
+#: includes/libraries/vc/lab_contact_form/init.php:220
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Obdrželi jste novou zprávu z kontaktního formuláře."
 
-#: includes/libraries/vc/lab_contact_form/init.php:199
+#: includes/libraries/vc/lab_contact_form/init.php:222
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Detaily zprávy -----"
 
-#: includes/libraries/vc/lab_contact_form/init.php:216
+#: includes/libraries/vc/lab_contact_form/init.php:239
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Tato zpráva byla odeslána z IP: %s"
 
-#: includes/libraries/vc/lab_contact_form/init.php:218
+#: includes/libraries/vc/lab_contact_form/init.php:241
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -364,11 +367,15 @@ msgstr "Načítání..."
 
 #: searchform.php:18 searchform.php:19
 msgid "Search for:"
-msgstr ""
+msgstr "Vyhledávání:"
 
 #: searchform.php:21 tpls/menu-mobile.php:65
 msgid "Go"
 msgstr "Odeslat"
+
+#: templates/blog/single/related.php:23
+msgid "Related posts"
+msgstr "Související příspěvky"
 
 #: templates/pages/coming-soon.php:44
 msgid "Days"
@@ -402,11 +409,11 @@ msgstr "Sekundy"
 msgid "Second"
 msgstr "Sekundy"
 
-#: tpls/portfolio-listing-title.php:100
+#: tpls/portfolio-listing-title.php:112
 msgid "All"
 msgstr "Vše"
 
-#: tpls/portfolio-single-5.php:81
+#: tpls/portfolio-single-5.php:142
 msgid "Click here to show project info"
 msgstr "Klikněte zde pro více informací"
 
@@ -414,19 +421,19 @@ msgstr "Klikněte zde pro více informací"
 msgid "Open in Lightbox"
 msgstr "Otevřít lightbox"
 
-#: tpls/portfolio-single-like-share.php:55
+#: tpls/portfolio-single-like-share.php:42
 msgid "Share"
 msgstr "Sdílet"
 
-#: tpls/portfolio-single-prevnext.php:72
+#: tpls/portfolio-single-prevnext.php:19
 msgid "Previous project"
 msgstr "Předchozí projekt"
 
-#: tpls/portfolio-single-prevnext.php:73
+#: tpls/portfolio-single-prevnext.php:20
 msgid "Next project"
 msgstr "Další projekt"
 
-#: tpls/portfolio-single-prevnext.php:135
+#: tpls/portfolio-single-prevnext.php:138
 msgid "Go to portfolio archive"
 msgstr "Přejít na archiv portfolia"
 
@@ -436,8 +443,11 @@ msgstr "Kliknutím změňte vyhledávání"
 
 #: tpls/search-results.php:30
 #, php-format
-msgid "%d results for “%s”"
-msgstr "%d-krát nalezen výraz “%s”"
+msgid "%d result for “%s”"
+msgid_plural "%d results for “%s”"
+msgstr[0] "%d sökresultat för “%s”"
+msgstr[1] "%d-krát nalezen výraz “%s”"
+msgstr[2] "%d-krát nalezen výraz “%s”"
 
 #: tpls/search-results.php:33
 #, php-format
@@ -452,7 +462,7 @@ msgstr[2] "Zjistili jsme %d zápas se slovem jste hledali."
 msgid "There is nothing found that matches your search criteria."
 msgstr "Nic nenalezeno, co odpovídá kritériím vyhledávání."
 
-#: tpls/search-results.php:81
+#: tpls/search-results.php:82
 #, php-format
 msgid "Continue %s"
 msgstr "Pokračovat %s"
@@ -482,7 +492,7 @@ msgstr "Pokladna"
 msgid "Subtotal"
 msgstr "Mezisoučet"
 
-#: vc_templates/lab_blog_posts.php:236
+#: vc_templates/lab_blog_posts.php:241
 msgid "Loading blog posts..."
 msgstr "Načítání blogu…"
 
@@ -522,8 +532,11 @@ msgid "Laborator"
 msgstr "Laborator"
 
 #. Author URI of the plugin/theme
-msgid "https://laborator.co/"
+msgid "https://laborator.co"
 msgstr ""
+
+#~ msgid "%d results for “%s”"
+#~ msgstr "%d-krát nalezen výraz “%s”"
 
 #~ msgid "Logout"
 #~ msgstr "Odhlášení"

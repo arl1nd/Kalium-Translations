@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2020-08-04 10:10+0200\n"
-"PO-Revision-Date: 2020-08-04 10:10+0200\n"
+"POT-Creation-Date: 2021-10-21 13:39+0200\n"
+"PO-Revision-Date: 2021-11-23 15:51+0100\n"
 "Last-Translator: Laborator <info@laborator.co>\n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: sq\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translation-Version: 3.0.2\n"
+"X-Translation-Version: 3.4.5\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-"
@@ -85,61 +85,76 @@ msgstr "Përgjigju %s"
 msgid "Comment"
 msgstr "Koment"
 
-#: includes/functions/blog-hook-functions.php:435
+#: includes/functions/blog-hook-functions.php:437
 #: includes/functions/template/woocommerce-template-functions.php:339
 msgid "Show more"
 msgstr "Shfaq më shume"
 
-#: includes/functions/blog-hook-functions.php:436
+#: includes/functions/blog-hook-functions.php:438
 msgid "All posts are shown"
 msgstr "Te gjitha postimet janë shfaqur"
 
-#: includes/functions/blog-hook-functions.php:772
+#: includes/functions/blog-hook-functions.php:769
 msgid "Older Post"
 msgstr "Më të vjetra"
 
-#: includes/functions/blog-hook-functions.php:779
+#: includes/functions/blog-hook-functions.php:776
 msgid "Newer Post"
 msgstr "Më të reja"
 
-#: includes/functions/template/blog-template-functions.php:49
+#: includes/functions/other-functions.php:247
+msgid "Print"
+msgstr "Shtyp"
+
+#: includes/functions/other-functions.php:253
+#: includes/functions/template/core-template-functions.php:221
+#: includes/laborator_filters.php:150
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions/other-functions.php:270
+#, php-format
+msgid "Check out what I just spotted: %s"
+msgstr "Shih se çka vura re: %s"
+
+#: includes/functions/template/blog-template-functions.php:48
 msgid "Category"
 msgstr "Kategoria"
 
-#: includes/functions/template/blog-template-functions.php:54
+#: includes/functions/template/blog-template-functions.php:53
 msgid "Tag"
 msgstr "Etiketë"
 
-#: includes/functions/template/blog-template-functions.php:60
+#: includes/functions/template/blog-template-functions.php:59
 msgid "Author"
 msgstr "Autor"
 
-#: includes/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:63
 msgid "Year"
 msgstr "Viti"
 
-#: includes/functions/template/blog-template-functions.php:68
-#: includes/functions/template/blog-template-functions.php:72
+#: includes/functions/template/blog-template-functions.php:67
+#: includes/functions/template/blog-template-functions.php:71
 msgid "Month"
 msgstr "Muaji"
 
-#: includes/functions/template/blog-template-functions.php:101
+#: includes/functions/template/blog-template-functions.php:100
 msgid "There are no posts to show"
 msgstr "Nuk ka postime per te shfaqur"
 
-#: includes/functions/template/blog-template-functions.php:223
+#: includes/functions/template/blog-template-functions.php:222
 msgid "Previous page"
 msgstr "Faqja e mëparshme"
 
-#: includes/functions/template/blog-template-functions.php:224
+#: includes/functions/template/blog-template-functions.php:223
 msgid "Next page"
 msgstr "Faqja tjetër"
 
-#: includes/functions/template/blog-template-functions.php:314
+#: includes/functions/template/blog-template-functions.php:313
 msgid "Loading posts..."
 msgstr "Duke ngarkuar postimet..."
 
-#: includes/functions/template/blog-template-functions.php:354
+#: includes/functions/template/blog-template-functions.php:352
 msgid "Share:"
 msgstr "Shpërndaje:"
 
@@ -158,16 +173,25 @@ msgstr "përgjigju"
 msgid "In reply to: %s"
 msgstr "Në përgjigje të: %s"
 
-#: includes/functions/template/core-template-functions.php:220
-#: includes/laborator_filters.php:150 includes/laborator_functions.php:87
-msgid "Email"
-msgstr "Email"
+#: includes/functions/template/core-template-functions.php:1022
+#: includes/functions/woocommerce-hook-functions.php:236
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
+#: tpls/search-results.php:100
+msgid "Previous"
+msgstr "Prapa"
 
-#: includes/functions/template/header-template-functions.php:456
+#: includes/functions/template/core-template-functions.php:1023
+#: includes/functions/woocommerce-hook-functions.php:237
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
+#: tpls/search-results.php:101
+msgid "Next"
+msgstr "Tjetra"
+
+#: includes/functions/template/header-template-functions.php:461
 msgid "Search"
 msgstr "Kërko"
 
-#: includes/functions/template/header-template-functions.php:524
+#: includes/functions/template/header-template-functions.php:528
 #: searchform.php:19 tpls/menu-mobile.php:59
 msgid "Search site..."
 msgstr "Kërko faqen..."
@@ -181,24 +205,24 @@ msgstr "Ska më produkte për të shfaqur"
 msgid "%s out of 5"
 msgstr "%s nga 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1085
+#: includes/functions/template/woocommerce-template-functions.php:1083
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Vlerësuar %s nga 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1099
+#: includes/functions/template/woocommerce-template-functions.php:1100
 msgid "Payment method"
 msgstr "Metoda e pagesës"
 
-#: includes/functions/template/woocommerce-template-functions.php:1117
+#: includes/functions/template/woocommerce-template-functions.php:1118
 msgid "Login or register"
 msgstr "Hyr ose regjistrohuni"
 
-#: includes/functions/template/woocommerce-template-functions.php:1119
+#: includes/functions/template/woocommerce-template-functions.php:1120
 msgid "Login"
 msgstr "Hyni"
 
-#: includes/functions/template/woocommerce-template-functions.php:1124
+#: includes/functions/template/woocommerce-template-functions.php:1125
 msgid "Manage your account and see your orders"
 msgstr "Përkujdesu për llogarinë dhe shiko porositë"
 
@@ -210,55 +234,55 @@ msgstr "Shporta"
 msgid "Share this item:"
 msgstr "Shpërndaje këtë artikull:"
 
-#: includes/functions/template/woocommerce-template-functions.php:1403
+#: includes/functions/template/woocommerce-template-functions.php:1405
 msgid "My Orders"
 msgstr "Porositë e mija"
 
-#: includes/functions/template/woocommerce-template-functions.php:1404
+#: includes/functions/template/woocommerce-template-functions.php:1406
 msgid "Your recent orders are displayed in the table below."
 msgstr "Porositë tuaja do të shfaqen në tabelën e mëposhtme."
 
-#: includes/functions/template/woocommerce-template-functions.php:1419
+#: includes/functions/template/woocommerce-template-functions.php:1421
 msgid "My Downloads"
 msgstr "Shkarkimet e mia"
 
-#: includes/functions/template/woocommerce-template-functions.php:1420
+#: includes/functions/template/woocommerce-template-functions.php:1422
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Shkarkimet tuaja digjitale do të shfaqen në tabelën e mëposhtme."
 
-#: includes/functions/template/woocommerce-template-functions.php:1432
+#: includes/functions/template/woocommerce-template-functions.php:1434
 msgid "View full size"
 msgstr "Shiko madhësinë e plotë"
 
-#: includes/functions/template/woocommerce-template-functions.php:1562
+#: includes/functions/template/woocommerce-template-functions.php:1564
 msgid "Out of stock"
 msgstr "Jashtë stokut"
 
-#: includes/functions/template/woocommerce-template-functions.php:1565
+#: includes/functions/template/woocommerce-template-functions.php:1567
 msgid "Featured"
 msgstr "E zgjedhur"
 
-#: includes/functions/template/woocommerce-template-functions.php:1568
+#: includes/functions/template/woocommerce-template-functions.php:1570
 msgid "Sale!"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1581
+#: includes/functions/template/woocommerce-template-functions.php:1583
 msgid "Edit information for this address type"
 msgstr "Ndrysho informatën për kët tip të adresës"
 
-#: includes/functions/template/woocommerce-template-functions.php:1591
+#: includes/functions/template/woocommerce-template-functions.php:1593
 msgid "Addresses"
 msgstr ""
 
-#: includes/functions/template/woocommerce-template-functions.php:1605
+#: includes/functions/template/woocommerce-template-functions.php:1607
 msgid "&laquo; Go back"
 msgstr "&laquo; Go prapa"
 
-#: includes/functions/template/woocommerce-template-functions.php:1620
+#: includes/functions/template/woocommerce-template-functions.php:1622
 msgid "My account"
 msgstr "Llogaria juaj"
 
-#: includes/functions/template/woocommerce-template-functions.php:1621
+#: includes/functions/template/woocommerce-template-functions.php:1623
 msgid "Edit your account details or change your password"
 msgstr "Ndrysho detajet e llogarisë ose ndrysho fjalëkalimin"
 
@@ -270,44 +294,23 @@ msgstr "(leje bosh pë ta lënë të pandryshuar)"
 msgid "Current password"
 msgstr "Fjalëkalimi momental"
 
-#: includes/functions/woocommerce-hook-functions.php:192
+#: includes/functions/woocommerce-hook-functions.php:215
 msgid "Added to cart"
 msgstr "U shtua në shportë"
 
-#: includes/functions/woocommerce-hook-functions.php:213
-#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
-#: tpls/search-results.php:99
-msgid "Previous"
-msgstr "Prapa"
-
-#: includes/functions/woocommerce-hook-functions.php:214
-#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
-#: tpls/search-results.php:100
-msgid "Next"
-msgstr "Tjetra"
-
-#: includes/laborator_functions.php:86
-#, php-format
-msgid "Check out what I just spotted: %s"
-msgstr "Shih se çka vura re: %s"
-
-#: includes/laborator_functions.php:93
-msgid "Print"
-msgstr "Shtyp"
-
-#: includes/laborator_portfolio.php:578
+#: includes/laborator_portfolio.php:555
 msgid "Your browser does not support HTML5 video."
 msgstr "Shfletuesi juaj nuk i mbështet videot e formatit HTML5."
 
-#: includes/laborator_portfolio.php:904
+#: includes/laborator_portfolio.php:882
 msgid "Show More"
 msgstr "Shfaq më shumë"
 
-#: includes/laborator_portfolio.php:905
+#: includes/laborator_portfolio.php:883
 msgid "No more portfolio items to show"
 msgstr "Nuk ka artikuj nga portfolio për të shfaqur"
 
-#: includes/laborator_portfolio.php:1931
+#: includes/laborator_portfolio.php:1916
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -325,33 +328,33 @@ msgstr "Postimi Pasues"
 msgid "Icon"
 msgstr "Ikona"
 
-#: includes/libraries/vc/lab_contact_form/init.php:161
+#: includes/libraries/vc/lab_contact_form/init.php:180
 msgid "Captcha verification failed, please try again!"
 msgstr ""
 
-#: includes/libraries/vc/lab_contact_form/init.php:190
+#: includes/libraries/vc/lab_contact_form/init.php:213
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[%s] Një mesazh i ri u pranua nga forma e kontaktit."
 
-#: includes/libraries/vc/lab_contact_form/init.php:197
+#: includes/libraries/vc/lab_contact_form/init.php:220
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Keni marrë një mesazh të ri nga forma e kontaktit."
 
-#: includes/libraries/vc/lab_contact_form/init.php:199
+#: includes/libraries/vc/lab_contact_form/init.php:222
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Detajet e mesazhit -----"
 
-#: includes/libraries/vc/lab_contact_form/init.php:216
+#: includes/libraries/vc/lab_contact_form/init.php:239
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Ky mesazh u dërgua nga këto IP: %s"
 
-#: includes/libraries/vc/lab_contact_form/init.php:218
+#: includes/libraries/vc/lab_contact_form/init.php:241
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -363,11 +366,15 @@ msgstr "Duke ngarkuar produktet..."
 
 #: searchform.php:18 searchform.php:19
 msgid "Search for:"
-msgstr ""
+msgstr "Kërko për:"
 
 #: searchform.php:21 tpls/menu-mobile.php:65
 msgid "Go"
 msgstr "Shko"
+
+#: templates/blog/single/related.php:21
+msgid "Related posts"
+msgstr "Postime të ngjashme"
 
 #: templates/pages/coming-soon.php:44
 msgid "Days"
@@ -401,11 +408,11 @@ msgstr "Sekonda"
 msgid "Second"
 msgstr "Sekondë"
 
-#: tpls/portfolio-listing-title.php:100
+#: tpls/portfolio-listing-title.php:112
 msgid "All"
 msgstr "Të gjitha"
 
-#: tpls/portfolio-single-5.php:81
+#: tpls/portfolio-single-5.php:142
 msgid "Click here to show project info"
 msgstr "Kliko për të shfaqur infot e projektit"
 
@@ -413,19 +420,19 @@ msgstr "Kliko për të shfaqur infot e projektit"
 msgid "Open in Lightbox"
 msgstr "Hape në Lightbox"
 
-#: tpls/portfolio-single-like-share.php:55
+#: tpls/portfolio-single-like-share.php:42
 msgid "Share"
 msgstr "Shpërndaje"
 
-#: tpls/portfolio-single-prevnext.php:72
+#: tpls/portfolio-single-prevnext.php:19
 msgid "Previous project"
 msgstr "Projekti i mëparshëm"
 
-#: tpls/portfolio-single-prevnext.php:73
+#: tpls/portfolio-single-prevnext.php:20
 msgid "Next project"
 msgstr "Projekti tjetër"
 
-#: tpls/portfolio-single-prevnext.php:135
+#: tpls/portfolio-single-prevnext.php:138
 msgid "Go to portfolio archive"
 msgstr "Shko te arkivi i portfolios"
 
@@ -435,8 +442,10 @@ msgstr "Kliko për të ndryshuar kërkimin tuaj"
 
 #: tpls/search-results.php:30
 #, php-format
-msgid "%d results for “%s”"
-msgstr "%d rezultate për “%s”"
+msgid "%d result for “%s”"
+msgid_plural "%d results for “%s”"
+msgstr[0] "%d rezultat për “%s”"
+msgstr[1] "%d rezultate për “%s”"
 
 #: tpls/search-results.php:33
 #, php-format
@@ -449,7 +458,7 @@ msgstr[1] "Kemi %d rezultate me fjalën që kërkuat."
 msgid "There is nothing found that matches your search criteria."
 msgstr "Nuk u gjetën rezultate për kriteret e përzgjedhura të kërkimit."
 
-#: tpls/search-results.php:81
+#: tpls/search-results.php:82
 #, php-format
 msgid "Continue %s"
 msgstr "Vazhdo %s"
@@ -479,7 +488,7 @@ msgstr "Arka"
 msgid "Subtotal"
 msgstr "Nëntotali"
 
-#: vc_templates/lab_blog_posts.php:236
+#: vc_templates/lab_blog_posts.php:241
 msgid "Loading blog posts..."
 msgstr "Shfaq postimet e blogut..."
 
@@ -518,8 +527,11 @@ msgid "Laborator"
 msgstr "Laborator"
 
 #. Author URI of the plugin/theme
-msgid "https://laborator.co/"
+msgid "https://laborator.co"
 msgstr ""
+
+#~ msgid "%d results for “%s”"
+#~ msgstr "%d rezultate për “%s”"
 
 #~ msgid "Logout"
 #~ msgstr "Dilni"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kalium\n"
-"POT-Creation-Date: 2020-08-04 10:10+0200\n"
-"PO-Revision-Date: 2020-08-04 10:10+0200\n"
+"POT-Creation-Date: 2022-02-21 16:11+0100\n"
+"PO-Revision-Date: 2022-02-21 16:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Laborator <info@laborator.co>\n"
 "Language: ro_RO\n"
@@ -18,7 +18,7 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
 "%100<=19) ? 1 : 2);\n"
-"X-Translation-Version: 3.0.2\n"
+"X-Translation-Version: 3.4.5\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: includes/libraries/class-tgm-plugin-"
@@ -88,180 +88,204 @@ msgstr "Răspundeți la %s"
 msgid "Comment"
 msgstr "Comenteaza"
 
-#: includes/functions/blog-hook-functions.php:435
-#: includes/functions/template/woocommerce-template-functions.php:339
+#: includes/functions/blog-hook-functions.php:437
+#: includes/functions/template/woocommerce-template-functions.php:343
 msgid "Show more"
 msgstr "Afișați mai multe"
 
-#: includes/functions/blog-hook-functions.php:436
+#: includes/functions/blog-hook-functions.php:438
 msgid "All posts are shown"
 msgstr "Toate postarile sunt afișate"
 
-#: includes/functions/blog-hook-functions.php:772
+#: includes/functions/blog-hook-functions.php:769
 msgid "Older Post"
 msgstr "Post mai vechi"
 
-#: includes/functions/blog-hook-functions.php:779
+#: includes/functions/blog-hook-functions.php:776
 msgid "Newer Post"
 msgstr "Postare mai nouă"
+
+#: includes/functions/other-functions.php:247
+msgid "Print"
+msgstr "Imprimare"
+
+#: includes/functions/other-functions.php:253
+#: includes/functions/template/core-template-functions.php:221
+#: includes/laborator_filters.php:150
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/functions/other-functions.php:270
+#, php-format
+msgid "Check out what I just spotted: %s"
+msgstr "Vezi ce tocmai am gasit: %s"
 
 #: includes/functions/template/blog-template-functions.php:49
 msgid "Category"
 msgstr "Categorie"
 
-#: includes/functions/template/blog-template-functions.php:54
+#: includes/functions/template/blog-template-functions.php:58
 msgid "Tag"
 msgstr "Etichetă"
 
-#: includes/functions/template/blog-template-functions.php:60
+#: includes/functions/template/blog-template-functions.php:64
 msgid "Author"
 msgstr "Autor"
 
-#: includes/functions/template/blog-template-functions.php:64
+#: includes/functions/template/blog-template-functions.php:68
 msgid "Year"
 msgstr "An"
 
-#: includes/functions/template/blog-template-functions.php:68
 #: includes/functions/template/blog-template-functions.php:72
+#: includes/functions/template/blog-template-functions.php:76
 msgid "Month"
 msgstr "Lună"
 
-#: includes/functions/template/blog-template-functions.php:101
+#: includes/functions/template/blog-template-functions.php:105
 msgid "There are no posts to show"
 msgstr "Nu există articole de afișat"
 
-#: includes/functions/template/blog-template-functions.php:223
+#: includes/functions/template/blog-template-functions.php:227
 msgid "Previous page"
 msgstr "Pagina precedentă"
 
-#: includes/functions/template/blog-template-functions.php:224
+#: includes/functions/template/blog-template-functions.php:228
 msgid "Next page"
 msgstr "Pagina următoare"
 
-#: includes/functions/template/blog-template-functions.php:314
+#: includes/functions/template/blog-template-functions.php:318
 msgid "Loading posts..."
 msgstr "Se încarcă postările ..."
 
-#: includes/functions/template/blog-template-functions.php:354
+#: includes/functions/template/blog-template-functions.php:357
 msgid "Share:"
 msgstr "Distribuie:"
 
-#: includes/functions/template/blog-template-functions.php:618
+#: includes/functions/template/blog-template-functions.php:623
 #, php-format
 msgctxt "comment submit date"
 msgid "%s at %s"
 msgstr "%s la %s"
 
-#: includes/functions/template/blog-template-functions.php:655
+#: includes/functions/template/blog-template-functions.php:660
 msgid "reply"
 msgstr "răspuns"
 
-#: includes/functions/template/blog-template-functions.php:676
+#: includes/functions/template/blog-template-functions.php:681
 #, php-format
 msgid "In reply to: %s"
 msgstr "Ca răspuns la: %s"
 
-#: includes/functions/template/core-template-functions.php:220
-#: includes/laborator_filters.php:150 includes/laborator_functions.php:87
-msgid "Email"
-msgstr "E-mail"
+#: includes/functions/template/core-template-functions.php:1022
+#: includes/functions/woocommerce-hook-functions.php:236
+#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
+#: tpls/search-results.php:100
+msgid "Previous"
+msgstr "Anterior"
 
-#: includes/functions/template/header-template-functions.php:456
+#: includes/functions/template/core-template-functions.php:1023
+#: includes/functions/woocommerce-hook-functions.php:237
+#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
+#: tpls/search-results.php:101
+msgid "Next"
+msgstr "Următor"
+
+#: includes/functions/template/header-template-functions.php:461
 msgid "Search"
 msgstr "Căutare"
 
-#: includes/functions/template/header-template-functions.php:524
+#: includes/functions/template/header-template-functions.php:528
 #: searchform.php:19 tpls/menu-mobile.php:59
 msgid "Search site..."
 msgstr "Căutare in site ..."
 
-#: includes/functions/template/woocommerce-template-functions.php:340
+#: includes/functions/template/woocommerce-template-functions.php:344
 msgid "No more products to show"
 msgstr "Nu mai sunt produse de arătat"
 
-#: includes/functions/template/woocommerce-template-functions.php:997
+#: includes/functions/template/woocommerce-template-functions.php:1005
 #, php-format
 msgid "%s out of 5"
 msgstr "%s din 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1085
+#: includes/functions/template/woocommerce-template-functions.php:1091
 #, php-format
 msgid "Rated %s out of 5"
 msgstr "Evaluat %s din 5"
 
-#: includes/functions/template/woocommerce-template-functions.php:1099
+#: includes/functions/template/woocommerce-template-functions.php:1108
 msgid "Payment method"
 msgstr "Modalitate de plată"
 
-#: includes/functions/template/woocommerce-template-functions.php:1117
+#: includes/functions/template/woocommerce-template-functions.php:1126
 msgid "Login or register"
 msgstr "Autentificare sau înregistrare"
 
-#: includes/functions/template/woocommerce-template-functions.php:1119
+#: includes/functions/template/woocommerce-template-functions.php:1128
 msgid "Login"
 msgstr "Autentificare"
 
-#: includes/functions/template/woocommerce-template-functions.php:1124
+#: includes/functions/template/woocommerce-template-functions.php:1133
 msgid "Manage your account and see your orders"
 msgstr "Gestionați-vă contul și vedeți-vă comenzile"
 
-#: includes/functions/template/woocommerce-template-functions.php:1222
+#: includes/functions/template/woocommerce-template-functions.php:1230
 msgid "Cart"
 msgstr "Cos"
 
-#: includes/functions/template/woocommerce-template-functions.php:1327
+#: includes/functions/template/woocommerce-template-functions.php:1335
 msgid "Share this item:"
 msgstr "Distribuie acest articol:"
 
-#: includes/functions/template/woocommerce-template-functions.php:1403
+#: includes/functions/template/woocommerce-template-functions.php:1413
 msgid "My Orders"
 msgstr "Comenzile mele"
 
-#: includes/functions/template/woocommerce-template-functions.php:1404
+#: includes/functions/template/woocommerce-template-functions.php:1414
 msgid "Your recent orders are displayed in the table below."
 msgstr "Comenzile dvs. recente sunt afișate în tabelul de mai jos."
 
-#: includes/functions/template/woocommerce-template-functions.php:1419
+#: includes/functions/template/woocommerce-template-functions.php:1429
 msgid "My Downloads"
 msgstr "Descărcările mele"
 
-#: includes/functions/template/woocommerce-template-functions.php:1420
+#: includes/functions/template/woocommerce-template-functions.php:1430
 msgid "Your digital downloads are displayed in the table below."
 msgstr "Descărcările dvs. digitale sunt afișate în tabelul de mai jos."
 
-#: includes/functions/template/woocommerce-template-functions.php:1432
+#: includes/functions/template/woocommerce-template-functions.php:1442
 msgid "View full size"
 msgstr "Afișează în mărime completă"
 
-#: includes/functions/template/woocommerce-template-functions.php:1562
+#: includes/functions/template/woocommerce-template-functions.php:1572
 msgid "Out of stock"
 msgstr "Stoc epuizat"
 
-#: includes/functions/template/woocommerce-template-functions.php:1565
+#: includes/functions/template/woocommerce-template-functions.php:1575
 msgid "Featured"
 msgstr "Recomandate"
 
-#: includes/functions/template/woocommerce-template-functions.php:1568
+#: includes/functions/template/woocommerce-template-functions.php:1578
 msgid "Sale!"
 msgstr "Oferta!"
 
-#: includes/functions/template/woocommerce-template-functions.php:1581
+#: includes/functions/template/woocommerce-template-functions.php:1591
 msgid "Edit information for this address type"
 msgstr "Editați informațiile pentru acest tip de adresă"
 
-#: includes/functions/template/woocommerce-template-functions.php:1591
+#: includes/functions/template/woocommerce-template-functions.php:1601
 msgid "Addresses"
 msgstr "Adrese"
 
-#: includes/functions/template/woocommerce-template-functions.php:1605
+#: includes/functions/template/woocommerce-template-functions.php:1615
 msgid "&laquo; Go back"
 msgstr "&laquo; Întoarce-te"
 
-#: includes/functions/template/woocommerce-template-functions.php:1620
+#: includes/functions/template/woocommerce-template-functions.php:1630
 msgid "My account"
 msgstr "Contul meu"
 
-#: includes/functions/template/woocommerce-template-functions.php:1621
+#: includes/functions/template/woocommerce-template-functions.php:1631
 msgid "Edit your account details or change your password"
 msgstr "Editați detaliile contului sau modificați parola"
 
@@ -273,44 +297,23 @@ msgstr "(lăsați gol pentru a lăsa neschimbat)"
 msgid "Current password"
 msgstr "Parola actuală"
 
-#: includes/functions/woocommerce-hook-functions.php:192
+#: includes/functions/woocommerce-hook-functions.php:215
 msgid "Added to cart"
 msgstr "Adăugat în coș"
 
-#: includes/functions/woocommerce-hook-functions.php:213
-#: templates/global/pagination-normal.php:21 tpls/portfolio-listing.php:113
-#: tpls/search-results.php:99
-msgid "Previous"
-msgstr "Anterior"
-
-#: includes/functions/woocommerce-hook-functions.php:214
-#: templates/global/pagination-normal.php:22 tpls/portfolio-listing.php:116
-#: tpls/search-results.php:100
-msgid "Next"
-msgstr "Următor"
-
-#: includes/laborator_functions.php:86
-#, php-format
-msgid "Check out what I just spotted: %s"
-msgstr "Vezi ce tocmai am gasit: %s"
-
-#: includes/laborator_functions.php:93
-msgid "Print"
-msgstr "Imprimare"
-
-#: includes/laborator_portfolio.php:578
+#: includes/laborator_portfolio.php:555
 msgid "Your browser does not support HTML5 video."
 msgstr "Browserul dvs. nu acceptă videoclipurile HTML5."
 
-#: includes/laborator_portfolio.php:904
+#: includes/laborator_portfolio.php:882
 msgid "Show More"
 msgstr "Afișați mai multe"
 
-#: includes/laborator_portfolio.php:905
+#: includes/laborator_portfolio.php:883
 msgid "No more portfolio items to show"
 msgstr "Nu mai sunt articole in portofoliu"
 
-#: includes/laborator_portfolio.php:1931
+#: includes/laborator_portfolio.php:1916
 #, php-format
 msgctxt "current portfolio subcategory"
 msgid "%s:"
@@ -328,33 +331,33 @@ msgstr "Postarea următore"
 msgid "Icon"
 msgstr "Icoană"
 
-#: includes/libraries/vc/lab_contact_form/init.php:161
+#: includes/libraries/vc/lab_contact_form/init.php:180
 msgid "Captcha verification failed, please try again!"
 msgstr "Verificarea Captcha nu a reușit. Încercați din nou!"
 
-#: includes/libraries/vc/lab_contact_form/init.php:190
+#: includes/libraries/vc/lab_contact_form/init.php:213
 #, php-format
 msgctxt "contact form subject"
 msgid "[%s] New Contact Form message has been received."
 msgstr "[ %s ] Mesajul formularului de contact nou a fost primit."
 
-#: includes/libraries/vc/lab_contact_form/init.php:197
+#: includes/libraries/vc/lab_contact_form/init.php:220
 msgctxt "contact form"
 msgid "You have received new contact form message."
 msgstr "Ați primit un nou mesaj de formular de contact."
 
-#: includes/libraries/vc/lab_contact_form/init.php:199
+#: includes/libraries/vc/lab_contact_form/init.php:222
 msgctxt "contact form"
 msgid "----- Message Details -----"
 msgstr "----- Detalii mesaj -----"
 
-#: includes/libraries/vc/lab_contact_form/init.php:216
+#: includes/libraries/vc/lab_contact_form/init.php:239
 #, php-format
 msgctxt "contact form"
 msgid "This message has been sent from IP: %s"
 msgstr "Acest mesaj a fost trimis de la IP: %s"
 
-#: includes/libraries/vc/lab_contact_form/init.php:218
+#: includes/libraries/vc/lab_contact_form/init.php:241
 #, php-format
 msgctxt "contact form"
 msgid "Site URL: %s"
@@ -366,11 +369,15 @@ msgstr "Se încarcă produsele ..."
 
 #: searchform.php:18 searchform.php:19
 msgid "Search for:"
-msgstr ""
+msgstr "Caută după:"
 
 #: searchform.php:21 tpls/menu-mobile.php:65
 msgid "Go"
 msgstr "Start"
+
+#: templates/blog/single/related.php:23
+msgid "Related posts"
+msgstr "Articole similare"
 
 #: templates/pages/coming-soon.php:44
 msgid "Days"
@@ -404,11 +411,11 @@ msgstr "Secunde"
 msgid "Second"
 msgstr "Al doilea"
 
-#: tpls/portfolio-listing-title.php:100
+#: tpls/portfolio-listing-title.php:112
 msgid "All"
 msgstr "Toate"
 
-#: tpls/portfolio-single-5.php:81
+#: tpls/portfolio-single-5.php:142
 msgid "Click here to show project info"
 msgstr "Faceți clic aici pentru a afișa informațiile despre proiect"
 
@@ -416,19 +423,19 @@ msgstr "Faceți clic aici pentru a afișa informațiile despre proiect"
 msgid "Open in Lightbox"
 msgstr "Deschideți în Lightbox"
 
-#: tpls/portfolio-single-like-share.php:55
+#: tpls/portfolio-single-like-share.php:42
 msgid "Share"
 msgstr "Distribuie"
 
-#: tpls/portfolio-single-prevnext.php:72
+#: tpls/portfolio-single-prevnext.php:19
 msgid "Previous project"
 msgstr "Proiect anterior"
 
-#: tpls/portfolio-single-prevnext.php:73
+#: tpls/portfolio-single-prevnext.php:20
 msgid "Next project"
 msgstr "Proiectul următor"
 
-#: tpls/portfolio-single-prevnext.php:135
+#: tpls/portfolio-single-prevnext.php:138
 msgid "Go to portfolio archive"
 msgstr "Accesați arhiva portofoliului"
 
@@ -438,8 +445,11 @@ msgstr "Faceți clic pentru a modifica căutarea"
 
 #: tpls/search-results.php:30
 #, php-format
-msgid "%d results for “%s”"
-msgstr "%d rezultate pentru „ %s ”"
+msgid "%d result for “%s”"
+msgid_plural "%d results for “%s”"
+msgstr[0] "%d rezultate de căutare pentru “%s”"
+msgstr[1] "%d rezultate pentru „%s”"
+msgstr[2] "%d rezultate pentru „%s”"
 
 #: tpls/search-results.php:33
 #, php-format
@@ -453,7 +463,7 @@ msgstr[2] "Am găsit %d potriviri cu cuvântul căutat."
 msgid "There is nothing found that matches your search criteria."
 msgstr "Nu s-a găsit nimic care să corespundă criteriilor dvs. de căutare."
 
-#: tpls/search-results.php:81
+#: tpls/search-results.php:82
 #, php-format
 msgid "Continue %s"
 msgstr "Continuați %s"
@@ -484,7 +494,7 @@ msgstr "Finalizeaza comanda"
 msgid "Subtotal"
 msgstr "Subtotal"
 
-#: vc_templates/lab_blog_posts.php:236
+#: vc_templates/lab_blog_posts.php:241
 msgid "Loading blog posts..."
 msgstr "Se încarcă postările blogului ..."
 
@@ -525,8 +535,14 @@ msgid "Laborator"
 msgstr "Laborator"
 
 #. Author URI of the plugin/theme
-msgid "https://laborator.co/"
-msgstr "https://laborator.co/"
+msgid "https://laborator.co"
+msgstr ""
+
+#~ msgid "%d results for “%s”"
+#~ msgstr "%d rezultate pentru „ %s ”"
+
+#~ msgid "https://laborator.co/"
+#~ msgstr "https://laborator.co/"
 
 #~ msgctxt "label"
 #~ msgid "Search for:"
